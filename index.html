@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- instalando boostrap en mi documento -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <title>Practica  2 con rejilla de boostrap</title>
+  </head>
+  <body>
+    <!-- primera linea -->
+    <div class="row">
+        <div class="col">
+        <!-- inicia el navbar principal -->
+           <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(33, 97, 140);">
+               <div class="container-fluid">
+                   <div class="d-flex flex-grow-1">
+                        <span class="w-100 d-lg-none d-block">
+                        <!-- cuando el menu sea responsive la marca se centrara --></span>
+                        <a class="navbar-brand" href="#"> IscJlchavezg </a>
+                        <div class="w-100 text-right">
+                           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar7">
+                              <span class="navbar-toggler-icon"></span>
+                           </button>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+                       <ul class="navbar-nav ms-auto flex-nowrap">
+                          <li class="nav-item">
+                             <a href="#" class="nav-link active">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                             <a href="#" class="nav-link">Somos</a>
+                          </li>
+                          <li class="nav-item">
+                             <a href="#" class="nav-link">Equipo</a>
+                          </li>
+                          <!-- nuetro navdrop-->
+                          <li class="nav-item dropdown">
+                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Servicios
+                           </a>
+                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                             <li><a class="dropdown-item" href="#">Action</a></li>
+                             <li><a class="dropdown-item" href="#">Another action</a></li>
+                             <li><hr class="dropdown-divider"></li>
+                             <li><a class="dropdown-item" href="#">Something else here</a></li>
+                           </ul>
+                          </li>
+                          <li class="nav-item">
+                             <a href="#" class="nav-link">Contacto</a>
+                          </li>
+                        </ul>
+                     </div>
+                 </div>
+              </nav>
+           </div>
+      </div>
+      <!-- termina el nav -->
+      <!-- barra de datos -->
+      <!-- termina la barra de datos-->
+      <div class="row" style="background-color:rgb(33, 97, 140);">
+         <div class="col">
+
+         </div>
+         <div class="col">
+            <p class="text-light">Email: contacto@rhuman </p>
+         </div>
+         <div class="col">
+           <p class="text-light">Telefono: +52 55-55-55-55 </p>
+         </div>
+      </div>
+  <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
