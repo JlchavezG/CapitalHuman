@@ -13,12 +13,14 @@
     <!-- barra de datos -->
     <div class="row" style="background-color:rgb(33, 97, 140);">
        <div class="col-sm-2 col-md-3 col-lg-7"></div>
-       <div class="col">
-          <p class="text-light "><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-              <use xlink:href="library/icons/bootstrap-icons.svg#headset"/>
-              </svg> Telefono: +52 55-55-55-55 &nbsp;&nbsp;|&nbsp;&nbsp; <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                  <use xlink:href="library/icons/bootstrap-icons.svg#envelope-fill"/>
-              </svg> Email: contacto@rhuman </p>
+       <div class="col text-center">
+          <p class="text-light "><a href="#" class="text-light"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+              <use xlink:href="library/icons/bootstrap-icons.svg#facebook"/></a>
+            </svg> &nbsp; <a href="#" class="text-light"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+              <use xlink:href="library/icons/bootstrap-icons.svg#twitter"/></a>
+            </svg> &nbsp; <a href="#" class="text-light"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+              <use xlink:href="library/icons/bootstrap-icons.svg#instagram"/></a>
+              </svg></p>
        </div>
     </div>
     <!-- termina la barra de datos-->
@@ -58,19 +60,14 @@
                                    </svg> Servicios
                            </a>
                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                             <li><a class="dropdown-item" href="#">Action</a></li>
-                             <li><a class="dropdown-item" href="#">Another action</a></li>
+                             <li><a class="dropdown-item" href="#">Capacitación</a></li>
+                             <li><a class="dropdown-item" href="#">Reclutamiento</a></li>
                              <li><hr class="dropdown-divider"></li>
-                             <li><a class="dropdown-item" href="#">Something else here</a></li>
+                             <li><a class="dropdown-item" href="#">Creación de Manuales</a></li>
                            </ul>
                           </li>
                           <li class="nav-item">
-                             <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                                 <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-dots-fill"/>
-                                 </svg> Contacto</a>
-                          </li>
-                          <li class="nav-item">
-                             <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                             <a href="#" data-bs-toggle="modal" data-bs-target="#InicioSesion" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#person-circle"/>
                                </svg> Iniciar Sesión</a>
                           </li>
@@ -78,6 +75,11 @@
                              <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
                                </svg> Registro</a>
+                          </li>
+                          <li class="nav-item">
+                             <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                                 <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-dots-fill"/>
+                                 </svg> Contacto</a>
                           </li>
                         </ul>
                      </div>
@@ -126,23 +128,55 @@
        </button>
       </div>
       <!-- termina slider-->
+      <!-- inicia barra de contacto -->
       <div class="row container justify-content-center">
           <div class="col-sm-1 col-md-1 col-lg-2"></div>
           <div class="col-sm-10 col-md-10 col-lg-10  py-2">
               <div class="card shadow-lg">
                 <div class="card-body text-center">
-                    <span> <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                      <span style="color:#2980B9;"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                         <use xlink:href="library/icons/bootstrap-icons.svg#telephone-fill"/>
-                      </svg>  55 55 55 55 55 | <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                      </svg></span><a href="tel:+52 55 55 55 55 55" class="text-dark text-decoration-none"> 55 55 55 55 55</a> &nbsp;|&nbsp;&nbsp;<span style="color:#2980B9;"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                           <use xlink:href="library/icons/bootstrap-icons.svg#envelope-fill"/>
-                        </svg>  contacto@jphuman.com | <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                      </svg></span><a href="mailto:contacto@jphuman.com" class="text-dark text-decoration-none">&nbsp; contacto@jphuman.com</a> &nbsp; | &nbsp; <span style="color:#2980B9;"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                             <use xlink:href="library/icons/bootstrap-icons.svg#geo-alt-fill"/>
-                          </svg> Naucalpan de Juarez Edo de Méx. </span>
+                      </svg></span> <a href="https://www.waze.com/es/live-map/directions/mexico/estado-de-mexico/naucalpan-de-juarez/conalep-plantel-naucalpan-i?place=ChIJBU_-LvID0oURRBhJfGF1zX0&utm_campaign=waze_website&utm_medium=website_menu&utm_source=waze_website" target="_blank" class="text-dark text-decoration-none">Naucalpan de Juarez Edo de Méx.</a>
                 </div>
               </div>
           </div>
           <div class="col-sm-1 col-md-1 col-lg-2"></div>
       </div>
+      <!-- termina barra de contacto-->
+      <!-- Inicia ventana Modal de inicio de sesion -->
+      <div class="modal fade" id="InicioSesion" tabindex="-1" aria-labelledby="InicioSesionLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+             <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="InicioSesionLabel"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#shield-lock-fill"/>
+                    </svg> Iniciar Sesión</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                       <form class="" action="" method="post">
+                           <div class="container">
+                               <div class="row py-3">
+                                  <input type="text" name="usuario" class="form-control" placeholder="Usuario">
+                               </div>
+                               <div class="row py-3">
+                                  <input type="password" name="password" class="form-control" placeholder="Password">
+                               </div>
+                           </div>
+                       </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-danger btn-sm" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-outline-success btn-sm">Ingresar</button>
+                </div>
+             </div>
+          </div>
+     </div>
+     <!-- termina mi ventana modal -->
      <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
