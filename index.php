@@ -126,20 +126,22 @@
        </button>
       </div>
       <!-- termina slider-->
-      <div class="row">
-          <div class="container py-3">
-                <div class="col text-center">
-                  <span class="text-info"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                      <use xlink:href="library/icons/bootstrap-icons.svg#telephone-fill"/>
-                  <span style="color:#283747;"></svg> Telefono: 55 55 55 55 55 </span>| <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                        <use xlink:href="library/icons/bootstrap-icons.svg#envelope"/>
-                      </svg></span><a href="mailto:contacto@jphuman.com" class="text-decoration-none text-info"> Email: contacto@jphuman.com </a>
-                      <span class="text-info"> | <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#geo-alt"/>
-                      <span class="text-info"></svg> <a href="https://www.waze.com/es/live-map/directions/mexico/estado-de-mexico/naucalpan-de-juarez/conalep-plantel-naucalpan-i?place=ChIJBU_-LvID0oURRBhJfGF1zX0&utm_campaign=waze_website&utm_medium=website_menu&utm_source=waze_website" target="_blank">Dirección: Naucalpan de Juarez Edo de Méx </a>|</span> <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-
+      <div class="row container justify-content-center">
+          <div class="col-sm-1 col-md-1 col-lg-2"></div>
+          <div class="col-sm-10 col-md-10 col-lg-10  py-2">
+              <div class="card shadow-lg">
+                <div class="card-body text-center">
+                    <span> <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#telephone-fill"/>
+                      </svg>  55 55 55 55 55 | <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#envelope-fill"/>
+                        </svg>  contacto@jphuman.com | <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                            <use xlink:href="library/icons/bootstrap-icons.svg#geo-alt-fill"/>
+                          </svg> Naucalpan de Juarez Edo de Méx. </span>
                 </div>
+              </div>
           </div>
+          <div class="col-sm-1 col-md-1 col-lg-2"></div>
       </div>
      <script src="js/bootstrap.min.js"></script>
   </body>
