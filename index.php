@@ -99,7 +99,7 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" style="background-color:rgb(33, 97, 140);"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" style="background-color:rgb(33, 97, 140);"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner py-3">
             <div class="carousel-item active">
                <img src="img/slider1.png" class="d-block w-100" alt="slider1">
                <div class="carousel-caption d-none d-md-block">
@@ -134,13 +134,13 @@
       <!-- termina slider-->
       <!-- inicia barra de contacto -->
       <div class="row container justify-content-center">
-          <div class="col-sm-1 col-md-1 col-lg-2"></div>
-          <div class="col-sm-10 col-md-10 col-lg-10  py-2">
+          <div class="col-sm-2 col-md-2 col-lg-2"></div>
+          <div class="col-sm-10 col-md-10 col-lg-10 py-2">
               <div class="card shadow-lg">
                 <div class="card-body text-center">
                       <span style="color:#2980B9;"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                         <use xlink:href="library/icons/bootstrap-icons.svg#telephone-fill"/>
-                      </svg></span><a href="tel:+52 55 55 55 55 55" class="text-dark text-decoration-none"> 55 55 55 55 55</a> &nbsp;|&nbsp;&nbsp;<span style="color:#2980B9;"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                      </svg></span><a href="tel:+52 55 55 55 55 55" class="text-dark text-decoration-none"> 55 55 55 55 55</a> &nbsp; 55 55 55 55 55 &nbsp;|&nbsp;&nbsp;<span style="color:#2980B9;"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                           <use xlink:href="library/icons/bootstrap-icons.svg#envelope-fill"/>
                       </svg></span><a href="mailto:contacto@jphuman.com" class="text-dark text-decoration-none">&nbsp; contacto@jphuman.com</a> &nbsp; | &nbsp; <span style="color:#2980B9;"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                             <use xlink:href="library/icons/bootstrap-icons.svg#geo-alt-fill"/>
@@ -189,18 +189,18 @@
      </div>
      <div class="social-icons" id="s-icons">
           <ul class="navbar-nav">
-              <li><a href="#" class="btn btn-primary btn-social "><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
+              <li><a href="#" class="btn btn-primary btn-social text-light"><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
                 <use xlink:href="library/icons/bootstrap-icons.svg#facebook"/>
               </svg></a></li>
-              <li><a href="#" class="btn btn-info btn-social "><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
+              <li><a href="#" class="btn btn-info btn-social text-light"><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
                 <use xlink:href="library/icons/bootstrap-icons.svg#twitter"/>
               </svg></a></li>
-              <li><a href="#" class="btn btn-danger btn-social "><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
+              <li><a href="#" class="btn btn-danger btn-social text-light"><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
                 <use xlink:href="library/icons/bootstrap-icons.svg#youtube"/>
               </svg></a></li>
           </ul>
           <button class="btn btn-primary btn-social" id="btn-share" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
-            <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+            <svg class="bi" width="20" height="20" role="img" aria-label="Tools">
               <use xlink:href="library/icons/bootstrap-icons.svg#share-fill"/>
             </svg>
           </button>
@@ -210,7 +210,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <!-- tarjeta de sercio 1-->
-                <div class="card shadow-lg" style="width: 18rem;">
+                <div class="card shadow-lg" style="width: 25rem;">
                      <img src="img/img1-300x33.png" class="card-img-top" alt="Personal">
                      <div class="card-body">
                         <h5 class="card-title text-center">Selección de personal</h5>
@@ -222,7 +222,7 @@
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <!-- tarjeta de sercio 2-->
-                <div class="card shadow-lg" style="width: 18rem;">
+                <div class="card shadow-lg" style="width: 25rem;">
                      <img src="img/img2-300x33.png" class="card-img-top" alt="Personal">
                      <div class="card-body">
                         <h5 class="card-title text-center">Selección de personal</h5>
@@ -234,7 +234,7 @@
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <!-- tarjeta de sercio 3-->
-                <div class="card shadow-lg" style="width: 18rem;">
+                <div class="card shadow-lg" style="width: 25rem;">
                      <img src="img/img3-300x33.png" class="card-img-top" alt="Personal">
                      <div class="card-body">
                         <h5 class="card-title text-center">Selección de personal</h5>
@@ -246,11 +246,7 @@
             </div>
           </div>
      </div>
-     
      <script src="js/bootstrap.min.js"></script>
-<<<<<<< HEAD
-
-=======
      <script>
         $(document).ready(function(){
         $('#s-icons').click(function() {
@@ -258,6 +254,5 @@
            });
         });
      </script>
->>>>>>> d3c08080492a4e4d98ffc42d094e79995ac69fab
   </body>
 </html>
