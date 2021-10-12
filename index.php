@@ -7,10 +7,13 @@
     <meta charset="utf-8">
     <!-- instalando boostrap en mi documento -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet"  type="text/css" href="css/barra.css">
+    <script src="js/jquery.js"></script>
     <title>JP Capital Human</title>
   </head>
   <body>
     <!-- barra de datos -->
+  <div class="fixed-top">
     <div class="row" style="background-color:rgb(33, 97, 140);">
        <div class="col-sm-2 col-md-3 col-lg-7"></div>
        <div class="col text-center">
@@ -87,9 +90,10 @@
               </nav>
            </div>
       </div>
+    </div>
       <!-- termina el nav -->
       <!-- inicia slider-->
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide py-4" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" style="background-color:rgb(33, 97, 140);" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" style="background-color:rgb(33, 97, 140);"></button>
@@ -160,12 +164,19 @@
                 <div class="modal-body">
                        <form class="" action="" method="post">
                            <div class="container">
-                               <div class="row py-3">
-                                  <input type="text" name="usuario" class="form-control" placeholder="Usuario">
-                               </div>
-                               <div class="row py-3">
-                                  <input type="password" name="password" class="form-control" placeholder="Password">
-                               </div>
+                             <p class="text-justify text-muted">Por favor ingresa tu usuario y contraseña para iniciar sesión</p>
+                             <div class="input-group mb-3">
+                                <span class="input-group-text" id="usuario"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                                  <use xlink:href="library/icons/bootstrap-icons.svg#person-circle"/>
+                                </svg></span>
+                                <input type="text" class="form-control" placeholder="Usuario" aria-label="Username" aria-describedby="basic-addon1">
+                             </div>
+                             <div class="input-group mb-3">
+                                <span class="input-group-text" id="password"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                                  <use xlink:href="library/icons/bootstrap-icons.svg#lock-fill"/>
+                                </svg></span>
+                                <input type="password" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
+                             </div>
                            </div>
                        </form>
                 </div>
@@ -177,6 +188,48 @@
           </div>
      </div>
      <!-- termina mi ventana modal -->
+     <div class="container py-4">
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <!-- tarjeta de sercio 1-->
+                <div class="card shadow-lg" style="width: 18rem;">
+                     <img src="img/img1-300x33.png" class="card-img-top" alt="Personal">
+                     <div class="card-body">
+                        <h5 class="card-title text-center">Selección de personal</h5>
+                        <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary btn-sm d-grid">Más Información</a>
+                     </div>
+                </div>
+                <!-- termina tarjeta de servicio-->
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <!-- tarjeta de sercio 2-->
+                <div class="card shadow-lg" style="width: 18rem;">
+                     <img src="img/img2-300x33.png" class="card-img-top" alt="Personal">
+                     <div class="card-body">
+                        <h5 class="card-title text-center">Selección de personal</h5>
+                        <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary btn-sm d-grid">Más Información</a>
+                     </div>
+                </div>
+                <!-- termina tarjeta de servicio-->
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <!-- tarjeta de sercio 3-->
+                <div class="card shadow-lg" style="width: 18rem;">
+                     <img src="img/img3-300x33.png" class="card-img-top" alt="Personal">
+                     <div class="card-body">
+                        <h5 class="card-title text-center">Selección de personal</h5>
+                        <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary btn-sm d-grid">Más Información</a>
+                     </div>
+                </div>
+                <!-- termina tarjeta de servicio-->
+            </div>
+          </div>
+     </div>
+     
      <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>
