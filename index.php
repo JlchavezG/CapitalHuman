@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <!-- instalando boostrap en mi documento -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet"  type="text/css" href="css/barra.css">
+    <link rel="stylesheet" type="text/css" href="css/barra.css">
     <script src="js/jquery.js"></script>
     <title>JP Capital Human</title>
   </head>
@@ -187,6 +187,24 @@
              </div>
           </div>
      </div>
+     <div class="social-icons" id="s-icons">
+          <ul class="navbar-nav">
+              <li><a href="#" class="btn btn-primary btn-social "><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
+                <use xlink:href="library/icons/bootstrap-icons.svg#facebook"/>
+              </svg></a></li>
+              <li><a href="#" class="btn btn-info btn-social "><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
+                <use xlink:href="library/icons/bootstrap-icons.svg#twitter"/>
+              </svg></a></li>
+              <li><a href="#" class="btn btn-danger btn-social "><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
+                <use xlink:href="library/icons/bootstrap-icons.svg#youtube"/>
+              </svg></a></li>
+          </ul>
+          <button class="btn btn-primary btn-social" id="btn-share" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+            <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+              <use xlink:href="library/icons/bootstrap-icons.svg#share-fill"/>
+            </svg>
+          </button>
+     </div>
      <!-- termina mi ventana modal -->
      <div class="container py-4">
           <div class="row">
@@ -230,6 +248,16 @@
      </div>
      
      <script src="js/bootstrap.min.js"></script>
+<<<<<<< HEAD
 
+=======
+     <script>
+        $(document).ready(function(){
+        $('#s-icons').click(function() {
+        $('.navbar-nav').toggleClass("show");
+           });
+        });
+     </script>
+>>>>>>> d3c08080492a4e4d98ffc42d094e79995ac69fab
   </body>
 </html>
