@@ -1,0 +1,16 @@
+.menus{
+  border: 0;
+  background: rgba(33, 97, 140,.5);
+}
+.menus li a{
+  border-bottom: 1px solid #fff;
+  color:#fff;
+}
+.menus li a:hover{
+  background:rgb(93, 173, 226);
+  color:#fff;
+}
+.card:hover{
+  transform: scale(1.05);
+  transition: 1s all;
+}
