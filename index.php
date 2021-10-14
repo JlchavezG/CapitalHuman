@@ -153,7 +153,7 @@
                <div class="card shadow">
                    <img src="img/img1-300x33.png" class="card-img-top" alt="...">
                    <div class="card-body">
-                      <h5 class="card-title text-center text-muted">Card title</h5>
+                      <h5 class="card-title text-center text-muted">Selección de Personal</h5>
                       <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <a href="#" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Go somewhere</a>
                  </div>
@@ -163,7 +163,7 @@
                <div class="card shadow">
                    <img src="img/img2-300x33.png" class="card-img-top" alt="...">
                    <div class="card-body">
-                      <h5 class="card-title text-center text-muted">Card title</h5>
+                      <h5 class="card-title text-center text-muted">Reclutamiento</h5>
                       <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <a href="#" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Go somewhere</a>
                  </div>
@@ -173,7 +173,7 @@
                <div class="card shadow">
                    <img src="img/img3-300x33.png" class="card-img-top" alt="...">
                    <div class="card-body">
-                      <h5 class="card-title text-center text-muted">Card title</h5>
+                      <h5 class="card-title text-center text-muted">Capacitación</h5>
                       <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <a href="#" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Go somewhere</a>
                  </div>
@@ -181,7 +181,26 @@
              </div>
           </div>
       </div>
-
+      <!-- barra social -->
+      <div class="social-icons" id="s-icons">
+         <ul class="navbar-nav">
+            <li><a href="#" class="btn btn-primary btn-social "><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
+                <use xlink:href="library/icons/bootstrap-icons.svg#facebook"/>
+                </svg></a></li>
+            <li><a href="#" class="btn btn-info btn-social "><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
+                <use xlink:href="library/icons/bootstrap-icons.svg#twitter"/>
+                </svg></a></li>
+            <li><a href="#" class="btn btn-danger btn-social">
+              <svg class="bi" width="20" height="20" role="img" aria-label="Tools">
+                  <use xlink:href="library/icons/bootstrap-icons.svg#youtube"/>
+                  </svg>
+            </a></li>
+         </ul>
+         <button class="btn btn-primary btn-social" id="btn-share" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+            <i class="fa fa-share-alt fa-2x"></i>
+         </button>
+      </div>
+      <!-- termina barra social -->
 
      <script src="js/bootstrap.min.js"></script>
      <script>
