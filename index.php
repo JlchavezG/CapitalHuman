@@ -187,7 +187,7 @@
             <li><a href="#" class="btn btn-primary btn-social "><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
                 <use xlink:href="library/icons/bootstrap-icons.svg#facebook"/>
                 </svg></a></li>
-            <li><a href="#" class="btn btn-info btn-social "><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
+            <li><a href="#" class="btn btn-info btn-social text-light"><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
                 <use xlink:href="library/icons/bootstrap-icons.svg#twitter"/>
                 </svg></a></li>
             <li><a href="#" class="btn btn-danger btn-social">
@@ -197,11 +197,12 @@
             </a></li>
          </ul>
          <button class="btn btn-primary btn-social" id="btn-share" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
-            <i class="fa fa-share-alt fa-2x"></i>
+           <svg class="bi" width="20" height="20" role="img" aria-label="Tools">
+               <use xlink:href="library/icons/bootstrap-icons.svg#share-fill"/>
+           </svg>
          </button>
       </div>
-      <!-- termina barra social -->
-
+     <!-- termina barra social -->
      <script src="js/bootstrap.min.js"></script>
      <script>
         $(document).ready(function(){
