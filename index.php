@@ -12,7 +12,6 @@
     <title>JP Capital Human</title>
   </head>
   <body>
-
     <!-- inicia el navbar principal -->
     <div class="row">
            <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color:rgb(33, 97, 140); " id="Menu">
@@ -35,7 +34,7 @@
                                  </svg> Inicio</a>
                           </li>
                           <li class="nav-item">
-                             <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                             <a href="#Nostros" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#pen-fill"/>
                                  </svg> Somos</a>
                           </li>
@@ -47,7 +46,7 @@
                                    </svg> Servicios
                            </a>
                            <ul class="dropdown-menu menus" aria-labelledby="navbarDropdown">
-                             <li><a class="dropdown-item" href="#"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                             <li><a class="dropdown-item" href="#Servicios"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#signpost-split-fill"/>
                                  </svg> Capacitación</a></li>
                              <li><a class="dropdown-item" href="#"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
@@ -88,6 +87,7 @@
       </div>
       <!-- termina el nav -->
       <!-- inicia slider-->
+      <section>
       <div id="carouselExampleCaptions" class="carousel slide py-4" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" style="background-color:rgb(33, 97, 140);" aria-current="true" aria-label="Slide 1"></button>
@@ -129,6 +129,7 @@
           <span class="visually-hidden">Next</span>
        </button>
       </div>
+    </section>
       <!-- termina slider-->
       <!-- inicia barra de contacto -->
       <div class="container">
@@ -148,9 +149,66 @@
           </div>
       </div>
     </div>
-      <!-- termina barra de contacto-->
-      <!-- inicia seccion servicios-->
-      <div class="container py-4">
+    <!-- termina barra de contacto-->
+    <!-- Apartado de nosotros -->
+    <section id="Nostros">
+        <div class="row py-5">
+            <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+                <img src="img/logo.png" alt="Logo JP Human">
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 bg-info py-3 shadow">
+                <h2 class="text-center text-light display-6"> Nosotros</h2>
+                <hr class="text-light">
+                <div class="container">
+                   <p class="text-light text-justify py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                   fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                   culpa qui officia deserunt mollit anim id est laborum.</p>
+                   <div class="row text-center">
+                       <div class="col">
+                         <a data-bs-toggle="offcanvas" href="#offcanvasCalidad" class="text-decoration-none" role="button" aria-controls="offcanvasExample"><svg class="bi text-light" width="42" height="42" fill="currentColor">
+                             <use xlink:href="library/icons/bootstrap-icons.svg#bookmark-fill"/>
+                         </svg>
+                         <h5 class="text-light">Calidad</h5></a>
+                       </div>
+                       <div class="col">
+                         <svg class="bi text-light" width="42" height="42" fill="currentColor">
+                             <use xlink:href="library/icons/bootstrap-icons.svg#cup-fill"/>
+                         </svg>
+                         <h5 class="text-light">Servicio</h5>
+                       </div>
+                       <div class="col">
+                         <svg class="bi text-light" width="42" height="42" fill="currentColor">
+                             <use xlink:href="library/icons/bootstrap-icons.svg#shield-lock-fill"/>
+                         </svg>
+                         <h5 class="text-light">Seguridad</h5>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- termina apartado -->
+    <!-- inician los ofcanvas-->
+    <!-- calidad -->
+    <div class="offcanvas offcanvas-bottom valores" tabindex="-1" id="offcanvasCalidad" aria-labelledby="offcanvasCalidadLabel">
+       <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-center" id="titulo">Calidad</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+       </div>
+       <div class="offcanvas-body">
+          <div>
+             <p>Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.</p>
+          </div>
+       </div>
+    </div>
+    <!-- termina calidad -->
+    <!-- terminas ofcanvas-->
+    <!-- inicia seccion servicios-->
+    <section id="Servicios">
+    <div class="container py-4">
           <div class="row mx-auto">
              <div class="col-sm-12 col-md-4 col-lg-4 py-4">
                <div class="card shadow">
@@ -184,6 +242,7 @@
              </div>
           </div>
       </div>
+    </section>
       <!-- barra social -->
       <div class="social-icons" id="s-icons">
          <ul class="navbar-nav">

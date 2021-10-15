@@ -41,3 +41,8 @@
 .social-icons .navbar-nav.show li:nth-child(3){
   bottom: 180px;
 }
+/* estilo ofcanvas*/
+.valores{
+  border: 0;
+  background: rgba(255, 255, 255,.5);
+}
