@@ -56,6 +56,9 @@
                              <li><a class="dropdown-item" href="#"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#file-earmark-break-fill"/>
                                  </svg> Creación de Manuales</a></li>
+                              <li><a class="dropdown-item" href="#"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                                     <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
+                                  </svg> Clientes</a></li>
                            </ul>
                           </li>
                           <li class="nav-item">
@@ -204,12 +207,6 @@
       </div>
      <!-- termina barra social -->
      <script src="js/bootstrap.min.js"></script>
-     <script>
-        $(document).ready(function(){
-        $('#s-icons').click(function() {
-        $('.navbar-nav').toggleClass("show");
-           });
-        });
-     </script>
+     <script src="js/main.js"></script>
   </body>
 </html>
