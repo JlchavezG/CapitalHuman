@@ -100,7 +100,7 @@
                <div class="carousel-caption d-none d-md-block">
                   <h5 class="text-muted">Contactanos</h5>
                   <p class="text-secondary">Somos la mejor opción para captar talento 100% cerificado.</p>
-                  <a href="#" class="btn btn-sm btn-info text-light">Más Información</a>
+                  <a href="#" class="btn btn-sm bg-primary bg-gradient text-light">Más Información</a>
                </div>
             </div>
             <div class="carousel-item">
@@ -108,7 +108,7 @@
                <div class="carousel-caption d-none d-md-block">
                   <h5 class="text-muted">¿Necesitas un perfil especifico?</h5>
                   <p class="text-secondary">Nosotros a travez de tecnicas y procesos controlados cubrimos ese perfil.</p>
-                  <a href="#" class="btn btn-sm btn-info text-light">Más Información</a>
+                  <a href="#" class="btn btn-sm bg-primary bg-gradient text-light">Más Información</a>
                </div>
             </div>
             <div class="carousel-item">
@@ -116,7 +116,7 @@
                <div class="carousel-caption d-none d-md-block">
                   <h5 class="text-muted">Te asesoramos en la creación de</h5>
                   <p class="text-secondary">Contratos simples, administración de documentos en RH, Manual de procedimientos y mucho màs.</p>
-                  <a href="#" class="btn btn-sm btn-info text-light">Más Información</a>
+                  <a href="#" class="btn btn-sm bg-primary bg-gradient text-light">Más Información</a>
                </div>
             </div>
        </div>
@@ -252,9 +252,9 @@
             <li><a href="#" class="btn btn-info btn-social text-light"><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
                 <use xlink:href="library/icons/bootstrap-icons.svg#twitter"/>
                 </svg></a></li>
-            <li><a href="#" class="btn btn-danger btn-social">
+            <li><a href="#" class="btn btn-success btn-social">
               <svg class="bi" width="20" height="20" role="img" aria-label="Tools">
-                  <use xlink:href="library/icons/bootstrap-icons.svg#youtube"/>
+                  <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp"/>
                   </svg>
             </a></li>
          </ul>
@@ -267,16 +267,59 @@
      <!-- termina barra social -->
      <section id="banner" class="py-4">
         <div class="row banner">
-            <div class="col-sm-4 col-md-4 col-lg-4">
-
-            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4"></div>
             <div class="col-sm-8 col-md-8 col-lg-8 text-center">
                  <div class="container">
                      <h3 class="display-5 py-3">Nuestras Soluciones</h3><hr>
                      <h5 class="text-muted align-top">Más de 1500 usuarios nos respaldan</h5>
+                     <div class="text-center py-4">
+                        <a href="#Examenes" class="btn bg-primary bg-gradient btn-sm text-light">Más Información</a>
+                     </div>
                  </div>
             </div>
         </div>
+     </section>
+     <section id="Examenes" class="py-4">
+         <div class="container">
+             <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <h3 class="display-6" style="color:rgb(33, 97, 140);">Examenes Psicometricos</h3>
+                  <p class="text-muted text-break">Es esencial para detectar la adaptabilidad de las personas que conformaran tu equipo de trabajo, evaluando la personalidad de cada individuo.</p>
+                  <p class="fw-bold">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                  <img src="img/Examenes.png" alt="Examenes psicometricos">
+                </div>
+             </div>
+         </div>
+     </section>
+     <section id="Reclutamiento" class="py-1">
+         <div class="container">
+             <div class="row ">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                    <img src="img/personal.png" alt="Seleccion de personal">
+                </div>
+                <div class="col">
+                    <h3 class="display-6" style="color:rgb(33, 97, 140);">Reclutamiento y selección</h3>
+                  <p class="text-muted text-break">Es esencial para detectar la adaptabilidad de las personas que conformaran tu equipo de trabajo, evaluando la personalidad de cada individuo.</p>
+                  <p class="fw-bold">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
+                </div>
+             </div>
+         </div>
+     </section>
+     <section id="Perfiles" class="py-4">
+         <div class="container">
+             <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <h3 class="display-6" style="color:rgb(33, 97, 140);">Perfiles y Descripciones de puestos</h3>
+                  <p class="text-muted text-break">Es esencial para detectar la adaptabilidad de las personas que conformaran tu equipo de trabajo, evaluando la personalidad de cada individuo.</p>
+                  <p class="fw-bold">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                  <img src="img/Perfiles.png" alt="Examenes psicometricos">
+                </div>
+             </div>
+         </div>
      </section>
      <script src="js/bootstrap.min.js"></script>
      <script src="js/main.js"></script>

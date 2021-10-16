@@ -52,4 +52,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: inherit;
+  transition: 2s all;
+}
+.banner:hover{
+  background-image:url(../img/fondo_banner2.png);
+  transition: 2s all;
 }
