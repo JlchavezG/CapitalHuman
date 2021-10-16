@@ -2,18 +2,6 @@
 error_reporting(0);
 include '../include/Conecta.php';
 include '../include/Consultas.php';
-if(isset($_POST['verifica'])){
-  $user1 = "506";
-  $password = "Developer";
-  $user = $_POST['user'];
-  $pass = $_POST['pass'];
-  if($password == $pass && $user == $user1){
-    echo "Correcto";
-  }
-  else{
-    echo "Incorrecto";
-  }
-} 
 ?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
@@ -49,16 +37,6 @@ if(isset($_POST['verifica'])){
               <?php } ?>
             </tbody>
          </table>
-      </div>
-      <div class="container py4">
-           <p class="text-center"> Uso de login con variables</p>
-           <div class="row">
-               <form class="form-control" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-                  <input type="text" name="user" placeholder="Usuario" required>
-                  <input type="Password" name="pass" placeholder="Password" required>
-                  <input type="submit" name="verifica" value="Ingresar">
-               </form>
-           </div>
       </div>
   <script src="../js/bootstrap.min.js"></script>
   </body>

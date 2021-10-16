@@ -234,7 +234,7 @@
                <div class="card shadow">
                    <img src="img/img3-300x33.png" class="card-img-top" alt="...">
                    <div class="card-body">
-                      <h5 class="card-title text-center text-muted">Capacitación</h5>
+                      <h5 class="card-title text-center text-muted">Organigrama Empresarial</h5>
                       <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <a href="#" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Go somewhere</a>
                  </div>
@@ -265,6 +265,19 @@
          </button>
       </div>
      <!-- termina barra social -->
+     <section id="banner" class="py-4">
+        <div class="row banner">
+            <div class="col-sm-4 col-md-4 col-lg-4">
+
+            </div>
+            <div class="col-sm-8 col-md-8 col-lg-8 text-center">
+                 <div class="container">
+                     <h3 class="display-5 py-3">Nuestras Soluciones</h3><hr>
+                     <h5 class="text-muted align-top">Más de 1500 usuarios nos respaldan</h5>
+                 </div>
+            </div>
+        </div>
+     </section>
      <script src="js/bootstrap.min.js"></script>
      <script src="js/main.js"></script>
   </body>
