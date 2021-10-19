@@ -19,7 +19,7 @@
                    <div class="d-flex flex-grow-1">
                         <span class="w-100 d-lg-none d-block">
                         <!-- cuando el menu sea responsive la marca se centrara --></span>
-                        <a class="navbar-brand" href="#"> JP Capital Human </a>
+                        <a class="navbar-brand" href="#"><img src="img/logo_principal_web.png"></a>
                         <div class="w-100 text-right">
                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbarJl">
                               <span class="navbar-toggler-icon"></span>
@@ -141,7 +141,7 @@
                         <use xlink:href="library/icons/bootstrap-icons.svg#telephone-fill"/>
                       </svg></span><a href="tel:+52 55 55 55 55 55" class="text-dark text-decoration-none"> 55 55 55 55 55</a> &nbsp; 55 55 55 55 55 &nbsp;|&nbsp;&nbsp;<span style="color:#2980B9;"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                           <use xlink:href="library/icons/bootstrap-icons.svg#envelope-fill"/>
-                      </svg></span><a href="mailto:contacto@jphuman.com" class="text-dark text-decoration-none">&nbsp; contacto@jphuman.com</a> &nbsp; | &nbsp; <span style="color:#2980B9;"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                      </svg></span><a href="mailto:contacto@capitalhumanworld.com" class="text-dark text-decoration-none">&nbsp; contacto@capitalhumanworld.com</a> &nbsp; | &nbsp; <span style="color:#2980B9;"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                             <use xlink:href="library/icons/bootstrap-icons.svg#geo-alt-fill"/>
                       </svg></span> <a href="https://www.waze.com/es/live-map/directions/mexico/estado-de-mexico/naucalpan-de-juarez/conalep-plantel-naucalpan-i?place=ChIJBU_-LvID0oURRBhJfGF1zX0&utm_campaign=waze_website&utm_medium=website_menu&utm_source=waze_website" target="_blank" class="text-dark text-decoration-none">Naucalpan de Juarez Edo de Méx.</a>
                 </div>
@@ -153,8 +153,8 @@
     <!-- Apartado de nosotros -->
     <section id="Nostros">
         <div class="row py-5">
-            <div class="col-sm-6 col-md-6 col-lg-6 text-center">
-                <img src="img/logo.png" alt="Logo JP Human">
+            <div class="col-sm-6 col-md-6 col-lg-6 text-center py-5">
+                <img src="img/logo_human1.png" class="img-fluid" alt="Logo JP Human">
             </div>
             <div class="col-sm-6 col-md-6 col-lg-6 bg-info py-3 shadow">
                 <h2 class="text-center text-light display-6"> Nosotros</h2>
@@ -174,10 +174,10 @@
                          <h5 class="text-light">Calidad</h5></a>
                        </div>
                        <div class="col">
-                         <svg class="bi text-light" width="42" height="42" fill="currentColor">
+                         <a data-bs-toggle="offcanvas" href="#offcanvasServicio" class="text-decoration-none"><svg class="bi text-light" width="42" height="42" fill="currentColor">
                              <use xlink:href="library/icons/bootstrap-icons.svg#cup-fill"/>
                          </svg>
-                         <h5 class="text-light">Servicio</h5>
+                         <h5 class="text-light">Servicio</h5></a>
                        </div>
                        <div class="col">
                          <svg class="bi text-light" width="42" height="42" fill="currentColor">
@@ -194,17 +194,30 @@
     <!-- inician los ofcanvas-->
     <!-- calidad -->
     <div class="offcanvas offcanvas-bottom valores" tabindex="-1" id="offcanvasCalidad" aria-labelledby="offcanvasCalidadLabel">
-       <div class="offcanvas-header">
-            <h5 class="offcanvas-title text-center" id="titulo">Calidad</h5>
+       <div class="offcanvas-header py-2">
+            <h5 class="offcanvas-title text-center text-muted" id="titulo">Calidad</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
        </div>
        <div class="offcanvas-body">
-          <div>
-             <p>Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.</p>
+          <div class=""><hr>
+             <p>La calidad significa mucho para nosotros por lo tanto aportamos valor a nuestros clientes, esto es, ofrecer las mejores condiciones de nuestros servicio superiores a las que nuestros cliente espera recibir y a un precio accesible.</p>
           </div>
        </div>
     </div>
     <!-- termina calidad -->
+    <!-- Servicio -->
+    <div class="offcanvas offcanvas-bottom valores" tabindex="-1" id="offcanvasServicio" aria-labelledby="offcanvasCalidadLabel">
+       <div class="offcanvas-header py-2">
+            <h5 class="offcanvas-title text-center text-muted" id="titulo">Servicio</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+       </div>
+       <div class="offcanvas-body">
+          <div class=""><hr>
+             <p>Nos preocupamos por nuestro clientes brindandoles el mejor servicio a punto personalizado para ayudar a solucionar todas sus necesidades al alcance de nuestras soluciones.</p>
+          </div>
+       </div>
+    </div>
+    <!-- termina Servicio -->
     <!-- terminas ofcanvas-->
     <!-- inicia seccion servicios-->
     <section id="Servicios">
@@ -212,31 +225,31 @@
           <div class="row mx-auto">
              <div class="col-sm-12 col-md-4 col-lg-4 py-4">
                <div class="card shadow">
-                   <img src="img/img1-300x33.png" class="card-img-top" alt="...">
+                   <img src="img/rh.png" class="card-img-top" alt="Recursos Humanos">
                    <div class="card-body">
-                      <h5 class="card-title text-center text-muted">Selección de Personal</h5>
+                      <h5 class="card-title text-center text-muted">Recursos Humanos</h5>
                       <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Go somewhere</a>
+                      <a href="#" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
                  </div>
                 </div>
              </div>
              <div class="col-sm-12 col-md-4 col-lg-4 py-4">
                <div class="card shadow">
-                   <img src="img/img2-300x33.png" class="card-img-top" alt="...">
+                   <img src="img/sd.png" class="card-img-top" alt="Servicios Digitales">
                    <div class="card-body">
-                      <h5 class="card-title text-center text-muted">Reclutamiento</h5>
+                      <h5 class="card-title text-center text-muted">Serviciós Digitales</h5>
                       <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Go somewhere</a>
+                      <a href="#" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
                  </div>
                 </div>
              </div>
              <div class="col-sm-12 col-md-4 col-lg-4 py-4">
                <div class="card shadow">
-                   <img src="img/img3-300x33.png" class="card-img-top" alt="...">
+                   <img src="img/re.png" class="card-img-top" alt="Paqueteria Express">
                    <div class="card-body">
-                      <h5 class="card-title text-center text-muted">Organigrama Empresarial</h5>
+                      <h5 class="card-title text-center text-muted">Paqueteria Express</h5>
                       <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Go somewhere</a>
+                      <a href="#" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
                  </div>
                 </div>
              </div>
@@ -321,6 +334,42 @@
              </div>
          </div>
      </section>
+     <section id="login" class="py-3 bg-info">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-7 col-lg-7">
+
+              </div>
+              <div class="col-sm-12 col-md-5 col-lg-5">
+                <div class="container py-4">
+                      <h3 class="display-6 text-light">Inicia Sesión</h3>
+                     <form class="" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+                       <div class="input-group mb-3">
+                           <span class="input-group-text" id="user">
+                             <svg class="bi" width="17" height="17" fill="currentColor">
+                                <use xlink:href="library/icons/bootstrap-icons.svg#person-check-fill"/>
+                             </svg>
+                           </span>
+                           <input type="text" class="form-control" name="usuario" placeholder="Usuario" aria-label="Usuario" aria-describedby="basic-addon1">
+                       </div>
+                       <div class="input-group mb-3">
+                           <span class="input-group-text" id="pass">
+                             <svg class="bi" width="17" height="17" fill="currentColor">
+                                <use xlink:href="library/icons/bootstrap-icons.svg#shield-lock-fill"/>
+                             </svg>
+                           </span>
+                           <input type="password" class="form-control" name="password" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                       </div>
+                       <div class="text-center">
+                           <input type="submit" class="btn btn-sm btn-secondary" name="Ingresar" value="Ingresar">
+                       </div>
+                     </form>
+                </div>
+              </div>
+            </div>
+        </div>
+     </section>
+     <!-- termina contenido -->
      <script src="js/bootstrap.min.js"></script>
      <script src="js/main.js"></script>
   </body>
