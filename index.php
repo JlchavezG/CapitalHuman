@@ -55,7 +55,7 @@
                              <li><a class="dropdown-item" href="#"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#file-earmark-break-fill"/>
                                  </svg> Creación de Manuales</a></li>
-                              <li><a class="dropdown-item" href="#login"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                              <li><a class="dropdown-item" href="login.php"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                      <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
                                   </svg> Clientes</a></li>
                            </ul>
@@ -330,6 +330,20 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                   <img src="img/Perfiles.png" alt="Examenes psicometricos">
+                </div>
+             </div>
+         </div>
+     </section>
+     <section id="Reclutamiento" class="py-1">
+         <div class="container">
+             <div class="row ">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                    <img src="img/organigrama.png" alt="Seleccion de personal">
+                </div>
+                <div class="col">
+                    <h3 class="display-6" style="color:rgb(33, 97, 140);">Organigrama Empresarial</h3>
+                  <p class="text-muted text-break">Es esencial para detectar la adaptabilidad de las personas que conformaran tu equipo de trabajo, evaluando la personalidad de cada individuo.</p>
+                  <p class="fw-bold">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
                 </div>
              </div>
          </div>
