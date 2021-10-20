@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="js/jquery.js"></script>
-    <title>JP Capital Human</title>
+    <title>Capital Human Wordl</title>
   </head>
   <body>
     <!-- inicia el navbar principal -->
@@ -55,7 +55,7 @@
                              <li><a class="dropdown-item" href="#"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#file-earmark-break-fill"/>
                                  </svg> Creación de Manuales</a></li>
-                              <li><a class="dropdown-item" href="#"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                              <li><a class="dropdown-item" href="#login"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                      <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
                                   </svg> Clientes</a></li>
                            </ul>
@@ -333,41 +333,6 @@
                 </div>
              </div>
          </div>
-     </section>
-     <section id="login" class="py-3 bg-info">
-        <div class="container">
-            <div class="row">
-              <div class="col-sm-12 col-md-7 col-lg-7">
-
-              </div>
-              <div class="col-sm-12 col-md-5 col-lg-5">
-                <div class="container py-4">
-                      <h3 class="display-6 text-light">Inicia Sesión</h3>
-                     <form class="" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-                       <div class="input-group mb-3">
-                           <span class="input-group-text" id="user">
-                             <svg class="bi" width="17" height="17" fill="currentColor">
-                                <use xlink:href="library/icons/bootstrap-icons.svg#person-check-fill"/>
-                             </svg>
-                           </span>
-                           <input type="text" class="form-control" name="usuario" placeholder="Usuario" aria-label="Usuario" aria-describedby="basic-addon1">
-                       </div>
-                       <div class="input-group mb-3">
-                           <span class="input-group-text" id="pass">
-                             <svg class="bi" width="17" height="17" fill="currentColor">
-                                <use xlink:href="library/icons/bootstrap-icons.svg#shield-lock-fill"/>
-                             </svg>
-                           </span>
-                           <input type="password" class="form-control" name="password" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
-                       </div>
-                       <div class="text-center">
-                           <input type="submit" class="btn btn-sm btn-secondary" name="Ingresar" value="Ingresar">
-                       </div>
-                     </form>
-                </div>
-              </div>
-            </div>
-        </div>
      </section>
      <!-- termina contenido -->
      <script src="js/bootstrap.min.js"></script>
