@@ -297,7 +297,7 @@
              <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                   <h3 class="display-6" style="color:rgb(33, 97, 140);">Examenes Psicometricos</h3>
-                  <p class="text-muted text-break">Es esencial para detectar la adaptabilidad de las personas que conformaran tu equipo de trabajo, evaluando la personalidad de cada individuo.</p>
+                  <p class="text-muted text-break">Aplicación de pruebas Psicometricas y proyectivas. Es esencial para detectar la adaptabilidad de las personas que conformaran tu equipo de trabajo, evaluando la personalidad de cada individuo.</p>
                   <p class="fw-bold">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 text-center">
@@ -314,8 +314,7 @@
                 </div>
                 <div class="col">
                     <h3 class="display-6" style="color:rgb(33, 97, 140);">Reclutamiento y selección</h3>
-                  <p class="text-muted text-break">Es esencial para detectar la adaptabilidad de las personas que conformaran tu equipo de trabajo, evaluando la personalidad de cada individuo.</p>
-                  <p class="fw-bold">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
+                  <p class="text-muted text-break">.</p>
                 </div>
              </div>
          </div>
@@ -348,7 +347,8 @@
              </div>
          </div>
      </section>
-     <!-- termina contenido -->
+   <!-- termina contenido -->
+   </div>
      <script src="js/bootstrap.min.js"></script>
      <script src="js/main.js"></script>
   </body>
