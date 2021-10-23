@@ -3,25 +3,24 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <title>Geolocalización</title>
+    <title>Geolocalización | Dinamica</title>
   </head>
-  <body>
+  <body onload="findMe()";>
     <div class="container py-4">
          <div class="row">
              <div class="container">
                  <form class="" action="" method="post" onclick="captura();">
                       <div class="col-sm-12 col-md-6 col-lg-6 py-2">
-                          <input type="text" class="form-control" name="Calle" value=""placeholder="calle" id="calle">
+                          <input type="text" class="form-control" name="latitud" value=""placeholder="latitud" id="latitud">
                       </div>
                       <div class="col-sm-12 col-md-6 col-lg-6 py-2">
-                          <input type="text" class="form-control" name="Colonia" value=""placeholder="colonia" id="colonia">
+                          <input type="text" class="form-control" name="longitud" value=""placeholder="longitud" id="longitud">
                       </div>
                  </form>
              </div>
          </div>
          <div class="row">
              <div class="containner">
-                <button type="button" class="btn btn-sm btn-success" name="button" onclick="findMe()">Mostrar ubicación</button>
                <div id="map" class="py-3"></div>
              </div>
          </div>
@@ -34,7 +33,6 @@
            padding: 40px;
            height: 450px;
            width: 100%;
-           filter: grayscale(100%);
            border-radius: 10px;
            padding: 10px;
              }
@@ -59,12 +57,16 @@
                     zoom: 15,
                     center: myLatLng,
                   });
-                    new google.maps.Marker({
+                    marcador = new google.maps.Marker({
                     position: myLatLng,
+                    draggable: true,
                     map,
                     title: "Te encuentras aqui!",
                     });
-
+                    marcador.addListener('dragend',function(event){
+                      document.getElementById("latitud").value = this.getPosition().lat();
+                      document.getElementById("longitud").value = this.getPosition().lng();
+                    })
 
 
 
