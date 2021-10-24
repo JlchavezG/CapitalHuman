@@ -1,3 +1,10 @@
+html{
+  scroll-behavior: smooth;
+}
+/*Estilo para adaptar el scroll de la barra de navegación */
+section[id]{
+  scroll-margin-top: 80px;
+}
 /* estilos para dropdown */
 .menus{
   border: 0;
@@ -46,7 +53,12 @@
   border: 0;
   background: rgba(255, 255, 255,.9);
 }
-
+.actives{
+  border-left: 1px solid #fff;
+}
+.selectMenu:hover{
+  border-left: 1px solid #fff;
+}
 .banner{
   background-image:url(../img/fondo_banner.png);
   background-repeat: no-repeat;

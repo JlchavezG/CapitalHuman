@@ -14,7 +14,7 @@
   <body>
     <!-- inicia el navbar principal -->
     <div class="row">
-           <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color:rgb(33, 97, 140); " id="Menu">
+           <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color:rgb(33, 97, 140); " id="menu">
                <div class="container-fluid">
                    <div class="d-flex flex-grow-1">
                         <span class="w-100 d-lg-none d-block">
@@ -29,54 +29,65 @@
                     <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbarJl">
                        <ul class="navbar-nav ms-auto flex-nowrap">
                           <li class="nav-item">
-                             <a href="#" class="nav-link active"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                             <a href="#" class="nav-link selectMenu"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#house"/>
                                  </svg> Inicio</a>
                           </li>
                           <li class="nav-item">
-                             <a href="#Nostros" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                                 <use xlink:href="library/icons/bootstrap-icons.svg#pen-fill"/>
-                                 </svg> Somos</a>
+                             <a href="#Nostros" class="nav-link selectMenu"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                                 <use xlink:href="library/icons/bootstrap-icons.svg#journals"/>
+                               </svg> Nosotros</a>
+                          </li>
+                          <li class="nav-item">
+                             <a href="#Servicios" class="nav-link selectMenu"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                                 <use xlink:href="library/icons/bootstrap-icons.svg#briefcase-fill"/>
+                               </svg> Servicios</a>
                           </li>
                           <!-- nuetro navdrop-->
                           <li class="nav-item dropdown">
-                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             <a class="nav-link dropdown-toggle selectMenu" href="#Soluciones" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                                   <use xlink:href="library/icons/bootstrap-icons.svg#briefcase-fill"/>
-                                   </svg> Servicios
+                                   <use xlink:href="library/icons/bootstrap-icons.svg#bounding-box"/>
+                                 </svg> Soluciones
                            </a>
                            <ul class="dropdown-menu menus" aria-labelledby="navbarDropdown">
-                             <li><a class="dropdown-item" href="#Servicios"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                             <li><a class="dropdown-item" href="#Examenes"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#signpost-split-fill"/>
-                                 </svg> Capacitación</a></li>
-                             <li><a class="dropdown-item" href="#"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                                 </svg> Examenes Psicometricos</a></li>
+                             <li><a class="dropdown-item" href="#Reclutamiento"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
-                                 </svg> Reclutamiento</a></li>
-                             <li><a class="dropdown-item" href="#"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                                 </svg> Reclutamiento y selección</a></li>
+                             <li><a class="dropdown-item" href="#Perfiles"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#file-earmark-break-fill"/>
-                                 </svg> Creación de Manuales</a></li>
-                              <li><a class="dropdown-item" href="login.php"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                               </svg> Perfiles y descrición de puesto</a></li>
+                              <li><a class="dropdown-item" href="#Organigrama"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                      <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
-                                  </svg> Clientes</a></li>
+                                  </svg> Organigrama Empresarial</a>
+                              </li>
                            </ul>
                           </li>
                           <li class="nav-item">
-                             <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                                 <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-dots-fill"/>
+                             <a href="#" class="nav-link selectMenu"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                                 <use xlink:href="library/icons/bootstrap-icons.svg#envelope-open-fill"/>
                                  </svg> Contacto</a>
                           </li>
                           <li class="nav-item">
-                             <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                             <a href="#" class="nav-link selectMenu"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                                 <use xlink:href="library/icons/bootstrap-icons.svg#telephone-fill"/>
+                               </svg> 55 55 55 55 55</a>
+                          </li>
+                          <li class="nav-item">
+                             <a href="#" class="nav-link"><svg class="bi text-light" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#facebook"/>
                                  </svg></a>
                           </li>
                           <li class="nav-item">
-                             <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                             <a href="#" class="nav-link"><svg class="bi text-light" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#twitter"/>
                                  </svg></a>
                           </li>
                           <li class="nav-item">
-                             <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                             <a href="#" class="nav-link"><svg class="bi text-light" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#instagram"/>
                                  </svg></a>
                           </li>
@@ -285,7 +296,7 @@
        </svg>
      </span>
      <!-- termina boton ir a rriba-->
-     <section id="banner" class="py-4">
+     <section id="Soluciones" class="py-4">
         <div class="row banner">
             <div class="col-sm-4 col-md-4 col-lg-4"></div>
             <div class="col-sm-8 col-md-8 col-lg-8 text-center">
@@ -293,13 +304,13 @@
                      <h3 class="display-5 py-3">Nuestras Soluciones</h3><hr>
                      <h5 class="text-muted align-top">Más de 1500 usuarios nos respaldan</h5>
                      <div class="text-center py-4">
-                        <a href="#Examenes" class="btn bg-primary bg-gradient btn-sm text-light">Más Información</a>
+                        <a href="#Examenes" class="btn bg-primary bg-gradient btn-sm text-light" id="Examenes" >Más Información</a>
                      </div>
                  </div>
             </div>
         </div>
      </section>
-     <section id="Examenes" class="py-4">
+     <section class="py-4">
          <div class="container">
              <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
@@ -308,7 +319,7 @@
                   <p class="fw-bold">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 text-center">
-                  <img src="img/Examenes.png" alt="Examenes psicometricos">
+                  <img src="img/Examenes.png" alt="Examenes psicometricos" id="Reclutamiento">
                 </div>
              </div>
          </div>
@@ -353,14 +364,29 @@
              <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                   <h3 class="display-6" style="color:rgb(33, 97, 140);">Perfiles y Descripciones de puestos</h3>
-                  <p class="text-muted text-break">Describe las características concretas, tareas y responsabilidades que tiene un puesto o bacante en tu empresa y/o negocio, así como las competencias y conocimientos que debe tener la persona que lo ocupe.</p>
-                  <div class="row text-center">
-                       <div class="col"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
-                         <use xlink:href="library/icons/bootstrap-icons.svg#file-earmark-person"/>
-                       </svg> CV</div>
-                       <div class="col">2</div>
-                       <div class="col">3</div>
-                  </div>
+                  <p class="text-muted text-break">Las descripciones y perfiles de puesto te ayudan a conocer e identificar las funciones y actividades de cada empleado, con la finalidad de definir claramente lo que se espera alcanzar y el valor que agregan cada uno de los empleados para alcanzar los objetivos establecidos por la organización.</p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-group-item-action">
+                      <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
+                      </svg> Resumen del Puesto
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                      <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
+                      </svg> Tareas del Puesto
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
+                        </svg> Requerimientos
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                      <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
+                      </svg> Otros Aspectos
+                    </li>
+                  </ul>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                   <img src="img/Perfiles.png" alt="Examenes psicometricos">
@@ -368,7 +394,7 @@
              </div>
          </div>
      </section>
-     <section id="Reclutamiento" class="py-1">
+     <section id="Organigrama" class="py-1">
          <div class="container">
              <div class="row ">
                 <div class="col-sm-12 col-md-6 col-lg-6 text-center">
@@ -376,8 +402,24 @@
                 </div>
                 <div class="col">
                     <h3 class="display-6" style="color:rgb(33, 97, 140);">Organigrama Empresarial</h3>
-                  <p class="text-muted text-break">Es esencial para detectar la adaptabilidad de las personas que conformaran tu equipo de trabajo, evaluando la personalidad de cada individuo.</p>
-                  <p class="fw-bold">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
+                  <p class="text-muted text-break">Un organigrama es necesario para planificar la comunicación interna y el flujo de trabajo, por lo que estructurar un organigrama es fundamental para agilizar los procesos.</p>
+                  <div class="row text-center py-3">
+                      <div class="col">
+                          <svg class="bi text-primary" width="35" height="35" role="img" aria-label="Tools">
+                            <use xlink:href="library/icons/bootstrap-icons.svg#diagram-3-fill"/>
+                          </svg>
+                      </div>
+                      <div class="col">
+                         <svg class="bi text-primary" width="35" height="35" role="img" aria-label="Tools">
+                           <use xlink:href="library/icons/bootstrap-icons.svg#pie-chart-fill"/>
+                         </svg>
+                      </div>
+                      <div class="col">
+                        <svg class="bi text-primary" width="35" height="35" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#ui-radios"/>
+                        </svg>
+                      </div>
+                  </div>
                 </div>
              </div>
          </div>
