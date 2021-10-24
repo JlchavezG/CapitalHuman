@@ -25,6 +25,7 @@
              </div>
          </div>
        </div>
+       <?php $nombre = "Jose Luis"; ?>
        <style>
        #map{
            margin: auto;
@@ -40,9 +41,11 @@
        <script>
             function findMe(){
                var output = document.getElementById('map');
+               nombre = '<?=$nombre ?>';
                // Verificar si soporta geolocalizacion
                if (navigator.geolocation) {
                    output.innerHTML = "<p>Tu navegador soporta Geolocalizacion</p>";
+                   output.innerHTML = nombre;
                }else{
                   output.innerHTML = "<p>Tu navegador no soporta Geolocalizacion</p>";
                }
