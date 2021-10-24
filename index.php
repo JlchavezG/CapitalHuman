@@ -14,7 +14,7 @@
   <body>
     <!-- inicia el navbar principal -->
     <div class="row">
-           <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color:rgb(33, 97, 140); " id="menu">
+           <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color:rgb(33, 97, 140);" id="menu">
                <div class="container-fluid">
                    <div class="d-flex flex-grow-1">
                         <span class="w-100 d-lg-none d-block">
@@ -104,6 +104,7 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" style="background-color:rgb(33, 97, 140);" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" style="background-color:rgb(33, 97, 140);"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" style="background-color:rgb(33, 97, 140);"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4" style="background-color:rgb(33, 97, 140);"></button>
         </div>
         <div class="carousel-inner py-3">
             <div class="carousel-item active">
@@ -123,10 +124,18 @@
                </div>
             </div>
             <div class="carousel-item">
-               <img src="img/slider3.png" class="d-block w-100" alt="...">
+               <img src="img/slider3.png" class="d-block w-100" alt="slider3">
                <div class="carousel-caption d-none d-md-block">
                   <h5 class="text-muted">Te asesoramos en la creación de</h5>
                   <p class="text-secondary">Contratos simples, administración de documentos en RH, Manual de procedimientos y mucho màs.</p>
+                  <a href="#" class="btn btn-sm bg-primary bg-gradient text-light">Más Información</a>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="img/slider4.png" class="d-block w-100" alt="slider4">
+               <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-muted">¿Necesitas un sitio web?</h5>
+                  <p class="text-secondary">Nosotros te ayudamos a realizarlo segun las necesidades y caracteristicas de tu negocio.</p>
                   <a href="#" class="btn btn-sm bg-primary bg-gradient text-light">Más Información</a>
                </div>
             </div>
@@ -427,58 +436,53 @@
    <!-- termina contenido -->
    </div>
    <!-- inicia footer -->
-   <footer class="text-white text-center text-lg-start bg-primary">
+   <footer class="text-white text-center text-lg-start" style="background-color:rgb(33, 97, 140);">
     <div class="container p-4">
       <div class="row mt-4">
-        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-             <div class="container py-2">
-               <img src="img/logo_human1.png" alt="Logo" style="width:300px;">
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0 py-4">
+             <div class="row">
+               <div class="container py-2">
+                 <img src="img/logo_human1_blanco.png" alt="Logo" style="width:300px;">
+               </div>
              </div>
-          <div class="mt-4">
-              <svg class="bi text-light" width="30" height="30" role="img" aria-label="Tools">
-                <use xlink:href="library/icons/bootstrap-icons.svg#facebook"/>
-              </svg>
-          </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <ul class="fa-ul" style="margin-left: 1.65em;">
-            <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Naucalpan de Juarez</span>
+          <ul class="list-group" style="margin-left: 1.65em;">
+            <li class="mb-3 text-docoration-none">
+            <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">
+              <use xlink:href="library/icons/bootstrap-icons.svg#geo-alt-fill"/>
+            </svg> Naucalpan de Juarez
             </li>
             <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">info@example.com</span>
+                <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">
+                  <use xlink:href="library/icons/bootstrap-icons.svg#mailbox2"/>
+                </svg> contacto@capitalhumanworld.com
             </li>
             <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567 88</span>
+              <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">
+                <use xlink:href="library/icons/bootstrap-icons.svg#phone"/>
+              </svg> + 55 55 55 55 55
             </li>
             <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 01 234 567 89</span>
+              <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">
+                <use xlink:href="library/icons/bootstrap-icons.svg#phone"/>
+              </svg> + 55 55 55 55 55
             </li>
           </ul>
         </div>
-        <!--Grid column-->
 
-        <!--Grid column-->
         <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <div class="form-outline form-white mb-4">
-            <input type="text" id="formControlLg" class="form-control form-control-lg" />
-            <label class="form-label" for="formControlLg">Search</label>
-          </div>
-          <h5 class="text-uppercase mb-4">Opening hours</h5>
+          <h5 class="text-uppercase mb-4">Horarios de atención</h5>
 
           <table class="table text-center text-white">
             <tbody class="font-weight-normal">
               <tr>
-                <td>Mon - Thu:</td>
-                <td>8am - 9pm</td>
+                <td>Lunes - Viernes:</td>
+                <td>8am - 7pm</td>
               </tr>
               <tr>
-                <td>Fri - Sat:</td>
-                <td>8am - 1am</td>
-              </tr>
-              <tr>
-                <td>Sunday:</td>
-                <td>9am - 10pm</td>
+                <td>Sabado</td>
+                <td>9am - 3pm</td>
               </tr>
             </tbody>
           </table>
@@ -491,8 +495,7 @@
 
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2021 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      © 2021 Copyright:CapitalHunanWorld | IscjlchavezG
     </div>
     <!-- Copyright -->
   </footer>
