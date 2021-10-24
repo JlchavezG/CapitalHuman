@@ -53,11 +53,9 @@ section[id]{
   border: 0;
   background: rgba(255, 255, 255,.9);
 }
-.actives{
-  border-left: 1px solid #fff;
-}
 .selectMenu:hover{
   border-left: 1px solid #fff;
+  padding-left:10px;
 }
 .banner{
   background-image:url(../img/fondo_banner.png);
