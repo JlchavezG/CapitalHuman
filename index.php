@@ -278,6 +278,13 @@
          </button>
       </div>
      <!-- termina barra social -->
+     <!-- inicia boton ir arriba -->
+     <span class="ir-arriba">
+       <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
+           <use xlink:href="library/icons/bootstrap-icons.svg#arrow-up-circle-fill"/>
+       </svg>
+     </span>
+     <!-- termina boton ir a rriba-->
      <section id="banner" class="py-4">
         <div class="row banner">
             <div class="col-sm-4 col-md-4 col-lg-4"></div>
@@ -314,7 +321,29 @@
                 </div>
                 <div class="col">
                     <h3 class="display-6" style="color:rgb(33, 97, 140);">Reclutamiento y selección</h3>
-                  <p class="text-muted text-break">.</p>
+                  <p class="text-muted justificado">Configura a las necesidades de tu Empresa y/o negocio las faces de reclutamiento para tus proyectos o vacantes especializadas. Toma todas nustras ventajas de reclutamiento:</p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item list-group-item-action">
+                      <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#award"/>
+                      </svg> Getion de candidatos
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                      <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#award"/>
+                      </svg> Entrevista por competencia
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                        <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#award"/>
+                        </svg> Reclutamiento Personalizado
+                    </li>
+                    <li class="list-group-item list-group-item-action">
+                      <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#award"/>
+                      </svg> Selección de talento
+                    </li>
+                  </ul>
                 </div>
              </div>
          </div>
@@ -324,8 +353,14 @@
              <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                   <h3 class="display-6" style="color:rgb(33, 97, 140);">Perfiles y Descripciones de puestos</h3>
-                  <p class="text-muted text-break">Es esencial para detectar la adaptabilidad de las personas que conformaran tu equipo de trabajo, evaluando la personalidad de cada individuo.</p>
-                  <p class="fw-bold">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
+                  <p class="text-muted text-break">Describe las características concretas, tareas y responsabilidades que tiene un puesto o bacante en tu empresa y/o negocio, así como las competencias y conocimientos que debe tener la persona que lo ocupe.</p>
+                  <div class="row text-center">
+                       <div class="col"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                         <use xlink:href="library/icons/bootstrap-icons.svg#file-earmark-person"/>
+                       </svg> CV</div>
+                       <div class="col">2</div>
+                       <div class="col">3</div>
+                  </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                   <img src="img/Perfiles.png" alt="Examenes psicometricos">
