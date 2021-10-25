@@ -64,6 +64,14 @@
                                      <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
                                   </svg> Organigrama Empresarial</a>
                               </li>
+                              <li><a class="dropdown-item" href="#Manuales"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                                     <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
+                                  </svg> Manuales de procedimientos</a>
+                              </li>
+                              <li><a class="dropdown-item" href="#Contratos"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                                     <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
+                                  </svg> Elaboración de contratos</a>
+                              </li>
                            </ul>
                           </li>
                           <li class="nav-item">
@@ -266,7 +274,7 @@
                <div class="card shadow">
                    <img src="img/sd.png" class="card-img-top" alt="Servicios Digitales">
                    <div class="card-body">
-                      <h5 class="card-title text-center text-muted">Serviciós Digitales</h5>
+                      <h5 class="card-title text-center text-muted">Soluciones Web</h5>
                       <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <a href="#" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
                  </div>
@@ -498,6 +506,13 @@
               <div class="col-sm-12 col-md-6 col-lg-6">
                 <h3 class="display-6" style="color:rgb(33, 97, 140);">Manuales de procedimientos</h3>
                 <p class="text-muted text-justify py-2">Te ayudamos a crear un documento del sistema de Control Interno de tu empresa, el cual se crea para obtener una información detallada, ordenada, sistemática e integral que contiene todas las instrucciones, responsabilidades e información sobre políticas, funciones, sistemas y procedimientos de las distintas operaciones.</p>
+                <div class="row py-3">
+                    <div class="container">
+                          <div class="text-center">
+                            <a href="#" class="btn btn-sm btn-primary">Más Información</a>
+                          </div>
+                    </div>
+                </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                 <img src="img/Manual.png" alt="Examenes psicometricos">
@@ -505,7 +520,7 @@
            </div>
        </div>
    </section>
-   <section id="Organigrama" class="py-1">
+   <section id="Contratos" class="py-1">
        <div class="container">
            <div class="row ">
               <div class="col-sm-12 col-md-6 col-lg-6 text-center">
@@ -513,74 +528,65 @@
               </div>
               <div class="col">
                   <h3 class="display-6" style="color:rgb(33, 97, 140);">Elaboración de Contratos</h3>
-                <p class="text-muted text-break">Un organigrama es necesario para planificar la comunicación interna y el flujo de trabajo, por lo que estructurar un organigrama es fundamental para agilizar los procesos.</p>
-                <div class="row text-center py-3">
-                    <div class="col">
-                        <svg class="bi text-primary" width="35" height="35" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#diagram-3-fill"/>
-                        </svg>
-                    </div>
-                    <div class="col">
-                       <svg class="bi text-primary" width="35" height="35" role="img" aria-label="Tools">
-                         <use xlink:href="library/icons/bootstrap-icons.svg#pie-chart-fill"/>
-                       </svg>
-                    </div>
-                    <div class="col">
-                      <svg class="bi text-primary" width="35" height="35" role="img" aria-label="Tools">
-                        <use xlink:href="library/icons/bootstrap-icons.svg#ui-radios"/>
-                      </svg>
-                    </div>
+                <p class="text-muted text-break">Somos expertos en realizar contratos de acuerdo a las necesidades del proyecto, empresa con la certeza legal y vigencia actual en nuestro pais, desarrollamos los siguientes contratos: </p>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item list-group-item-action">
+                    <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
+                    </svg> Por obra o tiempo determinado
+                  </li>
+                  <li class="list-group-item list-group-item-action">
+                    <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
+                    </svg> Por tiempo indeterminado
+                  </li>
+                  <li class="list-group-item list-group-item-action">
+                      <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
+                      </svg> Periodo de Prueba
+                  </li>
+                  <li class="list-group-item list-group-item-action">
+                    <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
+                    </svg> Por capacitación inicial
+                  </li>
+                </ul>
+                <div class="container py-3">
+                      <div class="text-center">
+                        <a href="#" class="btn btn-sm btn-primary">Más Información</a>
+                      </div>
                 </div>
               </div>
            </div>
        </div>
    </section>
-   <section id="Manuales" class="py-4">
+   <section id="Archivo" class="py-4">
        <div class="container">
            <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-6">
-                <h3 class="display-6" style="color:rgb(33, 97, 140);">Manuales de procedimientos</h3>
-                <p class="text-muted text-break">Te ayudamos a crear un documento del sistema de Control Interno de tu empresa, el cual se crea para obtener una información detallada, ordenada, sistemática e integral que contiene todas las instrucciones, responsabilidades e información sobre políticas, funciones, sistemas y procedimientos de las distintas operaciones.</p>
+                <h3 class="display-6" style="color:rgb(33, 97, 140);">Elaboración de archivo laboral</h3>
+                <p class="text-muted text-break">Te ayudamos a crear y a organizar un sistema de Control de archivo laboral Interno de tu empresa, el cual se crea para obtener una información detallada de tus empleados, capacitaciones, funciones y más.</p>
+                <div class="container">
+                      <div class="text-center py-4">
+                        <a href="#" class="btn btn-sm btn-primary">Más Información</a>
+                      </div>
+                </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6 text-center">
-                <img src="img/Manual.png" alt="Examenes psicometricos">
+                <img src="img/Archivo.png" alt="Examenes psicometricos">
               </div>
            </div>
        </div>
    </section>
    <!-- inicia session -->
-   <section id="Nostros">
+   <section id="SolucionesWeb">
        <div class="row py-5">
            <div class="col-sm-8 col-md-8 col-lg-8 bg-info py-3 shadow">
-               <h2 class="text-center text-light display-6"> Nosotros</h2>
+               <h2 class="text-center text-light display-6"> Soluciones Web</h2>
                <hr class="text-light">
                <div class="container">
-                  <p class="text-light text-justify py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum.</p>
-                  <div class="row text-center">
-                      <div class="col">
-                        <a data-bs-toggle="offcanvas" href="#offcanvasCalidad" class="text-decoration-none" role="button" aria-controls="offcanvasExample"><svg class="bi text-light" width="42" height="42" fill="currentColor">
-                            <use xlink:href="library/icons/bootstrap-icons.svg#bookmark-fill"/>
-                        </svg>
-                        <h5 class="text-light">Calidad</h5></a>
-                      </div>
-                      <div class="col">
-                        <a data-bs-toggle="offcanvas" href="#offcanvasServicio" class="text-decoration-none"><svg class="bi text-light" width="42" height="42" fill="currentColor">
-                            <use xlink:href="library/icons/bootstrap-icons.svg#cup-fill"/>
-                        </svg>
-                        <h5 class="text-light">Servicio</h5></a>
-                      </div>
-                      <div class="col">
-                        <svg class="bi text-light" width="42" height="42" fill="currentColor">
-                            <use xlink:href="library/icons/bootstrap-icons.svg#shield-lock-fill"/>
-                        </svg>
-                        <h5 class="text-light">Seguridad</h5>
-                      </div>
-                  </div>
+                  <p class="text-light text-justify py-4">Desarrollamos sitios web efectivos y diseñados para posicionar a tu empresa o negocio. El principal objetivo del diseño web es transmitir una imagen profesional y de calidad, que sea ágil con un diseño moderno, atractivo y responsivo.</p>
+
                </div>
            </div>
            <div class="col-sm-4 col-md-4 col-lg-4 text-center py-5">
@@ -639,6 +645,7 @@
               </tr>
             </tbody>
           </table>
+          <p>Ingreso a clientes: <a href="login.php" class="text-light text-decoration-none">Aqui</a></p>
         </div>
       </div>
     </div>

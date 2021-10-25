@@ -1,10 +1,11 @@
 <?php
 // almacenar una variable de sesion
+error_reporting(0);
 session_start();
 include 'include/conecta.php';
 if(isset($_POST['ingresar'])){
   $usuario = $_POST['usuario'];
-  $password = $_POST['password'];
+  $password = md5($_POST['password']);
   // consulta para ingresar al sistema y determinar la variable de session
   $q = "SELECT * FROM Usuarios WHERE UserName = '$usuario' and Password = '$password'";
   if ($resultado = $conecta->query($q)) {
@@ -19,14 +20,20 @@ if(isset($_POST['ingresar'])){
           if ($usuario == $userok && $password == $passwordok) {
                $_SESSION['loguin']= TRUE;
                $_SESSION['Usuario'] = $usuario;
-               header("location:index.php");}
+               header("location:clientes.php");}
            else {
-              header("location:fail.php");
+              $alerta.="<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                           <svg class='bi text-danger' width='20' height='20' role='img' aria-label='Tools'>
+                             <use xlink:href='library/icons/bootstrap-icons.svg#x-circle-fill'/>
+                           </svg>
+                           <strong> Usuario y/o password invalido</strong> Por favor verifica tus credenciales o contacta a soporte.
+                           <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>";
             }
       } else {
-  header("location:index.php");
-  }
-}
+        header("location:clientes.php");
+      }
+   }
 
 ?>
 <!DOCTYPE html>
@@ -85,8 +92,9 @@ if(isset($_POST['ingresar'])){
                     </div>
                   </div>
                </div>
-               <!-- mensaje -->
           </div>
+          <!-- mensaje -->
+          <?php echo $alerta; ?>
       </div>
   </div>
   <script src="js/bootstrap.min.js"></script>
