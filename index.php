@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="js/jquery.js"></script>
+    <script src="js/push/push.min.js"></script>
     <title>Capital Human Wordl</title>
   </head>
   <body>
@@ -586,7 +587,6 @@
                <hr class="text-light">
                <div class="container">
                   <p class="text-light text-justify py-4">Desarrollamos sitios web efectivos y diseñados para posicionar a tu empresa o negocio. El principal objetivo del diseño web es transmitir una imagen profesional y de calidad, que sea ágil con un diseño moderno, atractivo y responsivo.</p>
-
                </div>
            </div>
            <div class="col-sm-4 col-md-4 col-lg-4 text-center py-5">
@@ -597,14 +597,44 @@
    <!-- termina seccion -->
    <section id="digital">
     <div class="row py-3">
-        <div class="col">
-          1
+        <div class="col-sm-12 col-md-6 col-lg-6">
+           <img src="img/web.png" alt="Diseño web" class="img-fluid">
         </div>
-        <div class="col">
-          2
+        <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+             <h3 class="display-6">Opciones dentro de tu web</h3><hr>
+             <div class="row">
+                <div class="col">
+                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#border-inner"/>
+                  </svg>
+                  <p class="text-muted">Varias secciones</p>
+                </div>
+                <div class="col">
+                   2
+                </div>
+                <div class="col">
+                   3
+                </div>
+                <div class="col">
+                   4
+                </div>
+             </div>
+             <div class="row py-2">
+                <div class="col">
+                   1
+                </div>
+                <div class="col">
+                   2
+                </div>
+                <div class="col">
+                   3
+                </div>
+                <div class="col">
+                   4
+                </div>
+             </div>
         </div>
     </div>
-
    </section>
    </div>
    <!-- inicia footer -->
@@ -667,5 +697,21 @@
    <!-- termina footer -->
      <script src="js/bootstrap.min.js"></script>
      <script src="js/main.js"></script>
+     <script>
+     // detectar que existen internet
+       if(navigator.onLine) {
+         Push.create("Capital Human Wordl",{
+              body:"Existe conexión a internet",
+              icon:"img/logo_human1.png",
+              timeout:7000
+         });
+        } else {
+          Push.create("Capital Human Wordl",{
+               body:"En este momento no tienes conexión a internet",
+               icon:"img/logo_human1.png",
+               timeout:7000
+            });
+          }
+     </script>
   </body>
 </html>
