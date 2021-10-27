@@ -46,9 +46,9 @@ if(isset($_POST['ingresar'])){
                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
                         </div>";
             }
-      // si no se da clic al boton ingresar      
+      // si no se da clic al boton ingresar
       } else {
-        header("location:index.php");
+        header("location:login.php");
       }
    }
 

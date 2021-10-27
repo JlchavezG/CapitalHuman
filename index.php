@@ -604,30 +604,51 @@
                   <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
                     <use xlink:href="library/icons/bootstrap-icons.svg#border-inner"/>
                   </svg>
-                  <p class="text-muted">Varias secciones</p>
+                  <p class="text-muted">Seleccion de secciones</p>
                 </div>
                 <div class="col">
-                   2
+                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#border-inner"/>
+                  </svg>
+                  <p class="text-muted">Integración con redes sociales</p>
                 </div>
                 <div class="col">
-                   3
+                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#border-inner"/>
+                  </svg>
+                  <p class="text-muted">Diseño personalizado</p>
                 </div>
                 <div class="col">
-                   4
+                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#border-inner"/>
+                  </svg>
+                  <p class="text-muted">Optimización en motores de busqueda</p>
                 </div>
              </div>
              <div class="row py-2">
                 <div class="col">
-                   1
+                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#border-inner"/>
+                  </svg>
+                  <p class="text-muted">Contratación de hosting y dominio</p>
                 </div>
                 <div class="col">
-                   2
+                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#border-inner"/>
+                  </svg>
+                  <p class="text-muted">Diseño Responsivo</p>
                 </div>
                 <div class="col">
-                   3
+                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#border-inner"/>
+                  </svg>
+                  <p class="text-muted">Reportes de Trafico con Google Analytic</p>
                 </div>
                 <div class="col">
-                   4
+                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#border-inner"/>
+                  </svg>
+                  <p class="text-muted">Posicionamiento SEO para tu sitio web</p>
                 </div>
              </div>
         </div>
