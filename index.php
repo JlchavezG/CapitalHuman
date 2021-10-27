@@ -582,25 +582,22 @@
    <!-- inicia session -->
    <section id="SolucionesWeb">
        <div class="row py-5">
-           <div class="col-sm-8 col-md-8 col-lg-8 bg-info py-3 shadow">
+           <div class="col-sm-5 col-md-5 col-lg-5 bg-info py-3 shadow">
                <h2 class="text-center text-light display-6"> Soluciones Web</h2>
                <hr class="text-light">
                <div class="container">
-                  <p class="text-light text-justify py-4">Desarrollamos sitios web efectivos y diseñados para posicionar a tu empresa o negocio. El principal objetivo del diseño web es transmitir una imagen profesional y de calidad, que sea ágil con un diseño moderno, atractivo y responsivo.</p>
+                  <p class="text-light text-justify-contend py-4">Desarrollamos sitios web efectivos y diseñados para posicionar a tu empresa o negocio. El principal objetivo del diseño web es transmitir una imagen profesional y de calidad, que sea ágil con un diseño moderno, atractivo y responsivo.</p>
                </div>
            </div>
-           <div class="col-sm-4 col-md-4 col-lg-4 text-center py-5">
-
+           <div class="col-sm-12 col-md-6 col-lg-6 py-3">
+              <img src="img/web.png" alt="Diseño web" class="img-fluid">
            </div>
        </div>
    </section>
    <!-- termina seccion -->
    <section id="digital">
     <div class="row py-3">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-           <img src="img/web.png" alt="Diseño web" class="img-fluid">
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+        <div class="col-sm-12 col-md-12 col-lg-12 text-center">
              <h3 class="display-6">Opciones dentro de tu web</h3><hr>
              <div class="row">
                 <div class="col">
