@@ -8,24 +8,23 @@
   <body>
     <div class="container py-4">
          <div class="row">
-             <div class="container">
-                 <form class="" action="" method="post" onclick="captura();">
-                      <div class="col-sm-12 col-md-6 col-lg-6 py-2">
-                          <input type="text" class="form-control" name="Calle" value=""placeholder="calle" id="calle">
-                      </div>
-                      <div class="col-sm-12 col-md-6 col-lg-6 py-2">
-                          <input type="text" class="form-control" name="Colonia" value=""placeholder="colonia" id="colonia">
-                      </div>
-                 </form>
-             </div>
-         </div>
-         <div class="row">
              <div class="containner">
                 <button type="button" class="btn btn-sm btn-success" name="button" onclick="findMe()">Mostrar ubicación</button>
                <div id="map" class="py-3"></div>
              </div>
          </div>
        </div>
+       <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+           <div class="toast-header">
+               <img src="..." class="rounded me-2" alt="...">
+                  <strong class="me-auto">Bootstrap</strong>
+                  <small class="text-muted">11 mins ago</small>
+                  <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+           </div>
+  <div class="toast-body">
+    Hello, world! This is a toast message.
+  </div>
+</div>
        <style>
        #map{
            margin: auto;
@@ -65,15 +64,13 @@
                     title: "Te encuentras aqui!",
                     });
 
-
-
-
                   }
                   function error(){
                   output.innerHTML = "<p>No se pudo obtener tu ubicación</p>";
                   }
                  navigator.geolocation.getCurrentPosition(localizacion,error);
                }
+
           </script>
           <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYMPGtM7VUn1aq61tkGbu99qD95c-w5zc&callback=initMap">
         </script>

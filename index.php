@@ -595,6 +595,17 @@
        </div>
    </section>
    <!-- termina seccion -->
+   <section id="digital">
+    <div class="row py-3">
+        <div class="col">
+          1
+        </div>
+        <div class="col">
+          2
+        </div>
+    </div>
+
+   </section>
    </div>
    <!-- inicia footer -->
    <footer class="text-white text-center text-lg-start" style="background-color:rgb(33, 97, 140);">
