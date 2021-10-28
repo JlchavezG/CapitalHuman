@@ -480,14 +480,14 @@
                    <p class="text-light">Via telefonica</p>
                  </div>
                  <div class="col">
-                   <svg class="bi text-light" width="35" height="35" role="img" aria-label="Tools">
+                   <a href="#" data-bs-toggle="modal" data-bs-target="#whatsapp"><svg class="bi text-light" width="35" height="35" role="img" aria-label="Tools">
                      <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp"/>
-                   </svg>
+                   </svg></a>
                    <p class="text-light">Via whatsapp</p>
                  </div>
                  <div class="col">
-                   <svg class="bi text-light" width="35" height="35" role="img" aria-label="Tools">
-                     <use xlink:href="library/icons/bootstrap-icons.svg#mailbox2"/>
+                   <a href="mailto:contacto@capitalhumanworld.com"><svg class="bi text-light" width="35" height="35" role="img" aria-label="Tools">
+                     <use xlink:href="library/icons/bootstrap-icons.svg#mailbox2"/></a>
                    </svg>
                    <p class="text-light">Via Email</p>
                  </div>
@@ -532,8 +532,39 @@
    </div>
  </div>
 </div>
-   <!-- terminan ventanas modales del banner -->
-   <section id="Manuales" class="py-4">
+<!-- termina nodal llamada-->
+<!-- Modal whatsapp -->
+<div class="modal fade" id="whatsapp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered modal-lg">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5 class="modal-title" id="whatsappLabel"><svg class="bi text-dark" width="20" height="20" role="img" aria-label="Tools">
+         <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp"/>
+       </svg> Contacto via whatsapp</h5>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+        <div class="container text-center">
+            <div class="row py-4">
+              <svg class="bi text-dark" width="40" height="40" role="img" aria-label="Tools">
+                <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp"/>
+              </svg>
+            </div>
+            <div class="row">
+                 <p>Contacta a nustros asesores por medio de un mensaje de whatsapp escribenos</p>
+                 <div class="col"><p class="fs-4"><a href="https://wa.link/gdmtsx" target="_blank" class="text-decoration-none">Escribenos tus dudas</a></p></div>
+            </div>
+        </div>
+     </div>
+     <div class="modal-footer">
+       <p class="text-muted">Consulta nuestro aviso de privacidad: Aqui</p>
+     </div>
+   </div>
+ </div>
+</div>
+<!-- termina ventana modal whatsapp -->
+<!-- terminan ventanas modales del banner -->
+<section id="Manuales" class="py-4">
        <div class="container">
            <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-6">
@@ -552,8 +583,8 @@
               </div>
            </div>
        </div>
-   </section>
-   <section id="Contratos" class="py-1">
+</section>
+<section id="Contratos" class="py-1">
        <div class="container">
            <div class="row ">
               <div class="col-sm-12 col-md-6 col-lg-6 text-center">
@@ -592,7 +623,7 @@
               </div>
            </div>
        </div>
-   </section>
+</section>
    <section id="Archivo" class="py-4">
        <div class="container">
            <div class="row">
