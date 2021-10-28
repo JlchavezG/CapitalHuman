@@ -267,7 +267,7 @@
                    <div class="card-body">
                       <h5 class="card-title text-center text-muted">Recursos Humanos</h5>
                       <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
+                      <a href="#Examenes" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
                  </div>
                 </div>
              </div>
@@ -277,7 +277,7 @@
                    <div class="card-body">
                       <h5 class="card-title text-center text-muted">Soluciones Web</h5>
                       <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
+                      <a href="#Digital" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
                  </div>
                 </div>
              </div>
@@ -287,7 +287,7 @@
                    <div class="card-body">
                       <h5 class="card-title text-center text-muted">Paqueteria Express</h5>
                       <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
+                      <a href="#Web" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
                  </div>
                 </div>
              </div>
@@ -297,13 +297,13 @@
       <!-- barra social -->
       <div class="social-icons" id="s-icons">
          <ul class="navbar-nav">
-            <li><a href="#" class="btn btn-primary btn-social "><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//iscjoseluischavezg.mx" target="_blank" class="btn btn-primary btn-social "><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
                 <use xlink:href="library/icons/bootstrap-icons.svg#facebook"/>
                 </svg></a></li>
-            <li><a href="#" class="btn btn-info btn-social text-light"><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
+            <li><a href="https://twitter.com/intent/tweet?text=compartir" target="_blank" class="btn btn-info btn-social text-light"><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
                 <use xlink:href="library/icons/bootstrap-icons.svg#twitter"/>
                 </svg></a></li>
-            <li><a href="#" class="btn btn-success btn-social">
+            <li><a href="https://api.whatsapp.com/send?text=Compartir a compartir desde: https://iscjoseluischavezg.mx" target="_blank" class="btn btn-success btn-social">
               <svg class="bi" width="20" height="20" role="img" aria-label="Tools">
                   <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp"/>
                   </svg>
@@ -595,7 +595,7 @@
        </div>
    </section>
    <!-- termina seccion -->
-   <section id="digital">
+   <section id="Digital">
     <div class="row py-3">
         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
              <h3 class="display-6">Opciones dentro de tu web</h3><hr>
@@ -611,6 +611,7 @@
                     <use xlink:href="library/icons/bootstrap-icons.svg#rss-fill"/>
                   </svg>
                   <p class="text-muted">Integración con redes sociales</p>
+
                 </div>
                 <div class="col">
                   <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
