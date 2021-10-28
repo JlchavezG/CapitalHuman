@@ -474,9 +474,9 @@
             <p class="text-light">Todo nuestro personal y asesores estan capacitados para poder responder todas tus dudas sobre nustros servicios y soluciones para tu empresa y/o negocio. Selecciona cualquiera de las opciones que tenemos para contactarnos.</p>
              <div class="row text-center py-3">
                  <div class="col">
-                   <svg class="bi text-light" width="35" height="35" role="img" aria-label="Tools">
+                   <a href="#" data-bs-toggle="modal" data-bs-target="#llamada"><svg class="bi text-light" width="35" height="35" role="img" aria-label="Tools">
                      <use xlink:href="library/icons/bootstrap-icons.svg#headset"/>
-                   </svg>
+                   </svg></a>
                    <p class="text-light">Via telefonica</p>
                  </div>
                  <div class="col">
@@ -500,7 +500,39 @@
          </div>
      </div>
    </div>
-   <!-- termina banner -->
+<!-- termina banner -->
+<!-- inician ventanas modales del banner -->
+<!-- Modal llamada -->
+<div class="modal fade" id="llamada" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered modal-lg">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5 class="modal-title" id="llamadaLabel"><svg class="bi text-dark" width="20" height="20" role="img" aria-label="Tools">
+         <use xlink:href="library/icons/bootstrap-icons.svg#telephone-fill"/>
+       </svg> Contacto via telefonica</h5>
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+        <div class="container text-center">
+            <div class="row py-4">
+              <svg class="bi text-dark" width="40" height="40" role="img" aria-label="Tools">
+                <use xlink:href="library/icons/bootstrap-icons.svg#telephone-outbound-fill"/>
+              </svg>
+            </div>
+            <div class="row">
+                 <p>Contacta a nustros asesores por medio de los telefonos:</p>
+                 <div class="col"><p class="fs-4"><a href="tel:+52 55-55-55-55-55" class="text-decoration-none">55-55-55-55-55</a></p></div>
+                 <div class="col"><p class="fs-4"><a href="tel:+52 55-55-55-55-55" class="text-decoration-none">55-55-55-55-55</a></p></div>
+            </div>
+        </div>
+     </div>
+     <div class="modal-footer">
+       <p class="text-muted">Consulta nuestro aviso de privacidad: Aqui</p>
+     </div>
+   </div>
+ </div>
+</div>
+   <!-- terminan ventanas modales del banner -->
    <section id="Manuales" class="py-4">
        <div class="container">
            <div class="row">
@@ -652,6 +684,11 @@
                   <p class="text-muted">Posicionamiento SEO para tu sitio web</p>
                 </div>
              </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            texto
         </div>
     </div>
    </section>
