@@ -53,18 +53,26 @@
                   function localizacion(posicion){
                     var latitude = posicion.coords.latitude;
                     var longitude = posicion.coords.longitude;
+                    var ventana ='<h2>Nombre</h2>'+'<p>Descripción</p>'+'<a href="www.google.com">link</a>';
 
                     output.innerHTML ="<p>Latitud: "+latitude+"<br> Longitud: "+longitude+"</p>";
                     const myLatLng = { lat:latitude, lng: longitude };
                     const map = new google.maps.Map(document.getElementById("map"), {
                     zoom: 15,
                     center: myLatLng,
+                    // cambiar a terreno  mapTypeId: 'satellite',
                   });
                     marcador = new google.maps.Marker({
                     position: myLatLng,
                     draggable: true,
                     map,
                     title: "Te encuentras aqui!",
+                    });
+                    var info = new google.maps.InfoWindow({
+                      content: ventana
+                    });
+                    marcador.addListener('click',function(){
+                      info.open(map, marcador);
                     });
                     marcador.addListener('dragend',function(event){
                       document.getElementById("latitud").value = this.getPosition().lat();

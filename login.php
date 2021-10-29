@@ -87,12 +87,11 @@ if(isset($_POST['ingresar'])){
                                </form>
                                <!-- termina formulario login -->
                           </div>
+                          <?php echo $alerta; ?>
                     </div>
                   </div>
                </div>
           </div>
-          <!-- mensaje -->
-          <?php echo $alerta; ?>
       </div>
   </div>
   <script src="js/bootstrap.min.js"></script>

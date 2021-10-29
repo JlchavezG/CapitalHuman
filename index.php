@@ -218,9 +218,10 @@
                          <h5 class="text-light">Servicio</h5></a>
                        </div>
                        <div class="col">
+                         <a data-bs-toggle="offcanvas" href="#offcanvasSeguridad" class="text-decoration-none"><svg class="bi text-light" width="42" height="42" fill="currentColor">
                          <svg class="bi text-light" width="42" height="42" fill="currentColor">
                              <use xlink:href="library/icons/bootstrap-icons.svg#shield-lock-fill"/>
-                         </svg>
+                         </svg></a>
                          <h5 class="text-light">Seguridad</h5>
                        </div>
                    </div>
@@ -256,6 +257,19 @@
        </div>
     </div>
     <!-- termina Servicio -->
+    <!-- calidad -->
+    <div class="offcanvas offcanvas-bottom valores" tabindex="-1" id="offcanvasSeguridad" aria-labelledby="offcanvasCalidadLabel">
+       <div class="offcanvas-header py-2">
+            <h5 class="offcanvas-title text-center text-muted" id="titulo">Seguridad</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+       </div>
+       <div class="offcanvas-body">
+          <div class=""><hr>
+             <p>Nuestros clientes son lo más importante para nosotros asi que la seguridad de nustros productos y servicios esta garantizada para satisfaces las necesidades de todas nustras soluciones.</p>
+          </div>
+       </div>
+    </div>
+    <!-- termina calidad -->
     <!-- terminas ofcanvas-->
     <!-- inicia seccion servicios-->
     <section id="Servicios">

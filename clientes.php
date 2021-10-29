@@ -50,8 +50,9 @@ if($extraer > 0){
     <title>clietes</title>
   </head>
   <body>
-   <h3>Bienvenido: <?php  echo $usuario; ?></h3>  
+   <h3>Bienvenido: <?php  echo $usuario; ?></h3>
    clietes
+  <a href="include/cerrar.php">Cerrar</a>
   <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
