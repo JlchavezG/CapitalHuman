@@ -51,7 +51,6 @@ if($extraer > 0){
   </head>
   <body>
    <h3>Bienvenido: <?php  echo $usuario; ?></h3>  
-   <?php echo  $Online; ?>
    clietes
   <script src="js/bootstrap.min.js"></script>
   </body>

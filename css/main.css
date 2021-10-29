@@ -92,6 +92,8 @@ section[id]{
   border-radius: 5px;
 	bottom:20px;
 	right:20px;
+  z-index: 10000; 
+
 }
 /* loader */
 #building {

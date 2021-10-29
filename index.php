@@ -674,7 +674,6 @@
                     <use xlink:href="library/icons/bootstrap-icons.svg#rss-fill"/>
                   </svg>
                   <p class="text-muted">Integración con redes sociales</p>
-
                 </div>
                 <div class="col">
                   <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
@@ -717,11 +716,53 @@
              </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            texto
+    <!-- inicia  acordeon -->
+    <div class="row py-5">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          Texto
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="container">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                       Posicionamiento SEO
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                          <p class="text-muted">Utilizamos un conjunto de técnicas y de herramientas que sirven para optimizar tanto las paginas webs como landing pages, para que los buscadores, como Google, puedan leerlas de forma mas fácil y rápida.</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                       <h2 class="accordion-header" id="flush-headingTwo">
+                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                           Community Manager
+                         </button>
+                       </h2>
+                       <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            <p>Nos encargamos de gestionar y administrar la comunidad en línea de una empresa, crear y mantener conexiones a largo plazo con los clientes, usuarios y fanáticos que quieran la marca en Internet.</p>
+                          </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header" id="flush-headingThree">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+      Accordion Item #3
+    </button>
+  </h2>
+  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+  </div>
+</div>
+</div>
+            </div>
         </div>
     </div>
+    <!-- termina acordeon -->
    </section>
    </div>
    <!-- inicia footer -->
