@@ -799,15 +799,68 @@
     <!-- termina acordeon -->
    </section>
    </div>
-   <div class="row py-4">
-     <div class="col-sm-12 col-md-6 col-lg-6">
-         formulario de Contacto
+   <div class="row">
+     <div class="col-sm-12 col-md-7 col-lg-7 working py-2">
+          <h2 class="display-6 text-center text-light py-2">Formulario de Contacto</h2><hr class="text-light">
+          <div class="container justify-content-md-center py-3">
+             <form action="" method="post">
+             <div class="row py-2">
+                   <div class="col">
+                      <input type="text" name="Nombre" placeholder="Nombre" class="form-control cajas" autocomplete ="off" required>
+                   </div>
+             </div>
+             <div class="row py-2">
+                 <div class="col">
+                      <input type="tel" name="Telefono" placeholder="Telefono" class="form-control cajas" onkeypress='return event.charCode >= 48 && event.charCode <= 57'  autocomplete ="off" required>
+                 </div>
+                 <div class="col">
+                       <input type="email" name="Email" placeholder="Email" class="form-control cajas" autocomplete ="off" required>
+                 </div>
+             </div>
+             <div class="row py-2">
+                   <div class="col">
+                      <textarea name="Mensaje" class="form-control cajas" placeholder="Mensaje" autocomplete ="off"></textarea>
+                   </div>
+             </div>
+             <div class="row py-2">
+                   <div class="col">
+                      <input type="submit" name="contacto" value="Enviar Mensaje" class="btn btn-sm btn-primary">
+                   </div>
+             </div>
+          </form>
+          </div>
+
      </div>
-    <div class="col-sm-12 col-md-6 col-lg-6">
+    <div class="col-sm-12 col-md-5 col-lg-5">
         <div id="map"></div>
-        <p class="text-center">Ejemplo de mapa</p>
     </div>
-   </div>
+  </div>
+  <div class="row">
+     <div class="col-sm-12 col-md-12 col-lg-12 shadow">
+          <div class="d-flex justify-content-center">
+                <div class="row">
+                     <div class="col-sm-12 col-md-4 col-lg-4 bg-info text-light py-2 text-center">
+                          <img src="img/waze.png" alt="waze" class="img-fluid" style="width:25px;">
+                     </div>
+                     <div class="col-sm-12 col-md-4 col-lg-4 bg-primary py-2 text-center">
+                       <svg class="bi text-light" width="25" height="25" role="img" aria-label="Tools">
+                         <use xlink:href="library/icons/bootstrap-icons.svg#geo-alt-fill"/>
+                       </svg>
+                     </div>
+                     <div class="col-sm-12 col-md-4 col-lg-4 bg-warning py-2 text-center">
+                       <svg class="bi text-light" width="25" height="25" role="img" aria-label="Tools">
+                         <use xlink:href="library/icons/bootstrap-icons.svg#signpost-split-fill"/>
+                       </svg>
+                     </div>
+                </div>
+          </div>
+     </div>
+  </div>
+  <section id="paqueteria">
+     <div class="row py-4">
+
+     </div>
+  </section>
    <!-- inicia footer -->
    <footer class="text-white text-center text-lg-start" style="background-color:rgb(33, 97, 140);">
     <div class="container p-4">
@@ -869,6 +922,7 @@
      <script src="js/bootstrap.min.js"></script>
      <script src="js/main.js"></script>
      <script src="js/mapa.js"></script>
+     <script src="js/preloader.js"></script>
      <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYMPGtM7VUn1aq61tkGbu99qD95c-w5zc&callback=initMap"></script><script>
      // detectar que existen internet
        if(navigator.onLine) {
