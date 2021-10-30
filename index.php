@@ -76,7 +76,7 @@
                            </ul>
                           </li>
                           <li class="nav-item">
-                             <a href="#" class="nav-link selectMenu"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                             <a href="#Contacto" class="nav-link selectMenu"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#envelope-open-fill"/>
                                  </svg> Contacto</a>
                           </li>
@@ -797,8 +797,15 @@
         </div>
     </div>
     <!-- termina acordeon -->
-   </section>
    </div>
+   </section>
+
+   <section id="paqueteria">
+      <div class="row py-4">
+
+      </div>
+   </section>
+   <section id="Contacto">
    <div class="row">
      <div class="col-sm-12 col-md-7 col-lg-7 working py-2">
           <h2 class="display-6 text-center text-light py-2">Formulario de Contacto</h2><hr class="text-light">
@@ -840,12 +847,12 @@
           <div class="d-flex justify-content-center">
                 <div class="row">
                      <div class="col-sm-12 col-md-4 col-lg-4 bg-info text-light py-2 text-center">
-                          <img src="img/waze.png" alt="waze" class="img-fluid" style="width:25px;">
+                          <a href="https://www.waze.com/es/live-map/directions/mexico/estado-de-mexico/naucalpan-de-juarez/cerrada-del-rosal?place=EkhDZGEuIGRlbCBSb3NhbCwgTWluYXMgUGFsYWNpbywgNTM2OTYgTmF1Y2FscGFuIGRlIEp1w6FyZXosIE3DqXguLCBNZXhpY28iLiosChQKEgltPdY0CQTShRHtz13nTflZgBIUChIJw8zi7w4E0oURNsjep89Wpq8" target="_blank"><img src="img/waze.png" alt="waze" class="img-fluid" style="width:25px;"></a>
                      </div>
                      <div class="col-sm-12 col-md-4 col-lg-4 bg-primary py-2 text-center">
-                       <svg class="bi text-light" width="25" height="25" role="img" aria-label="Tools">
+                       <a href="https://www.google.com.mx/maps/place/Cda.+del+Rosal,+Minas+Palacio,+53696+Naucalpan+de+Ju%C3%A1rez,+M%C3%A9x./@19.4420262,-99.2861803,17z/data=!3m1!4b1!4m5!3m4!1s0x85d2040934d63d6d:0x8059f94de75dcfed!8m2!3d19.4420212!4d-99.2839916" target="_blank"><svg class="bi text-light" width="25" height="25" role="img" aria-label="Tools">
                          <use xlink:href="library/icons/bootstrap-icons.svg#geo-alt-fill"/>
-                       </svg>
+                       </svg></a>
                      </div>
                      <div class="col-sm-12 col-md-4 col-lg-4 bg-warning py-2 text-center">
                        <svg class="bi text-light" width="25" height="25" role="img" aria-label="Tools">
@@ -856,13 +863,9 @@
           </div>
      </div>
   </div>
-  <section id="paqueteria">
-     <div class="row py-4">
-
-     </div>
-  </section>
-   <!-- inicia footer -->
-   <footer class="text-white text-center text-lg-start" style="background-color:rgb(33, 97, 140);">
+</sectio>
+<!-- inicia footer -->
+<footer class="text-white text-center text-lg-start" style="background-color:rgb(33, 97, 140);">
     <div class="container p-4">
       <div class="row mt-4">
         <div class="col-lg-4 col-md-12 mb-4 mb-md-0 py-4">
