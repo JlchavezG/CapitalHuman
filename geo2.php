@@ -21,7 +21,7 @@
            padding: 40px;
            height: 450px;
            width: 100%;
-           filter: grayscale(100%);
+           /*filter: grayscale(100%);*/
            border-radius: 10px;
            padding: 10px;
              }

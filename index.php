@@ -733,7 +733,9 @@
     <!-- inicia  acordeon -->
     <div class="row py-5">
         <div class="col-sm-12 col-md-6 col-lg-6">
-          Texto
+           <div class="container py-3">
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           </div>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6">
             <div class="container">
@@ -747,6 +749,7 @@
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
                           <p class="text-muted">Utilizamos un conjunto de técnicas y de herramientas que sirven para optimizar tanto las paginas webs como landing pages, para que los buscadores, como Google, puedan leerlas de forma mas fácil y rápida.</p>
+                          <hr class="text-primary">
                         </div>
                     </div>
                   </div>
@@ -759,25 +762,51 @@
                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                           <div class="accordion-body">
                             <p>Nos encargamos de gestionar y administrar la comunidad en línea de una empresa, crear y mantener conexiones a largo plazo con los clientes, usuarios y fanáticos que quieran la marca en Internet.</p>
+                            <hr class="text-primary">
                           </div>
-  </div>
-</div>
-<div class="accordion-item">
-  <h2 class="accordion-header" id="flush-headingThree">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-      Accordion Item #3
-    </button>
-  </h2>
-  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-  </div>
-</div>
-</div>
+                       </div>
+                   </div>
+                   <div class="accordion-item">
+                       <h2 class="accordion-header" id="flush-headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              Diseño de imagen corporativa
+                          </button>
+                       </h2>
+                       <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                           <div class="accordion-body">
+                             <p>Tener una imagen apropiada es algo muy importante y puede ser la diferencia entre dar confianza al cliente o que se vaya a la competencia. Te creamos un logotipo que pueda proyectar el concepto de tu negocio.</p>
+                             <hr class="text-primary">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                         <h2 class="accordion-header" id="flush-headingFor">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFor" aria-expanded="false" aria-controls="flush-collapseFor">
+                               Seguridad Video Vigilancia
+                            </button>
+                         </h2>
+                         <div id="flush-collapseFor" class="accordion-collapse collapse" aria-labelledby="flush-headingFor" data-bs-parent="#accordionFlushExample">
+                             <div class="accordion-body">
+                               <p>ofrecemos todo tipo de soluciones en cuanto a sistemas de videovigilancia mediante circuito cerrado de televisión se refiere. Ofrecemos una amplia oferta de equipos y soluciones, desde las aplicaciones más convencionales, hasta las tecnologías más relevantes.</p>
+                               <hr class="text-primary">
+                             </div>
+                          </div>
+                       </div>
+                 </div>
             </div>
         </div>
     </div>
     <!-- termina acordeon -->
    </section>
+   </div>
+   <div class="row py-4">
+     <div class="col-sm-12 col-md-6 col-lg-6">
+         formulario de Contacto
+     </div>
+    <div class="col-sm-12 col-md-6 col-lg-6">
+        <div id="map"></div>
+        <p class="text-center">Ejemplo de mapa</p>
+    </div>
    </div>
    <!-- inicia footer -->
    <footer class="text-white text-center text-lg-start" style="background-color:rgb(33, 97, 140);">
@@ -839,7 +868,8 @@
    <!-- termina footer -->
      <script src="js/bootstrap.min.js"></script>
      <script src="js/main.js"></script>
-     <script>
+     <script src="js/mapa.js"></script>
+     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYMPGtM7VUn1aq61tkGbu99qD95c-w5zc&callback=initMap"></script><script>
      // detectar que existen internet
        if(navigator.onLine) {
          Push.create("Capital Human Wordl",{

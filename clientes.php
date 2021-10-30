@@ -1,45 +1,5 @@
 <?php
-session_start();
-include 'include/conecta.php';
-$usuario = $_SESSION['Usuario'];
-if(!isset($usuario)){
-  header("location:login.php");
-}
-ini_set('date.timezone','America/Mexico_City');
-$fecha = date('Y-m-d');
-$tiempo = date('H:i:s',time());
-$consulta = "SELECT * FROM Usuarios WHERE UserName = '$usuario'";
-$r = $conecta->query($consulta);
-$extraer = $r->fetch_array();
-if($extraer > 0){
-  $user = $extraer;
-  $Online = $user['Id_Usuarios'];
-  $on = "UPDATE Usuarios SET Online = '1' WHERE Id_Usuarios = $Online";
-  $line = $conecta->query($on);
-  // actualizar el historial
-
-  // validacion de expirar sesion por tiempo
-  if (isset($_SESSION['time'])) {
-     // damos el timepo en segundo para determinar cuando expira la sesion
-     $inactivo = 900; // 15 minutos
-     // se calcula el tiempo inactivo ene l aplicativo
-     $tiempo = time() - $_SESSION['time'];
-     // verificamos si el tiempo pasa lo establecido para cerrar la sesion y redirigir
-     if ($tiempo > $inactivo) {
-       // actualizamos el campo online
-       $on = "UPDATE Usuarios SET Online = '0' WHERE Id_Usuarios = $Online";
-       $line = $conecta->query($on);
-       //Olvidamos la Sesion
-       session_unset();
-       //destruimos la session
-       session_destroy();
-       //redirigimos ala pagina principal de login
-       header("location:index.php");
-       exit();
-     }
-  }
-  $_SESSION['time'] = time();
-}
+ include 'Include/confing.php';
 ?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
@@ -50,9 +10,71 @@ if($extraer > 0){
     <title>clietes</title>
   </head>
   <body>
-   <h3>Bienvenido: <?php  echo $usuario; ?></h3>
-   clietes
-  <a href="include/cerrar.php">Cerrar</a>
+  <!-- inicia el navbar -->
+  <div class="row">
+         <nav class="navbar navbar-expand-lg fixed-top navbar-light shadow" id="menu">
+             <div class="container-fluid">
+                 <div class="d-flex flex-grow-1">
+                      <span class="w-100 d-lg-none d-block">
+                      <!-- cuando el menu sea responsive la marca se centrara --></span>
+                      <a class="navbar-brand" href="#">
+                        <img src="img/logo_human1.png" style="width:150px;"></a>
+                      <div class="w-100 text-right">
+                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbarJl">
+                            <span class="navbar-toggler-icon"></span>
+                         </button>
+                      </div>
+                  </div>
+                  <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbarJl">
+                     <ul class="navbar-nav ms-auto flex-nowrap">
+                       <li class="nav-item">
+                          <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                              <use xlink:href="library/icons/bootstrap-icons.svg#bell-fill"/>
+                              </svg></a>
+                       </li>
+                       <li class="nav-item">
+                          <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                              <use xlink:href="library/icons/bootstrap-icons.svg#mailbox2"/>
+                              </svg></a>
+                       </li>
+                        <!-- nuetro navdrop-->
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle selectMenu" href="#Soluciones" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Bienvenido: <?php echo $user['Nombre']; ?>&nbsp;&nbsp;<img src="img/user/<?php echo $user['Imgen']; ?>" alt="Perfil" style="width:30px; border-radius:50%;">
+                           </a>
+                         <ul class="dropdown-menu menus" aria-labelledby="navbarDropdown">
+                           <li><a class="dropdown-item" href="#Examenes"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                               <use xlink:href="library/icons/bootstrap-icons.svg#signpost-split-fill"/>
+                             </svg> Perfil</a></li>
+                           <li><a class="dropdown-item" href="#Reclutamiento"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                               <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
+                             </svg> Configuración</a></li>
+                           <li><a class="dropdown-item" href="include/cerrar.php"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                               <use xlink:href="library/icons/bootstrap-icons.svg#door-open-fill"/>
+                             </svg> Salir</a></li>
+                         </ul>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                               <use xlink:href="library/icons/bootstrap-icons.svg#instagram"/>
+                               </svg></a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                               <use xlink:href="library/icons/bootstrap-icons.svg#facebook"/>
+                               </svg></a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                               <use xlink:href="library/icons/bootstrap-icons.svg#twitter"/>
+                               </svg></a>
+                        </li>
+                      </ul>
+                   </div>
+               </div>
+            </nav>
+    </div>
+  <!-- termina el navbar -->
   <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
