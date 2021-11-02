@@ -735,7 +735,7 @@
      <div class="row py-2">
          <div class="col-sm-12 col-md-6 col-lg-6">
             <span>Todos nuestros</span>
-            <h3 class="display-6 text-info">Planes Incluten:</h3>
+            <h3 class="display-6 text-info">Planes Incluyen:</h3>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Diseño Personalizado</li>
               <li class="list-group-item">Contenido adatable Responsive Desing</li>
@@ -745,78 +745,75 @@
             </ul>
          </div>
          <div class="col-sm-12 col-md-6 col-lg-6">
-
+              <div class="container py-4">
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
          </div>
        </div>
     </div>
     <!-- inicia  acordeon -->
-    <div class="row py-5">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-           <div class="container py-3">
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-           </div>
+    <div class="container">
+        <div class="row py-3">
+             <h3 class="display-6 text-primary text-center">+ Servicios</h3>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <div class="container">
-              <div class="accordion accordion-flush" id="accordionFlushExample">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                       Posicionamiento SEO
-                      </button>
-                    </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                          <p class="text-muted">Utilizamos un conjunto de técnicas y de herramientas que sirven para optimizar tanto las paginas webs como landing pages, para que los buscadores, como Google, puedan leerlas de forma mas fácil y rápida.</p>
-                          <hr class="text-primary">
-                        </div>
+        <div class="row py-2">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                   Posicionamiento SEO
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                      <p class="text-muted">Utilizamos un conjunto de técnicas y de herramientas que sirven para optimizar tanto las paginas webs como landing pages, para que los buscadores, como Google, puedan leerlas de forma mas fácil y rápida.</p>
+                      <hr class="text-primary">
                     </div>
-                  </div>
-                  <div class="accordion-item">
-                       <h2 class="accordion-header" id="flush-headingTwo">
-                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                           Community Manager
-                         </button>
-                       </h2>
-                       <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                            <p>Nos encargamos de gestionar y administrar la comunidad en línea de una empresa, crear y mantener conexiones a largo plazo con los clientes, usuarios y fanáticos que quieran la marca en Internet.</p>
-                            <hr class="text-primary">
-                          </div>
-                       </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                   <h2 class="accordion-header" id="flush-headingTwo">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                       Community Manager
+                     </button>
+                   </h2>
+                   <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                        <p>Nos encargamos de gestionar y administrar la comunidad en línea de una empresa, crear y mantener conexiones a largo plazo con los clientes, usuarios y fanáticos que quieran la marca en Internet.</p>
+                        <hr class="text-primary">
+                      </div>
                    </div>
-                   <div class="accordion-item">
-                       <h2 class="accordion-header" id="flush-headingThree">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                              Diseño de imagen corporativa
-                          </button>
-                       </h2>
-                       <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                           <div class="accordion-body">
-                             <p>Tener una imagen apropiada es algo muy importante y puede ser la diferencia entre dar confianza al cliente o que se vaya a la competencia. Te creamos un logotipo que pueda proyectar el concepto de tu negocio.</p>
-                             <hr class="text-primary">
-                           </div>
-                        </div>
-                     </div>
-                     <div class="accordion-item">
-                         <h2 class="accordion-header" id="flush-headingFor">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFor" aria-expanded="false" aria-controls="flush-collapseFor">
-                               Seguridad Video Vigilancia
-                            </button>
-                         </h2>
-                         <div id="flush-collapseFor" class="accordion-collapse collapse" aria-labelledby="flush-headingFor" data-bs-parent="#accordionFlushExample">
-                             <div class="accordion-body">
-                               <p>ofrecemos todo tipo de soluciones en cuanto a sistemas de videovigilancia mediante circuito cerrado de televisión se refiere. Ofrecemos una amplia oferta de equipos y soluciones, desde las aplicaciones más convencionales, hasta las tecnologías más relevantes.</p>
-                               <hr class="text-primary">
-                             </div>
-                          </div>
+               </div>
+               <div class="accordion-item">
+                   <h2 class="accordion-header" id="flush-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Diseño de imagen corporativa
+                      </button>
+                   </h2>
+                   <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                       <div class="accordion-body">
+                         <p>Tener una imagen apropiada es algo muy importante y puede ser la diferencia entre dar confianza al cliente o que se vaya a la competencia. Te creamos un logotipo que pueda proyectar el concepto de tu negocio.</p>
+                         <hr class="text-primary">
                        </div>
+                    </div>
                  </div>
-            </div>
+                 <div class="accordion-item">
+                     <h2 class="accordion-header" id="flush-headingFor">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFor" aria-expanded="false" aria-controls="flush-collapseFor">
+                           Seguridad Video Vigilancia
+                        </button>
+                     </h2>
+                     <div id="flush-collapseFor" class="accordion-collapse collapse" aria-labelledby="flush-headingFor" data-bs-parent="#accordionFlushExample">
+                         <div class="accordion-body">
+                           <p>ofrecemos todo tipo de soluciones en cuanto a sistemas de videovigilancia mediante circuito cerrado de televisión se refiere. Ofrecemos una amplia oferta de equipos y soluciones, desde las aplicaciones más convencionales, hasta las tecnologías más relevantes.</p>
+                           <hr class="text-primary">
+                         </div>
+                      </div>
+                   </div>
+             </div>
         </div>
     </div>
     <!-- termina acordeon -->
-   </div>
    </section>
 
    <section id="paqueteria">

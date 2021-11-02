@@ -131,4 +131,5 @@ section[id]{
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
+  transition: 2s;
 }
