@@ -30,7 +30,10 @@
                        <li class="nav-item">
                           <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                               <use xlink:href="library/icons/bootstrap-icons.svg#bell-fill"/>
-                              </svg></a>
+                            </svg>
+                            <span class="top-0 start-100 translate-middle badge rounded-pill bg-danger text-wrap">1<span class="visually-hidden">Mensajes no leidos</span>
+                            </span>
+                            </a>
                        </li>
                        <li class="nav-item">
                           <a href="#" class="nav-link"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
@@ -44,10 +47,10 @@
                            </a>
                          <ul class="dropdown-menu menus" aria-labelledby="navbarDropdown">
                            <li><a class="dropdown-item" href="#Examenes"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                               <use xlink:href="library/icons/bootstrap-icons.svg#signpost-split-fill"/>
+                               <use xlink:href="library/icons/bootstrap-icons.svg#person-badge"/>
                              </svg> Perfil</a></li>
                            <li><a class="dropdown-item" href="#Reclutamiento"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                               <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
+                               <use xlink:href="library/icons/bootstrap-icons.svg#gear-fill"/>
                              </svg> Configuración</a></li>
                            <li><a class="dropdown-item" href="include/cerrar.php"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                <use xlink:href="library/icons/bootstrap-icons.svg#door-open-fill"/>

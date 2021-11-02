@@ -730,6 +730,25 @@
              </div>
         </div>
     </div>
+    <!-- planes web -->
+    <div class="container">
+     <div class="row py-2">
+         <div class="col-sm-12 col-md-6 col-lg-6">
+            <span>Todos nuestros</span>
+            <h3 class="display-6 text-info">Planes Incluten:</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Diseño Personalizado</li>
+              <li class="list-group-item">Contenido adatable Responsive Desing</li>
+              <li class="list-group-item">Certificado de Navegación SSL</li>
+              <li class="list-group-item">Enlaces a redes sociales</li>
+              <li class="list-group-item">whatsapp desde tu web</li>
+            </ul>
+         </div>
+         <div class="col-sm-12 col-md-6 col-lg-6">
+
+         </div>
+       </div>
+    </div>
     <!-- inicia  acordeon -->
     <div class="row py-5">
         <div class="col-sm-12 col-md-6 col-lg-6">
