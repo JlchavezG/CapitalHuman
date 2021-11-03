@@ -1,5 +1,4 @@
 <?php
-include 'conecta.php';
 // actualizar la tabla para indicar que no esta activo
 include 'Conecta.php';
 session_start();
