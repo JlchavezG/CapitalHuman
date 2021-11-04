@@ -91,6 +91,20 @@ if(isset($_POST['ingresar'])){
                     </div>
                   </div>
                </div>
+               <div class="container">
+                  <div class="row py-3">
+                     <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+                       <a href="index.php"><svg class="bi text-danger" width="20" height="20" role="img" aria-label="Tools">
+                           <use xlink:href="library/icons/bootstrap-icons.svg#arrow-left-circle"/>
+                         </svg></a> &nbsp;&nbsp; <span class="text-danger">Salir del login</span>
+                     </div>
+                     <div class="col-sm-6 col-md-6 col-lg-6 text-center">
+                       <a href="index.php"><svg class="bi text-success" width="20" height="20" role="img" aria-label="Tools">
+                           <use xlink:href="library/icons/bootstrap-icons.svg#headset"/>
+                         </svg></a> &nbsp;&nbsp; <span class="text-success"> Contactar a soporte</span>
+                     </div>
+                  </div>
+               </div>
           </div>
       </div>
   </div>
