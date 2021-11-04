@@ -3,8 +3,8 @@ error_reporting(0);
 session_start();
 include 'include/conecta.php';
 if(isset($_POST['ingresar'])){
-  $usuario = $_POST['usuario'];
-  $password = md5($_POST['password']);
+  $usuario = $conecta->real_escape_string($_POST['usuario']);
+  $password = $conecta->real_escape_string(md5($_POST['password']));
   $q = "SELECT * FROM Usuarios WHERE UserName = '$usuario' and Password = '$password'";
   if ($resultado = $conecta->query($q)) {
     while ($row = $resultado->fetch_array()) {
