@@ -1,5 +1,6 @@
 <?php
  include 'Include/confing.php';
+ include 'Include/Query.php';
 ?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
@@ -20,11 +21,11 @@
               <div class="card shadow">
                    <div class="container ">
                        <div class="row py-3 justify-content-center">
-                           <img src="img/user/<?php echo $user['Imagen']; ?>" alt="Imagen de perfil" style="width:250px;" class="rounded-circle">
+                           <img src="img/user/<?php echo $datosPerfil['Imagen']; ?>" alt="Imagen de perfil" style="width:250px;" class="rounded-circle">
                            <div class="py-1"><hr></div>
-                           <h3 class="text-center"><?php echo $user['Nombre'];?> <?php echo $user['ApellidoP'];?> <?php echo $user['ApellidoM'];?></h3>
+                           <h3 class="text-center"><?php echo $datosPerfil['Nombre'];?> <?php echo $datosPerfil['ApellidoP'];?> <?php echo $user['ApellidoM'];?></h3>
                            <div class="row text-center">
-                               <span class="text-primary">Email:<?php echo $user['Email']; ?></span>
+                               <span class="text-primary">Email:<?php echo $datosPerfil['Email']; ?></span>
                            </div>
                        </div>
                    </div>
@@ -32,11 +33,11 @@
           </div>
           <div class="col py-4">
             <ul class="list-group list-group-flush">
-              <li class="list-group-item active">Tipo de Usuario:</li>
-              <li class="list-group-item list-group-item-action">Telefono:</li>
-              <li class="list-group-item list-group-item-action">Genero:</li>
-              <li class="list-group-item list-group-item-action">Empresa:</li>
-              <li class="list-group-item list-group-item-action">Proyecto:</li>
+              <li class="list-group-item active">Tipo de Usuario: <?php echo $datosPerfil['NombreT'];?></li>
+              <li class="list-group-item list-group-item-action">Telefono: <?php echo $datosPerfil['Telefono'];?></li>
+              <li class="list-group-item list-group-item-action">Genero: <?php echo $datosPerfil['NombreG'];?></li>
+              <li class="list-group-item list-group-item-action">Empresa: <?php echo $datosPerfil['NombreEmp'];?></li>
+              <li class="list-group-item list-group-item-action">Estatus: <?php echo $datosPerfil['EstatusNom']; ?> </li>
             </ul>
             <div class="container">
                  <div class="row mt-5 text-center">

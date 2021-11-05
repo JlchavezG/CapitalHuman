@@ -40,6 +40,7 @@ if(isset($_POST['ingresar'])){
     <meta charset="utf-8">
     <title>Inicio Sesión | Clientes</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
   </head>
   <body>
   <div class="container">
@@ -77,9 +78,17 @@ if(isset($_POST['ingresar'])){
                                         <use xlink:href="library/icons/bootstrap-icons.svg#key-fill"/>
                                     </svg>
                                   </span>
-                                  <input type="password" class="form-control" name="password" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1" autocomplete="off" required>
+                                  <input type="password" class="form-control" name="password" id="pass" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1" autocomplete="off" required>
                                   <div class="invalid-feedback">Digita tu Password.</div>
                                   <div class="valid-feedback">Se ingreso un Password</div>
+                               </div>
+                               <div class="container">
+                                  <div class="row">
+                                      <div class="form-check form-switch">
+                                        <input type="checkbox" name="ver" class="form-check-input" role="switch" id="ver" onclick="verpass(this);">
+                                        <label for="ver" class="form-check-label">Ver Password</label>
+                                      </div>
+                                  </div>
                                </div>
                                  <div class="d-grid gap-2 py-3">
                                     <input type="submit" class="btn btn-primary bg-gradient btn-sm" name="ingresar" value="Ingresar">
@@ -109,6 +118,14 @@ if(isset($_POST['ingresar'])){
       </div>
   </div>
   <script src="js/bootstrap.min.js"></script>
+  <script>
+     function verpass(cb){
+       if(cb.checked)
+       $('#pass').attr("type","text");
+       else
+       $('#pass').attr("type","password");
+     }
+  </script>
   <script>
       (function () {
          'use strict'

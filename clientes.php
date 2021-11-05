@@ -1,5 +1,6 @@
 <?php
  include 'Include/confing.php';
+ include 'Include/Query.php';
 ?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
@@ -13,6 +14,20 @@
   <!-- inicia navbar-->
    <?php include 'include/navbar.php';?>
   <!-- termina nabvar -->
+  <div class="container mt-5 py-4">
+    <?php
+     $dasboard = $user['Id_Tuser'];
+     if($dasboard == 1){
+       include 'Include/dashboard_sistemas.php';
+     }
+     elseif($dasboard == 2){
+       include 'Include/dashboard_gerenteG.php';
+     }
+     elseif($dasboard == 3){
+       include 'Include/dashboard_gerente.php';
+     }
+     ?>
+  </div>
   <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
