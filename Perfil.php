@@ -20,7 +20,7 @@
               <div class="card shadow">
                    <div class="container ">
                        <div class="row py-3 justify-content-center">
-                           <img src="img/user/<?php echo $user['Imgen']; ?>" alt="Imagen de perfil" style="width:250px;" class="rounded-circle">
+                           <img src="img/user/<?php echo $user['Imagen']; ?>" alt="Imagen de perfil" style="width:250px;" class="rounded-circle">
                            <div class="py-1"><hr></div>
                            <h3 class="text-center"><?php echo $user['Nombre'];?> <?php echo $user['ApellidoP'];?> <?php echo $user['ApellidoM'];?></h3>
                            <div class="row text-center">
@@ -32,14 +32,14 @@
           </div>
           <div class="col py-4">
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Tipo de Usuario:</li>
-              <li class="list-group-item">Telefono:</li>
-              <li class="list-group-item">Genero:</li>
-              <li class="list-group-item">Empresa:</li>
-              <li class="list-group-item">Proyecto:</li>
+              <li class="list-group-item active">Tipo de Usuario:</li>
+              <li class="list-group-item list-group-item-action">Telefono:</li>
+              <li class="list-group-item list-group-item-action">Genero:</li>
+              <li class="list-group-item list-group-item-action">Empresa:</li>
+              <li class="list-group-item list-group-item-action">Proyecto:</li>
             </ul>
             <div class="container">
-                 <div class="row py-2 text-center">
+                 <div class="row mt-5 text-center">
                       <div class="col">
                        <span>
                             <svg class="bi" width="20" height="20" role="img" aria-label="Tools">

@@ -17,7 +17,7 @@
                    <ul class="navbar-nav ms-auto flex-nowrap">
                      <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle selectMenu" href="#Soluciones" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Bienvenido: <?php echo $user['Nombre']; ?>&nbsp;&nbsp;<img src="img/user/<?php echo $user['Imgen']; ?>" alt="Perfil" style="width:30px; border-radius:50%;">
+                          Bienvenido: <?php echo $user['Nombre']; ?>&nbsp;&nbsp;<img src="img/user/<?php echo $user['Imagen']; ?>" alt="Perfil" style="width:30px; border-radius:50%;">
                         </a>
                       <ul class="dropdown-menu menus" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="Perfil.php"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">

@@ -1,7 +1,7 @@
 <?php
 $Server = "localhost";
 $usuario = "root";
-$bd = "Hsoft";
+$bd = "Human";
 $password = "";
 $conecta = mysqli_connect($Server,$usuario,$password,$bd);
 if($conecta->connect_error){
