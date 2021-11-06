@@ -805,7 +805,37 @@
                      </h2>
                      <div id="flush-collapseFor" class="accordion-collapse collapse" aria-labelledby="flush-headingFor" data-bs-parent="#accordionFlushExample">
                          <div class="accordion-body">
-                           <p>ofrecemos todo tipo de soluciones en cuanto a sistemas de videovigilancia mediante circuito cerrado de televisión se refiere. Ofrecemos una amplia oferta de equipos y soluciones, desde las aplicaciones más convencionales, hasta las tecnologías más relevantes.</p>
+                             <div class="col-sm-6 col-md-6 col.lg-6">
+                               <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                     <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                     </div>
+                                     <div class="carousel-inner">
+                                         <div class="carousel-item active">
+                                            <img src="img/seguridad1.png" class="d-block w-100" alt="...">
+                                         </div>
+                                         <div class="carousel-item">
+                                             <img src="img/seguridad2.png" class="d-block w-100" alt="...">
+                                         </div>
+                                         <div class="carousel-item">
+                                             <img src="img/seguridad3.png" class="d-block w-100" alt="...">
+                                         </div>
+                                      </div>
+                                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                      </button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+                             </div>
+                             <div class="col-sm-6 col-md-6 col-lg-6">
+                                <p>ofrecemos todo tipo de soluciones en cuanto a sistemas de videovigilancia mediante circuito cerrado de televisión se refiere. Ofrecemos una amplia oferta de equipos y soluciones, desde las aplicaciones más convencionales, hasta las tecnologías más relevantes.</p>
+                             </div>
                            <hr class="text-primary">
                          </div>
                       </div>
