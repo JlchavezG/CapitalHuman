@@ -804,39 +804,49 @@
                         </button>
                      </h2>
                      <div id="flush-collapseFor" class="accordion-collapse collapse" aria-labelledby="flush-headingFor" data-bs-parent="#accordionFlushExample">
+                       <div class="row">
                          <div class="accordion-body">
-                             <div class="col-sm-6 col-md-6 col.lg-6">
-                               <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                                     <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                 <div class="row">
+                                     <div class="col">
+                                       <!-- inicia acordeon -->
+                                          <div class="container">
+                                            <div id="SeguridadIndicators" class="carousel slide" data-bs-ride="carousel">
+                                               <div class="carousel-indicators">
+                                                  <button type="button" data-bs-target="#SeguridadIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color:#f26e3a;"></button>
+                                                  <button type="button" data-bs-target="#SeguridadIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-color:#f26e3a;"></button>
+                                                  <button type="button" data-bs-target="#SeguridadIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="background-color:#f26e3a;"></button>
+                                                  <button type="button" data-bs-target="#SeguridadIndicators" data-bs-slide-to="3" aria-label="Slide 4" style="background-color:#f26e3a;"></button>
+                                               </div>
+                                               <div class="carousel-inner">
+                                                   <div class="carousel-item active">
+                                                      <img src="img/seguridad1.png" class="d-block w-100" alt="Seguridad1">
+                                                   </div>
+                                                   <div class="carousel-item">
+                                                      <img src="img/seguridad2.png" class="d-block w-100" alt="Seguridad2">
+                                                   </div>
+                                                   <div class="carousel-item">
+                                                      <img src="img/seguridad3.png" class="d-block w-100" alt="Seguridad3">
+                                                   </div>
+                                                   <div class="carousel-item">
+                                                      <img src="img/seguridad4.png" class="d-block w-100" alt="Seguridad3">
+                                                   </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#SeguridadIndicators" data-bs-slide="prev">
+                                                   <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:rgb(33, 97, 140);"></span>
+                                                   <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#SeguridadIndicators" data-bs-slide="next">
+                                                   <span class="carousel-control-next-icon" aria-hidden="true" style="background-color:rgb(33, 97, 140);"></span>
+                                                   <span class="visually-hidden">Next</span>
+                                                </button>
+                                              </div>
+                                       </div>
+                                       <!-- termina acordeon -->
                                      </div>
-                                     <div class="carousel-inner">
-                                         <div class="carousel-item active">
-                                            <img src="img/seguridad1.png" class="d-block w-100" alt="...">
-                                         </div>
-                                         <div class="carousel-item">
-                                             <img src="img/seguridad2.png" class="d-block w-100" alt="...">
-                                         </div>
-                                         <div class="carousel-item">
-                                             <img src="img/seguridad3.png" class="d-block w-100" alt="...">
-                                         </div>
-                                      </div>
-                                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                      </button>
-<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Next</span>
-</button>
-</div>
-                             </div>
-                             <div class="col-sm-6 col-md-6 col-lg-6">
-                                <p>ofrecemos todo tipo de soluciones en cuanto a sistemas de videovigilancia mediante circuito cerrado de televisión se refiere. Ofrecemos una amplia oferta de equipos y soluciones, desde las aplicaciones más convencionales, hasta las tecnologías más relevantes.</p>
-                             </div>
-                           <hr class="text-primary">
+                                     <div class="col">
+                                       2
+                                     </div>
+                                 </div>
                          </div>
                       </div>
                    </div>
@@ -972,21 +982,6 @@
      <script src="js/main.js"></script>
      <script src="js/mapa.js"></script>
      <script src="js/preloader.js"></script>
-     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYMPGtM7VUn1aq61tkGbu99qD95c-w5zc&callback=initMap"></script><script>
-     // detectar que existen internet
-       if(navigator.onLine) {
-         Push.create("Capital Human Wordl",{
-              body:"Existe conexión a internet",
-              icon:"img/logo_human1.png",
-              timeout:7000
-         });
-        } else {
-          Push.create("Capital Human Wordl",{
-               body:"En este momento no tienes conexión a internet",
-               icon:"img/logo_human1.png",
-               timeout:7000
-            });
-          }
-     </script>
+     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYMPGtM7VUn1aq61tkGbu99qD95c-w5zc&callback=initMap"></script>
   </body>
 </html>
