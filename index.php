@@ -1,5 +1,6 @@
 <?php
  include 'include/conecta.php';
+ include 'include/contador.php';
  ?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
@@ -82,25 +83,10 @@
                                  <use xlink:href="library/icons/bootstrap-icons.svg#envelope-open-fill"/>
                                  </svg> Contacto</a>
                           </li>
-                          <li class="nav-item">
-                             <a href="#" class="nav-link selectMenu"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                                 <use xlink:href="library/icons/bootstrap-icons.svg#telephone-fill"/>
-                               </svg> 55 55 55 55 55</a>
-                          </li>
-                          <li class="nav-item">
-                             <a href="#" class="nav-link"><svg class="bi text-light" width="17" height="17" role="img" aria-label="Tools">
-                                 <use xlink:href="library/icons/bootstrap-icons.svg#facebook"/>
-                                 </svg></a>
-                          </li>
-                          <li class="nav-item">
-                             <a href="#" class="nav-link"><svg class="bi text-light" width="17" height="17" role="img" aria-label="Tools">
-                                 <use xlink:href="library/icons/bootstrap-icons.svg#twitter"/>
-                                 </svg></a>
-                          </li>
-                          <li class="nav-item">
-                             <a href="#" class="nav-link"><svg class="bi text-light" width="17" height="17" role="img" aria-label="Tools">
-                                 <use xlink:href="library/icons/bootstrap-icons.svg#instagram"/>
-                                 </svg></a>
+                          <li class="nav-item nav-link selectMenu active">
+                             <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                                 <use xlink:href="library/icons/bootstrap-icons.svg#clipboard-plus"/>
+                               </svg> Numero de Visitas: <?php echo $visitante; ?>
                           </li>
                         </ul>
                      </div>
@@ -181,9 +167,14 @@
                         <use xlink:href="library/icons/bootstrap-icons.svg#telephone-fill"/>
                       </svg></span><a href="tel:+52 55 55 55 55 55" class="text-dark text-decoration-none"> 55 55 55 55 55</a> &nbsp; 55 55 55 55 55 &nbsp;|&nbsp;&nbsp;<span style="color:#2980B9;"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                           <use xlink:href="library/icons/bootstrap-icons.svg#envelope-fill"/>
-                      </svg></span><a href="mailto:contacto@capitalhumanworld.com" class="text-dark text-decoration-none">&nbsp; contacto@capitalhumanworld.com</a> &nbsp; | &nbsp; <span style="color:#2980B9;"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                            <use xlink:href="library/icons/bootstrap-icons.svg#geo-alt-fill"/>
-                      </svg></span> <a href="https://www.waze.com/es/live-map/directions/mexico/estado-de-mexico/naucalpan-de-juarez/conalep-plantel-naucalpan-i?place=ChIJBU_-LvID0oURRBhJfGF1zX0&utm_campaign=waze_website&utm_medium=website_menu&utm_source=waze_website" target="_blank" class="text-dark text-decoration-none">Naucalpan de Juarez Edo de Méx.</a>
+                      </svg><a href="mailto:contacto@capitalhumanworld.com" class="text-dark text-decoration-none">&nbsp; contacto@capitalhumanworld.com</a> &nbsp; | &nbsp; <span style="color:#2980B9;">
+                        <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                            <use xlink:href="library/icons/bootstrap-icons.svg#facebook"/>
+                      </svg>&nbsp;&nbsp; <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#twitter"/>&nbsp;&nbsp;</span>
+                          &nbsp;&nbsp; <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                              <use xlink:href="library/icons/bootstrap-icons.svg#instagram"/>
+                    </svg>
                 </div>
               </div>
           </div>

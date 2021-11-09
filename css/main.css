@@ -133,3 +133,11 @@ section[id]{
   -webkit-box-shadow: none;
   transition: 2s;
 }
+/* imagen perfil */
+.imgperfil{
+  background-color: #5288d0;
+}
+.imgperfil:hover{
+  background-color: rgba(255,255,255,.5);
+  border: 1px solid grey;
+}
