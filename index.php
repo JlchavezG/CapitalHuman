@@ -1,4 +1,5 @@
 <?php
+ error_reporting(0);
  include 'include/conecta.php';
  include 'include/contador.php';
  ?>
@@ -771,7 +772,7 @@
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                     <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                       <use xlink:href="library/icons/bootstrap-icons.svg#megaphone-fill"/>
-                    </svg>  &nbsp;&nbsp;Posicionamiento SEO
+                    </svg>  &nbsp;&nbsp;&nbsp;Posicionamiento SEO
                   </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -786,7 +787,7 @@
                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                        <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                          <use xlink:href="library/icons/bootstrap-icons.svg#chat-square-quote-fill"/>
-                       </svg>  &nbsp;&nbsp;Community Manager
+                       </svg>  &nbsp;&nbsp;&nbsp;Community Manager
                      </button>
                    </h2>
                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -801,7 +802,7 @@
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                         <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                           <use xlink:href="library/icons/bootstrap-icons.svg#brush-fill"/>
-                        </svg>  &nbsp;&nbsp;Diseño de imagen corporativa
+                        </svg>  &nbsp;&nbsp;&nbsp;Diseño de imagen corporativa
                       </button>
                    </h2>
                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
@@ -830,7 +831,7 @@
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFor" aria-expanded="false" aria-controls="flush-collapseFor">
                           <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                             <use xlink:href="library/icons/bootstrap-icons.svg#camera-video-fill"/>
-                          </svg>  &nbsp;&nbsp;Seguridad Video Vigilancia
+                          </svg>  &nbsp;&nbsp;&nbsp;Seguridad Video Vigilancia
                         </button>
                      </h2>
                      <div id="flush-collapseFor" class="accordion-collapse collapse" aria-labelledby="flush-headingFor" data-bs-parent="#accordionFlushExample">
