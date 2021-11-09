@@ -8,8 +8,10 @@
     <!-- instalando boostrap en mi documento -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
     <script src="js/jquery.js"></script>
     <script src="js/push/push.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <title>Capital Human Wordl</title>
   </head>
   <body>
@@ -383,23 +385,23 @@
                   <p class="text-muted justificado">Configura a las necesidades de tu Empresa y/o negocio las faces de reclutamiento para tus proyectos o vacantes especializadas. Toma todas nustras ventajas de reclutamiento:</p>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item list-group-item-action">
-                      <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
-                        <use xlink:href="library/icons/bootstrap-icons.svg#award"/>
+                      <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
                       </svg> Getion de candidatos
                     </li>
                     <li class="list-group-item list-group-item-action">
-                      <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
-                        <use xlink:href="library/icons/bootstrap-icons.svg#award"/>
+                      <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
                       </svg> Entrevista por competencia
                     </li>
                     <li class="list-group-item list-group-item-action">
-                        <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#award"/>
-                        </svg> Reclutamiento Personalizado
+                      <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
+                      </svg> Reclutamiento Personalizado
                     </li>
                     <li class="list-group-item list-group-item-action">
-                      <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
-                        <use xlink:href="library/icons/bootstrap-icons.svg#award"/>
+                      <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
                       </svg> Selección de talento
                     </li>
                   </ul>
@@ -422,23 +424,23 @@
                   <p class="text-muted text-break">Las descripciones y perfiles de puesto te ayudan a conocer e identificar las funciones y actividades de cada empleado, con la finalidad de definir claramente lo que se espera alcanzar y el valor que agregan cada uno de los empleados para alcanzar los objetivos establecidos por la organización.</p>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item list-group-item-action">
-                      <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
-                        <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
+                      <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
                       </svg> Resumen del Puesto
                     </li>
                     <li class="list-group-item list-group-item-action">
-                      <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
-                        <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
+                      <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
                       </svg> Tareas del Puesto
                     </li>
                     <li class="list-group-item list-group-item-action">
-                        <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
-                        </svg> Requerimientos
+                      <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
+                      </svg> Requerimientos
                     </li>
                     <li class="list-group-item list-group-item-action">
-                      <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
-                        <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
+                      <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
                       </svg> Otros Aspectos
                     </li>
                   </ul>
@@ -609,23 +611,23 @@
                 <p class="text-muted text-break">Somos expertos en realizar contratos de acuerdo a las necesidades del proyecto, empresa con la certeza legal y vigencia actual en nuestro pais, desarrollamos los siguientes contratos: </p>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item list-group-item-action">
-                    <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
-                      <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
+                    <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
                     </svg> Por obra o tiempo determinado
                   </li>
                   <li class="list-group-item list-group-item-action">
-                    <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
-                      <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
+                    <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
                     </svg> Por tiempo indeterminado
                   </li>
                   <li class="list-group-item list-group-item-action">
-                      <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
-                        <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
-                      </svg> Periodo de Prueba
+                    <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
+                    </svg> Periodo de Prueba
                   </li>
                   <li class="list-group-item list-group-item-action">
-                    <svg class="bi" width="15" height="15" role="img" aria-label="Tools">
-                      <use xlink:href="library/icons/bootstrap-icons.svg#check-circle-fill"/>
+                    <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
                     </svg> Por capacitación inicial
                   </li>
                 </ul>
@@ -656,7 +658,7 @@
            </div>
        </div>
    </section>
-   <!-- inicia session -->
+   <!-- inicia seccion solucuines web -->
    <section id="SolucionesWeb">
        <div class="row py-5">
            <div class="col-sm-5 col-md-5 col-lg-5 bg-info py-3 shadow">
@@ -675,27 +677,27 @@
    <section id="Digital">
     <div class="row py-3">
         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-             <h3 class="display-6">Opciones dentro de tu web</h3><hr>
-             <div class="row">
-                <div class="col">
+             <h3 class="display-6 mt-2">Opciones dentro de tu web</h3><hr>
+             <div class="row mt-3">
+                <div class="col mt-4">
                   <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
                     <use xlink:href="library/icons/bootstrap-icons.svg#border-inner"/>
                   </svg>
                   <p class="text-muted">Seleccion de secciones</p>
                 </div>
-                <div class="col">
+                <div class="col mt-4">
                   <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
                     <use xlink:href="library/icons/bootstrap-icons.svg#rss-fill"/>
                   </svg>
                   <p class="text-muted">Integración con redes sociales</p>
                 </div>
-                <div class="col">
+                <div class="col mt-4">
                   <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
                     <use xlink:href="library/icons/bootstrap-icons.svg#palette2"/>
                   </svg>
                   <p class="text-muted">Diseño personalizado</p>
                 </div>
-                <div class="col">
+                <div class="col mt-4">
                   <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
                     <use xlink:href="library/icons/bootstrap-icons.svg#google"/>
                   </svg>
@@ -737,11 +739,26 @@
             <span>Todos nuestros</span>
             <h3 class="display-6 text-info">Planes Incluyen:</h3>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Diseño Personalizado</li>
-              <li class="list-group-item">Contenido adatable Responsive Desing</li>
-              <li class="list-group-item">Certificado de Navegación SSL</li>
-              <li class="list-group-item">Enlaces a redes sociales</li>
-              <li class="list-group-item">whatsapp desde tu web</li>
+              <li class="list-group-item">
+                <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
+                <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
+              </svg> Diseño Personalizado</li>
+              <li class="list-group-item">
+                <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
+                <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
+              </svg> Contenido adatable Responsive Desing</li>
+              <li class="list-group-item">
+              <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
+                <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
+              </svg> Certificado de Navegación SSL</li>
+              <li class="list-group-item">
+                <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
+                  <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
+                </svg> Enlaces a redes sociales</li>
+              <li class="list-group-item">
+                <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
+                  <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
+                </svg> whatsapp desde tu web</li>
             </ul>
          </div>
          <div class="col-sm-12 col-md-6 col-lg-6">
@@ -761,7 +778,9 @@
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                   Posicionamiento SEO
+                    <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#megaphone-fill"/>
+                    </svg>  &nbsp;&nbsp;Posicionamiento SEO
                   </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -774,7 +793,9 @@
               <div class="accordion-item">
                    <h2 class="accordion-header" id="flush-headingTwo">
                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                       Community Manager
+                       <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
+                         <use xlink:href="library/icons/bootstrap-icons.svg#chat-square-quote-fill"/>
+                       </svg>  &nbsp;&nbsp;Community Manager
                      </button>
                    </h2>
                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -787,20 +808,38 @@
                <div class="accordion-item">
                    <h2 class="accordion-header" id="flush-headingThree">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                          Diseño de imagen corporativa
+                        <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#brush-fill"/>
+                        </svg>  &nbsp;&nbsp;Diseño de imagen corporativa
                       </button>
                    </h2>
                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                        <div class="accordion-body">
                          <p>Tener una imagen apropiada es algo muy importante y puede ser la diferencia entre dar confianza al cliente o que se vaya a la competencia. Te creamos un logotipo que pueda proyectar el concepto de tu negocio.</p>
                          <hr class="text-primary">
+                         <div class="row align-middle">
+                             <div class="col-sm-3 col-md-3 col-lg-3">
+                                <a href="img/logo1_g_lg.png" class="fancybox" data-fancybox="gallery1"><img src="img/logo1_g.png" class="img-fluid" alt="logo proyecto alphatec"></a>
+                             </div>
+                             <div class="col-sm-3 col-md-3 col-lg-3">
+                                <a href="img/logo2_g_lg.png" class="fancybox" data-fancybox="gallery1"><img src="img/logo2_g.png" class="img-fluid" alt="logo proyecto capacitandot"></a>
+                             </div>
+                             <div class="col-sm-3 col-md-3 col-lg-3">
+                                <a href="img/logo3_g_lg.png" class="fancybox" data-fancybox="gallery1"><img src="img/logo3_g.png" class="img-fluid" alt="logo proyecto mexicayolotl"></a>
+                             </div>
+                             <div class="col-sm-3 col-md-3 col-lg-3">
+                                  <a href="img/logo4_g_lg.png" class="fancybox" data-fancybox="gallery1"><img src="img/logo4_g.png" class="img-fluid" alt="logo proyecto mi princesa"></a>
+                             </div>
+                         </div>
                        </div>
                     </div>
                  </div>
                  <div class="accordion-item">
                      <h2 class="accordion-header" id="flush-headingFor">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFor" aria-expanded="false" aria-controls="flush-collapseFor">
-                           Seguridad Video Vigilancia
+                          <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
+                            <use xlink:href="library/icons/bootstrap-icons.svg#camera-video-fill"/>
+                          </svg>  &nbsp;&nbsp;Seguridad Video Vigilancia
                         </button>
                      </h2>
                      <div id="flush-collapseFor" class="accordion-collapse collapse" aria-labelledby="flush-headingFor" data-bs-parent="#accordionFlushExample">
