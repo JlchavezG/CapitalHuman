@@ -378,22 +378,22 @@
                     <li class="list-group-item list-group-item-action">
                       <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
                         <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-                      </svg> Getion de candidatos
+                      </svg>&nbsp; Getion de candidatos
                     </li>
                     <li class="list-group-item list-group-item-action">
                       <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
                         <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-                      </svg> Entrevista por competencia
+                      </svg>&nbsp; Entrevista por competencia
                     </li>
                     <li class="list-group-item list-group-item-action">
                       <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
                         <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-                      </svg> Reclutamiento Personalizado
+                      </svg>&nbsp; Reclutamiento Personalizado
                     </li>
                     <li class="list-group-item list-group-item-action">
                       <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
                         <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-                      </svg> Selección de talento
+                      </svg>&nbsp; Selección de talento
                     </li>
                   </ul>
                   <div class="row py-3">
@@ -422,17 +422,17 @@
                     <li class="list-group-item list-group-item-action">
                       <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
                         <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-                      </svg> Tareas del Puesto
+                      </svg>&nbsp; Tareas del Puesto
                     </li>
                     <li class="list-group-item list-group-item-action">
                       <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
                         <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-                      </svg> Requerimientos
+                      </svg>&nbsp; Requerimientos
                     </li>
                     <li class="list-group-item list-group-item-action">
                       <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
                         <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-                      </svg> Otros Aspectos
+                      </svg>&nbsp; Otros Aspectos
                     </li>
                   </ul>
                   <div class="row py-3">
@@ -604,22 +604,22 @@
                   <li class="list-group-item list-group-item-action">
                     <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
                       <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-                    </svg> Por obra o tiempo determinado
+                    </svg>&nbsp; Por obra o tiempo determinado
                   </li>
                   <li class="list-group-item list-group-item-action">
                     <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
                       <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-                    </svg> Por tiempo indeterminado
+                    </svg>&nbsp; Por tiempo indeterminado
                   </li>
                   <li class="list-group-item list-group-item-action">
                     <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
                       <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-                    </svg> Periodo de Prueba
+                    </svg>&nbsp; Periodo de Prueba
                   </li>
                   <li class="list-group-item list-group-item-action">
                     <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
                       <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-                    </svg> Por capacitación inicial
+                    </svg>&nbsp; Por capacitación inicial
                   </li>
                 </ul>
                 <div class="container py-3">
@@ -733,23 +733,23 @@
               <li class="list-group-item">
                 <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                 <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-              </svg> Diseño Personalizado</li>
+              </svg>&nbsp; Diseño Personalizado</li>
               <li class="list-group-item">
                 <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                 <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-              </svg> Contenido adatable Responsive Desing</li>
+              </svg>&nbsp; Contenido adatable Responsive Desing</li>
               <li class="list-group-item">
               <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                 <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-              </svg> Certificado de Navegación SSL</li>
+              </svg>&nbsp; Certificado de Navegación SSL</li>
               <li class="list-group-item">
                 <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                   <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-                </svg> Enlaces a redes sociales</li>
+                </svg>&nbsp; Enlaces a redes sociales</li>
               <li class="list-group-item">
                 <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                   <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
-                </svg> whatsapp desde tu web</li>
+                </svg>&nbsp; whatsapp desde tu web</li>
             </ul>
          </div>
          <div class="col-sm-12 col-md-6 col-lg-6">
