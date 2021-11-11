@@ -58,25 +58,13 @@
                            <ul class="dropdown-menu menus" aria-labelledby="navbarDropdown">
                              <li><a class="dropdown-item" href="#Examenes"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#signpost-split-fill"/>
-                                 </svg> Examenes Psicometricos</a></li>
+                               </svg> Soluciones de Recursos Humanos</a></li>
                              <li><a class="dropdown-item" href="#Reclutamiento"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
-                                 </svg> Reclutamiento y selección</a></li>
+                               </svg> Soluciones Web</a></li>
                              <li><a class="dropdown-item" href="#Perfiles"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#file-earmark-break-fill"/>
-                               </svg> Perfiles y descrición de puesto</a></li>
-                              <li><a class="dropdown-item" href="#Organigrama"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                                     <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
-                                  </svg> Organigrama Empresarial</a>
-                              </li>
-                              <li><a class="dropdown-item" href="#Manuales"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                                     <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
-                                  </svg> Manuales de procedimientos</a>
-                              </li>
-                              <li><a class="dropdown-item" href="#Contratos"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                                     <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
-                                  </svg> Elaboración de contratos</a>
-                              </li>
+                               </svg> Soluciones de Paqueteria</a></li>
                            </ul>
                           </li>
                           <li class="nav-item">
@@ -336,13 +324,62 @@
             <div class="col-sm-4 col-md-4 col-lg-4"></div>
             <div class="col-sm-8 col-md-8 col-lg-8 text-center">
                  <div class="container">
-                     <h3 class="display-5 py-3">Nuestras Soluciones</h3><hr>
-                     <h5 class="text-muted align-top">Más de 1500 usuarios nos respaldan</h5>
-                     <div class="text-center py-4">
-                        <a href="#Examenes" class="btn bg-primary bg-gradient btn-sm text-light" id="Examenes" >Más Información</a>
-                     </div>
+                     <h3 class="display-5 py-3">Nuestras Soluciones en Recursos Humanos</h3><hr>
+                     <h5 class="text-muted align-top py-3">Más de 1500 usuarios nos respaldan</h5>
                  </div>
             </div>
+        </div>
+        <div class="container">
+           <div class="row text-center py-5">
+               <div class="col-sm-4 col-md-4 col-lg-2">
+                   <div class="py-3 menubtn">
+                     <a href="#Reclutamiento"><svg class="bi" width="45" height="45" role="img" aria-label="Tools">
+                       <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill" style="color:#e64c23;"/>
+                     </svg></a>
+                     <div class="text-muted mt-2">Reclutamiento</div>
+                   </div>
+               </div>
+               <div class="col-sm-4 col-md-4 col-lg-2">
+                  <div class="py-3 menubtn">
+                    <a href="#Perfiles"><svg class="bi" width="45" height="45" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#person-badge-fill" style="color:#e64c23;"/>
+                    </svg></a>
+                    <div class="text-muted mt-2">Perfiles y Puestos</div>
+                  </div>
+               </div>
+               <div class="col-sm-4 col-md-4 col-lg-2">
+                 <div class="py-3 menubtn">
+                   <a href="#Organigrama"><svg class="bi" width="45" height="45" role="img" aria-label="Tools">
+                     <use xlink:href="library/icons/bootstrap-icons.svg#diagram-3-fill" style="color:#e64c23;"/>
+                   </svg></a>
+                   <div class="text-muted mt-2">Organigrama</div>
+                 </div>
+               </div>
+               <div class="col-sm-4 col-md-4 col-lg-2">
+                  <div class="py-3 menubtn">
+                    <a href="#Manuales"><svg class="bi" width="45" height="45" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#file-earmark-fill" style="color:#e64c23;"/>
+                    </svg></a>
+                    <div class="text-muted mt-2">Manuales</div>
+                  </div>
+               </div>
+               <div class="col-sm-4 col-md-4 col-lg-2">
+                  <div class="py-3 menubtn">
+                    <a href="#Contratos"><svg class="bi" width="45" height="45" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#file-earmark-text" style="color:#e64c23;"/>
+                    </svg></a>
+                    <div class="text-muted mt-2">Contratos</div>
+                  </div>
+               </div>
+               <div class="col-sm-4 col-md-4 col-lg-2">
+                 <div class="py-3 menubtn">
+                   <a href="#Archivo"><svg class="bi" width="45" height="45" role="img" aria-label="Tools">
+                     <use xlink:href="library/icons/bootstrap-icons.svg#folder-plus" style="color:#e64c23;"/>
+                   </svg></a>
+                   <div class="text-muted mt-2">Archivo Laboral</div>
+                 </div>
+               </div>
+           </div>
         </div>
      </section>
      <section class="py-4">
@@ -352,13 +389,6 @@
                   <h3 class="display-6" style="color:rgb(33, 97, 140);">Examenes Psicometricos</h3>
                   <p class="text-muted text-break">Aplicación de pruebas Psicometricas y proyectivas. Es esencial para detectar la adaptabilidad de las personas que conformaran tu equipo de trabajo, evaluando la personalidad de cada individuo.</p>
                   <p class="fw-bold">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
-                  <div class="row py-3">
-                      <div class="container">
-                            <div class="text-center">
-                              <a href="#" class="btn btn-sm btn-primary">Más Información</a>
-                            </div>
-                      </div>
-                  </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 text-center py-3">
                   <img src="img/Examenes.png" alt="Examenes psicometricos" id="Reclutamiento">
@@ -397,13 +427,6 @@
                       </svg>&nbsp; Selección de talento
                     </li>
                   </ul>
-                  <div class="row py-3">
-                      <div class="container">
-                            <div class="text-center">
-                              <a href="#" class="btn btn-sm btn-primary">Más Información</a>
-                            </div>
-                      </div>
-                  </div>
                 </div>
              </div>
          </div>
@@ -436,13 +459,6 @@
                       </svg>&nbsp; Otros Aspectos
                     </li>
                   </ul>
-                  <div class="row py-3">
-                      <div class="container">
-                            <div class="text-center">
-                              <a href="#" class="btn btn-sm btn-primary">Más Información</a>
-                            </div>
-                      </div>
-                  </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                   <img src="img/Perfiles.png" alt="Examenes psicometricos">
@@ -461,13 +477,6 @@
                   <p class="text-muted text-justify py-2">Un organigrama es necesario para planificar la comunicación interna y el flujo de trabajo, por lo que estructurar un organigrama es fundamental para agilizar los procesos.</p>
                   <div class="row text-justify py-3">
                   <p class="fw-bold">Una representación visual de la jerarquía del personal,la estructura y flujo de la información dentro de una empresa. Es posible identificar de un modo directo las diferentes relaciones entre funciones, departamentos, equipos e individuos.</p>
-                  </div>
-                  <div class="row py-3">
-                      <div class="container">
-                            <div class="text-center">
-                              <a href="#" class="btn btn-sm btn-primary">Más Información</a>
-                            </div>
-                      </div>
                   </div>
                 </div>
              </div>
@@ -575,16 +584,9 @@
 <section id="Manuales" class="py-4">
        <div class="container">
            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="col-sm-12 col-md-6 col-lg-6 mt-4">
                 <h3 class="display-6" style="color:rgb(33, 97, 140);">Manuales de procedimientos</h3>
                 <p class="text-muted text-justify py-2">Te ayudamos a crear un documento del sistema de Control Interno de tu empresa, el cual se crea para obtener una información detallada, ordenada, sistemática e integral que contiene todas las instrucciones, responsabilidades e información sobre políticas, funciones, sistemas y procedimientos de las distintas operaciones.</p>
-                <div class="row py-3">
-                    <div class="container">
-                          <div class="text-center">
-                            <a href="#" class="btn btn-sm btn-primary">Más Información</a>
-                          </div>
-                    </div>
-                </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                 <img src="img/Manual.png" alt="Examenes psicometricos">
@@ -623,11 +625,6 @@
                     </svg>&nbsp; Por capacitación inicial
                   </li>
                 </ul>
-                <div class="container py-3">
-                      <div class="text-center">
-                        <a href="#" class="btn btn-sm btn-primary">Más Información</a>
-                      </div>
-                </div>
               </div>
            </div>
        </div>
@@ -638,11 +635,6 @@
               <div class="col-sm-12 col-md-6 col-lg-6">
                 <h3 class="display-6" style="color:rgb(33, 97, 140);">Elaboración de archivo laboral</h3>
                 <p class="text-muted text-break">Te ayudamos a crear y a organizar un sistema de Control de archivo laboral Interno de tu empresa, el cual se crea para obtener una información detallada de tus empleados, capacitaciones, funciones y más.</p>
-                <div class="container">
-                      <div class="text-center py-4">
-                        <a href="#" class="btn btn-sm btn-primary">Más Información</a>
-                      </div>
-                </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                 <img src="img/Archivo.png" alt="Examenes psicometricos">
@@ -727,7 +719,7 @@
     <!-- planes web -->
     <div class="container">
      <div class="row py-2">
-         <div class="col-sm-12 col-md-6 col-lg-6">
+         <div class="col-sm-12 col-md-6 col-lg-6 mt-4">
             <span>Todos nuestros</span>
             <h3 class="display-6 text-info">Planes Incluyen:</h3>
             <ul class="list-group list-group-flush">
@@ -753,8 +745,8 @@
                 </svg>&nbsp; whatsapp desde tu web</li>
             </ul>
          </div>
-         <div class="col-sm-12 col-md-6 col-lg-6">
-              <div class="container py-4">
+         <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
+              <div class="container py-4 mt-3">
                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
          </div>

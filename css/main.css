@@ -141,3 +141,8 @@ section[id]{
   background-color: rgba(255,255,255,.5);
   border: 1px solid grey;
 }
+.menubtn:hover{
+  transform: translateY(-15px);
+  transition: 1s;
+  text-shadow: 2px 2px 3px #5288d0;
+}
