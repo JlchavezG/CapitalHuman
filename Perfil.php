@@ -1,6 +1,31 @@
 <?php
  include 'Include/confing.php';
  include 'Include/Query.php';
+ include 'library/phpqrcode/qrlib.php';
+ // crear codigo qr
+ $dir = 'img/qr';
+ if(!file_exists($dir))
+   mkdir($dir);
+   {
+     $filename = $dir.'usuario'.$datosPerfil['Id_Usuarios'].'png';
+     $tam = 4;
+     $lavel = 'H';
+     $FrameSize = '3';
+     $QrNombre = $datosPerfil['Nombre'];
+     $QrApellidoP = $datosPerfil['ApallidoP'];
+     $QrApellidoM = $datosPerfil['ApellidoM'];
+     $QrTelefono = $datosPerfil['Telefono'];
+     $QrEmail = $datosPerfil['Email'];
+     $QrPerfil = $datosPerfil['NombreT'];
+     $QrContenido = 'BEGIN:VCARD'."\n"
+     .'VERSION:2.1'."\n"
+     .'FN:'.$QrNombre. $QrApellidoP. $QrApellidoM. "\n"
+     .'TEL;WORK;VOICE:'.$QrTelefono."\n"
+     .'TITLE:' .$QrPerfil. "\n"
+     .'EMAIL:' .$QrEmail."\n"
+     ."END:VCARD";
+      QRcode::png($QrContenido,$filename,$lavel,$tam,$FrameSize);
+   }
 ?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
@@ -62,9 +87,9 @@
                       </div>
                       <div class="col">
                         <span>
-                           <svg class="bi" width="20" height="20" role="img" aria-label="Tools">
+                           <a href="#" data-bs-toggle="modal" data-bs-target="#modalQr" class="text-decoration-none"><svg class="bi" width="20" height="20" role="img" aria-label="Tools">
                            <use xlink:href="library/icons/bootstrap-icons.svg#cloud-download-fill"/>
-                         </svg>&nbsp; QR
+                         </svg>&nbsp; QR</a>
                          </span>
                       </div>
                  </div>
@@ -73,6 +98,25 @@
        </div>
     </div>
   <!-- termina el contenedor del perfil -->
+  <!-- Modal Qr -->
+<div class="modal fade" id="modalQr" tabindex="-1" aria-labelledby="modalQrLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalQrLabel">Codigo Qr del Usuario</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+           <?php echo '<img src="'.$filename.'"class="rounded mx-auto d-block img-thumbnail">';?>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
   <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

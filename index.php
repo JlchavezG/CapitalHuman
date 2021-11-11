@@ -58,25 +58,13 @@
                            <ul class="dropdown-menu menus" aria-labelledby="navbarDropdown">
                              <li><a class="dropdown-item" href="#Examenes"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#signpost-split-fill"/>
-                                 </svg> Examenes Psicometricos</a></li>
+                               </svg> Soluciones de Recursos Humanos</a></li>
                              <li><a class="dropdown-item" href="#Reclutamiento"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
-                                 </svg> Reclutamiento y selección</a></li>
+                               </svg> Soluciones Web</a></li>
                              <li><a class="dropdown-item" href="#Perfiles"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#file-earmark-break-fill"/>
-                               </svg> Perfiles y descrición de puesto</a></li>
-                              <li><a class="dropdown-item" href="#Organigrama"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                                     <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
-                                  </svg> Organigrama Empresarial</a>
-                              </li>
-                              <li><a class="dropdown-item" href="#Manuales"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                                     <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
-                                  </svg> Manuales de procedimientos</a>
-                              </li>
-                              <li><a class="dropdown-item" href="#Contratos"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                                     <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
-                                  </svg> Elaboración de contratos</a>
-                              </li>
+                               </svg> Soluciones de Paqueteria</a></li>
                            </ul>
                           </li>
                           <li class="nav-item">
@@ -336,13 +324,62 @@
             <div class="col-sm-4 col-md-4 col-lg-4"></div>
             <div class="col-sm-8 col-md-8 col-lg-8 text-center">
                  <div class="container">
-                     <h3 class="display-5 py-3">Nuestras Soluciones</h3><hr>
-                     <h5 class="text-muted align-top">Más de 1500 usuarios nos respaldan</h5>
-                     <div class="text-center py-4">
-                        <a href="#Examenes" class="btn bg-primary bg-gradient btn-sm text-light" id="Examenes" >Más Información</a>
-                     </div>
+                     <h3 class="display-5 py-3">Nuestras Soluciones en Recursos Humanos</h3><hr>
+                     <h5 class="text-muted align-top py-3">Más de 1500 usuarios nos respaldan</h5>
                  </div>
             </div>
+        </div>
+        <div class="container">
+           <div class="row text-center py-5">
+               <div class="col-sm-4 col-md-4 col-lg-2">
+                   <div class="py-3 menubtn">
+                     <a href="#Reclutamiento"><svg class="bi" width="45" height="45" role="img" aria-label="Tools">
+                       <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill" style="color:#e64c23;"/>
+                     </svg></a>
+                     <div class="text-muted mt-2">Reclutamiento</div>
+                   </div>
+               </div>
+               <div class="col-sm-4 col-md-4 col-lg-2">
+                  <div class="py-3 menubtn">
+                    <a href="#Perfiles"><svg class="bi" width="45" height="45" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#person-badge-fill" style="color:#e64c23;"/>
+                    </svg></a>
+                    <div class="text-muted mt-2">Perfiles y Puestos</div>
+                  </div>
+               </div>
+               <div class="col-sm-4 col-md-4 col-lg-2">
+                 <div class="py-3 menubtn">
+                   <a href="#Organigrama"><svg class="bi" width="45" height="45" role="img" aria-label="Tools">
+                     <use xlink:href="library/icons/bootstrap-icons.svg#diagram-3-fill" style="color:#e64c23;"/>
+                   </svg></a>
+                   <div class="text-muted mt-2">Organigrama</div>
+                 </div>
+               </div>
+               <div class="col-sm-4 col-md-4 col-lg-2">
+                  <div class="py-3 menubtn">
+                    <a href="#Manuales"><svg class="bi" width="45" height="45" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#file-earmark-fill" style="color:#e64c23;"/>
+                    </svg></a>
+                    <div class="text-muted mt-2">Manuales</div>
+                  </div>
+               </div>
+               <div class="col-sm-4 col-md-4 col-lg-2">
+                  <div class="py-3 menubtn">
+                    <a href="#Contratos"><svg class="bi" width="45" height="45" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#file-earmark-text" style="color:#e64c23;"/>
+                    </svg></a>
+                    <div class="text-muted mt-2">Contratos</div>
+                  </div>
+               </div>
+               <div class="col-sm-4 col-md-4 col-lg-2">
+                 <div class="py-3 menubtn">
+                   <a href="#Archivo"><svg class="bi" width="45" height="45" role="img" aria-label="Tools">
+                     <use xlink:href="library/icons/bootstrap-icons.svg#folder-plus" style="color:#e64c23;"/>
+                   </svg></a>
+                   <div class="text-muted mt-2">Archivo Laboral</div>
+                 </div>
+               </div>
+           </div>
         </div>
      </section>
      <section class="py-4">
@@ -727,7 +764,7 @@
     <!-- planes web -->
     <div class="container">
      <div class="row py-2">
-         <div class="col-sm-12 col-md-6 col-lg-6">
+         <div class="col-sm-12 col-md-6 col-lg-6 mt-4">
             <span>Todos nuestros</span>
             <h3 class="display-6 text-info">Planes Incluyen:</h3>
             <ul class="list-group list-group-flush">
