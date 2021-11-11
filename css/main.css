@@ -146,3 +146,8 @@ section[id]{
   transition: 1s;
   text-shadow: 2px 2px 3px #5288d0;
 }
+.justifycado{
+  text-align: justify;
+  padding: 2px;
+
+}

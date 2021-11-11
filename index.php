@@ -75,7 +75,7 @@
                           <li class="nav-item nav-link selectMenu active">
                              <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#clipboard-plus"/>
-                               </svg> Numero de Visitas: <?php echo $visitante; ?>
+                               </svg> Numero de Visitas: 
                           </li>
                         </ul>
                      </div>
@@ -180,28 +180,25 @@
                 <h2 class="text-center text-light display-6"> Nosotros</h2>
                 <hr class="text-light">
                 <div class="container">
-                   <p class="text-light text-justify py-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                   fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                   culpa qui officia deserunt mollit anim id est laborum.</p>
+                   <p class="text-light py-4 justifycado">Somos una empresa  100% mexicana. Enfocada a brindar soluciones integrales para las empresas y/o negocios especializándonos en gestión de información, recursos humanos, paquetería y medios digitales.
+Creando una función de jóvenes profesionales con una amplia visión y experiencia para optimizar  procesos de tu empresa o negocio.
+<br>El servicio y satisfacción de nuestros clientes es lo primordial para nosotros. Capital Human World somos tu mejor opción. </p>
                    <div class="row text-center">
                        <div class="col">
-                         <a data-bs-toggle="offcanvas" href="#offcanvasCalidad" class="text-decoration-none" role="button" aria-controls="offcanvasExample"><svg class="bi text-light" width="42" height="42" fill="currentColor">
+                         <a data-bs-toggle="offcanvas" href="#offcanvasCalidad" class="text-decoration-none" role="button" aria-controls="offcanvasExample"><svg class="bi text-light" width="32" height="32" fill="currentColor">
                              <use xlink:href="library/icons/bootstrap-icons.svg#bookmark-fill"/>
                          </svg>
                          <h5 class="text-light">Calidad</h5></a>
                        </div>
                        <div class="col">
-                         <a data-bs-toggle="offcanvas" href="#offcanvasServicio" class="text-decoration-none"><svg class="bi text-light" width="42" height="42" fill="currentColor">
+                         <a data-bs-toggle="offcanvas" href="#offcanvasServicio" class="text-decoration-none"><svg class="bi text-light" width="32" height="32" fill="currentColor">
                              <use xlink:href="library/icons/bootstrap-icons.svg#cup-fill"/>
                          </svg>
                          <h5 class="text-light">Servicio</h5></a>
                        </div>
                        <div class="col">
-                         <a data-bs-toggle="offcanvas" href="#offcanvasSeguridad" class="text-decoration-none"><svg class="bi text-light" width="42" height="42" fill="currentColor">
-                         <svg class="bi text-light" width="42" height="42" fill="currentColor">
+                         <a data-bs-toggle="offcanvas" href="#offcanvasSeguridad" class="text-decoration-none">
+                         <svg class="bi text-light" width="32" height="32" fill="currentColor">
                              <use xlink:href="library/icons/bootstrap-icons.svg#shield-lock-fill"/>
                          </svg></a>
                          <h5 class="text-light">Seguridad</h5>
@@ -652,7 +649,7 @@
                   <p class="text-light text-justify-contend py-4">Desarrollamos sitios web efectivos y diseñados para posicionar a tu empresa o negocio. El principal objetivo del diseño web es transmitir una imagen profesional y de calidad, que sea ágil con un diseño moderno, atractivo y responsivo.</p>
                </div>
            </div>
-           <div class="col-sm-12 col-md-6 col-lg-6 py-3">
+           <div class="col-sm-12 col-md-6 col-lg-6 py-3 mt-4">
               <img src="img/web.png" alt="Diseño web" class="img-fluid">
            </div>
        </div>
@@ -835,10 +832,10 @@
                                           <div class="container">
                                             <div id="SeguridadIndicators" class="carousel slide" data-bs-ride="carousel">
                                                <div class="carousel-indicators">
-                                                  <button type="button" data-bs-target="#SeguridadIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color:#f26e3a;"></button>
-                                                  <button type="button" data-bs-target="#SeguridadIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-color:#f26e3a;"></button>
-                                                  <button type="button" data-bs-target="#SeguridadIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="background-color:#f26e3a;"></button>
-                                                  <button type="button" data-bs-target="#SeguridadIndicators" data-bs-slide-to="3" aria-label="Slide 4" style="background-color:#f26e3a;"></button>
+                                                  <button type="button" data-bs-target="#SeguridadIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color:#000;"></button>
+                                                  <button type="button" data-bs-target="#SeguridadIndicators" data-bs-slide-to="1" aria-label="Slide 2" style="background-color:#000;"></button>
+                                                  <button type="button" data-bs-target="#SeguridadIndicators" data-bs-slide-to="2" aria-label="Slide 3" style="background-color:#000;"></button>
+                                                  <button type="button" data-bs-target="#SeguridadIndicators" data-bs-slide-to="3" aria-label="Slide 4" style="background-color:#000;"></button>
                                                </div>
                                                <div class="carousel-inner">
                                                    <div class="carousel-item active">
@@ -855,11 +852,11 @@
                                                    </div>
                                                 </div>
                                                 <button class="carousel-control-prev" type="button" data-bs-target="#SeguridadIndicators" data-bs-slide="prev">
-                                                   <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:rgb(33, 97, 140);"></span>
+                                                   <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:rgba(0, 0, 0, 0.5); border-radius:50%; padding:5px;"></span>
                                                    <span class="visually-hidden">Previous</span>
                                                 </button>
                                                 <button class="carousel-control-next" type="button" data-bs-target="#SeguridadIndicators" data-bs-slide="next">
-                                                   <span class="carousel-control-next-icon" aria-hidden="true" style="background-color:rgb(33, 97, 140);"></span>
+                                                   <span class="carousel-control-next-icon" aria-hidden="true" style="background-color:rgba(0, 0, 0, 0.5); border-radius:50%; padding:5px;"></span>
                                                    <span class="visually-hidden">Next</span>
                                                 </button>
                                               </div>
