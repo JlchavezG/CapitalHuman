@@ -389,13 +389,6 @@
                   <h3 class="display-6" style="color:rgb(33, 97, 140);">Examenes Psicometricos</h3>
                   <p class="text-muted text-break">Aplicación de pruebas Psicometricas y proyectivas. Es esencial para detectar la adaptabilidad de las personas que conformaran tu equipo de trabajo, evaluando la personalidad de cada individuo.</p>
                   <p class="fw-bold">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
-                  <div class="row py-3">
-                      <div class="container">
-                            <div class="text-center">
-                              <a href="#" class="btn btn-sm btn-primary">Más Información</a>
-                            </div>
-                      </div>
-                  </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 text-center py-3">
                   <img src="img/Examenes.png" alt="Examenes psicometricos" id="Reclutamiento">
@@ -434,13 +427,6 @@
                       </svg>&nbsp; Selección de talento
                     </li>
                   </ul>
-                  <div class="row py-3">
-                      <div class="container">
-                            <div class="text-center">
-                              <a href="#" class="btn btn-sm btn-primary">Más Información</a>
-                            </div>
-                      </div>
-                  </div>
                 </div>
              </div>
          </div>
@@ -473,13 +459,6 @@
                       </svg>&nbsp; Otros Aspectos
                     </li>
                   </ul>
-                  <div class="row py-3">
-                      <div class="container">
-                            <div class="text-center">
-                              <a href="#" class="btn btn-sm btn-primary">Más Información</a>
-                            </div>
-                      </div>
-                  </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                   <img src="img/Perfiles.png" alt="Examenes psicometricos">
@@ -498,13 +477,6 @@
                   <p class="text-muted text-justify py-2">Un organigrama es necesario para planificar la comunicación interna y el flujo de trabajo, por lo que estructurar un organigrama es fundamental para agilizar los procesos.</p>
                   <div class="row text-justify py-3">
                   <p class="fw-bold">Una representación visual de la jerarquía del personal,la estructura y flujo de la información dentro de una empresa. Es posible identificar de un modo directo las diferentes relaciones entre funciones, departamentos, equipos e individuos.</p>
-                  </div>
-                  <div class="row py-3">
-                      <div class="container">
-                            <div class="text-center">
-                              <a href="#" class="btn btn-sm btn-primary">Más Información</a>
-                            </div>
-                      </div>
                   </div>
                 </div>
              </div>
@@ -612,16 +584,9 @@
 <section id="Manuales" class="py-4">
        <div class="container">
            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="col-sm-12 col-md-6 col-lg-6 mt-4">
                 <h3 class="display-6" style="color:rgb(33, 97, 140);">Manuales de procedimientos</h3>
                 <p class="text-muted text-justify py-2">Te ayudamos a crear un documento del sistema de Control Interno de tu empresa, el cual se crea para obtener una información detallada, ordenada, sistemática e integral que contiene todas las instrucciones, responsabilidades e información sobre políticas, funciones, sistemas y procedimientos de las distintas operaciones.</p>
-                <div class="row py-3">
-                    <div class="container">
-                          <div class="text-center">
-                            <a href="#" class="btn btn-sm btn-primary">Más Información</a>
-                          </div>
-                    </div>
-                </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                 <img src="img/Manual.png" alt="Examenes psicometricos">
@@ -660,11 +625,6 @@
                     </svg>&nbsp; Por capacitación inicial
                   </li>
                 </ul>
-                <div class="container py-3">
-                      <div class="text-center">
-                        <a href="#" class="btn btn-sm btn-primary">Más Información</a>
-                      </div>
-                </div>
               </div>
            </div>
        </div>
@@ -675,11 +635,6 @@
               <div class="col-sm-12 col-md-6 col-lg-6">
                 <h3 class="display-6" style="color:rgb(33, 97, 140);">Elaboración de archivo laboral</h3>
                 <p class="text-muted text-break">Te ayudamos a crear y a organizar un sistema de Control de archivo laboral Interno de tu empresa, el cual se crea para obtener una información detallada de tus empleados, capacitaciones, funciones y más.</p>
-                <div class="container">
-                      <div class="text-center py-4">
-                        <a href="#" class="btn btn-sm btn-primary">Más Información</a>
-                      </div>
-                </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                 <img src="img/Archivo.png" alt="Examenes psicometricos">
@@ -790,8 +745,8 @@
                 </svg>&nbsp; whatsapp desde tu web</li>
             </ul>
          </div>
-         <div class="col-sm-12 col-md-6 col-lg-6">
-              <div class="container py-4">
+         <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
+              <div class="container py-4 mt-3">
                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
          </div>

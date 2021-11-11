@@ -3,7 +3,7 @@
  include 'Include/Query.php';
  include 'library/phpqrcode/qrlib.php';
  // crear codigo qr
- $dir = 'img/qr';
+ $dir = 'img/qr/';
  if(!file_exists($dir))
    mkdir($dir);
    {
@@ -42,28 +42,40 @@
   <!-- crear el contenedor del perfil -->
     <div class="container py-5">
        <div class="row d-flex justify-content-center py-5">
-          <div class="col py-4">
+          <div class="col-sm-8 col-md-8 col-lg-8">
               <div class="card shadow">
                    <div class="container ">
-                       <div class="row py-3 justify-content-center">
+                       <div class="row py-3 justify-content-center mt-3">
                            <a href="#" class="imgperfil text-center"><img src="img/user/<?php echo $datosPerfil['Imagen']; ?>" alt="Imagen de perfil" style="width:250px;" class="rounded-circle"></a>
                            <div class="py-1"><hr></div>
                            <h3 class="text-center"><?php echo $datosPerfil['Nombre'];?> <?php echo $datosPerfil['ApellidoP'];?> <?php echo $user['ApellidoM'];?></h3>
+                           <span class="text-center">Tipo de Usuario: <span class="text-primary"><?php echo $datosPerfil['NombreT'];?></span></span>
                        </div>
                    </div>
+                      <div class="container">
+                        <div class="row py-3">
+                         <div class="col-sm-6 col-md-6 col-lg-6">
+                           <ul class="list-group list-group-flush">
+                             <li class="list-group-item list-group-item-action">Telefono: <?php echo $datosPerfil['Telefono'];?></li>
+                             <li class="list-group-item list-group-item-action">Genero: <?php echo $datosPerfil['NombreG'];?></li>
+                             <li class="list-group-item list-group-item-action">Empresa: <?php echo $datosPerfil['NombreEmp'];?></li>
+                             <li class="list-group-item list-group-item-action">Email: <?php echo $datosPerfil['Email'];?></li>
+                             <li class="list-group-item list-group-item-action">Estatus: <?php echo $datosPerfil['EstatusNom']; ?> </li>
+                           </ul>
+                         </div>
+                         <div class="col-sm-6 col-md-6 col-lg-6">
+                           <div class="container">
+                              <?php echo '<img src="'.$filename.'"class="rounded mx-auto d-block img-thumbnail">';?>
+                           </div>
+                         </div>
+                      </div>
+                   </div>
               </div>
-          </div>
-          <div class="col py-4">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item active">Tipo de Usuario: <?php echo $datosPerfil['NombreT'];?></li>
-              <li class="list-group-item list-group-item-action">Telefono: <?php echo $datosPerfil['Telefono'];?></li>
-              <li class="list-group-item list-group-item-action">Genero: <?php echo $datosPerfil['NombreG'];?></li>
-              <li class="list-group-item list-group-item-action">Empresa: <?php echo $datosPerfil['NombreEmp'];?></li>
-              <li class="list-group-item list-group-item-action">Email: <?php echo $datosPerfil['Email'];?></li>
-              <li class="list-group-item list-group-item-action">Estatus: <?php echo $datosPerfil['EstatusNom']; ?> </li>
-            </ul>
+
+          <div class="col">
+
             <div class="container">
-                 <div class="row mt-5 text-center">
+                 <div class="row mt-4 text-center">
                       <div class="col">
                        <span>
                             <svg class="bi" width="20" height="20" role="img" aria-label="Tools">
@@ -95,28 +107,10 @@
                  </div>
             </div>
           </div>
+          </div>
        </div>
     </div>
   <!-- termina el contenedor del perfil -->
-  <!-- Modal Qr -->
-<div class="modal fade" id="modalQr" tabindex="-1" aria-labelledby="modalQrLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="modalQrLabel">Codigo Qr del Usuario</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-           <?php echo '<img src="'.$filename.'"class="rounded mx-auto d-block img-thumbnail">';?>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
   <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
