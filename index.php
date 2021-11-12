@@ -7,6 +7,12 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- optimizar el sitio web a movil -->
+    <meta name="MobileOptimizer" content="width">
+    <!-- la validacion de moviles sobre la plataforma-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- descrpcón de la empresa -->
+    <meta name="description" content="Empresa especializada en recursos humanos, captación de talento, desarrollo de soluciones integrales como son: Soluciones digitales, Paqueteria express y Recursops humanos">
     <!-- instalando boostrap en mi documento -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -59,10 +65,10 @@
                              <li><a class="dropdown-item" href="#Examenes"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#signpost-split-fill"/>
                                </svg> Soluciones de Recursos Humanos</a></li>
-                             <li><a class="dropdown-item" href="#Reclutamiento"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                             <li><a class="dropdown-item" href="#SolucionesWeb"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
                                </svg> Soluciones Web</a></li>
-                             <li><a class="dropdown-item" href="#Perfiles"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                             <li><a class="dropdown-item" href="#Paqueteria"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#file-earmark-break-fill"/>
                                </svg> Soluciones de Paqueteria</a></li>
                            </ul>
@@ -75,7 +81,7 @@
                           <li class="nav-item nav-link selectMenu active">
                              <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#clipboard-plus"/>
-                               </svg> Numero de Visitas: 
+                               </svg> Numero de Visitas:
                           </li>
                         </ul>
                      </div>
