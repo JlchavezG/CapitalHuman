@@ -1,4 +1,5 @@
 <?php
+ error_reporting(0);
  include 'Include/confing.php';
  include 'Include/Query.php';
  include 'library/phpqrcode/qrlib.php';

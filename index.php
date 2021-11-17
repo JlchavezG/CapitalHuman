@@ -12,7 +12,10 @@
     <!-- la validacion de moviles sobre la plataforma-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- descrpcón de la empresa -->
-    <meta name="description" content="Empresa especializada en recursos humanos, captación de talento, desarrollo de soluciones integrales como son: Soluciones digitales, Paqueteria express y Recursops humanos">
+    <meta name="description" content="Empresa especializada en recursos humanos, captación de talento, desarrollo de soluciones integrales como son: Soluciones digitales, Paqueteria express y Recursoos humanos">
+    <!-- palabras clave -->
+    <meta name="keywords" content="Psicomentrico, Recursos Humanos, Archivo laboral, Contratos, Manuales de procedimientos, Organigrama empresarial, Perfiles, Soluciones digitales, Paginas web, Seo, Imagen corporativa">
+    <mata name="autor" contend="Capital Human World Empresa epscializada en personal y captación de talento">
     <!-- instalando boostrap en mi documento -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
