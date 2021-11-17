@@ -221,11 +221,11 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
     <!-- inician los ofcanvas-->
     <!-- calidad -->
     <div class="offcanvas offcanvas-bottom valores" tabindex="-1" id="offcanvasCalidad" aria-labelledby="offcanvasCalidadLabel">
-       <div class="offcanvas-header py-2">
-            <h5 class="offcanvas-title text-center text-muted" id="titulo">Calidad</h5>
+       <div class="offcanvas-header">
+            <h5 class="offcanvas-title display-6" id="titulo">Calidad</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
        </div>
-       <div class="offcanvas-body">
+       <div class="offcanvas-body mb-1">
           <div class=""><hr>
              <p>La calidad significa mucho para nosotros por lo tanto aportamos valor a nuestros clientes, esto es, ofrecer las mejores condiciones de nuestros servicio superiores a las que nuestros cliente espera recibir y a un precio accesible.</p>
           </div>
@@ -528,7 +528,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
 <!-- Modal llamada -->
 <div class="modal fade" id="llamada" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
  <div class="modal-dialog modal-dialog-centered modal-lg">
-   <div class="modal-content">
+   <div class="modal-content glass">
      <div class="modal-header">
        <h5 class="modal-title" id="llamadaLabel"><svg class="bi text-dark" width="20" height="20" role="img" aria-label="Tools">
          <use xlink:href="library/icons/bootstrap-icons.svg#telephone-fill"/>
@@ -544,8 +544,8 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
             </div>
             <div class="row">
                  <p>Contacta a nustros asesores por medio de los telefonos:</p>
-                 <div class="col"><p class="fs-4"><a href="tel:+52 55-55-55-55-55" class="text-decoration-none">55-55-55-55-55</a></p></div>
-                 <div class="col"><p class="fs-4"><a href="tel:+52 55-55-55-55-55" class="text-decoration-none">55-55-55-55-55</a></p></div>
+                 <div class="col"><p class="fs-4"><a href="tel:+52 55-55-55-55-55" class="text-decoration-none text-warning">55-55-55-55-55</a></p></div>
+                 <div class="col"><p class="fs-4"><a href="tel:+52 55-55-55-55-55" class="text-decoration-none text-warning">55-55-55-55-55</a></p></div>
             </div>
         </div>
      </div>
@@ -559,7 +559,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
 <!-- Modal whatsapp -->
 <div class="modal fade" id="whatsapp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
  <div class="modal-dialog modal-dialog-centered modal-lg">
-   <div class="modal-content">
+   <div class="modal-content glass">
      <div class="modal-header">
        <h5 class="modal-title" id="whatsappLabel"><svg class="bi text-dark" width="20" height="20" role="img" aria-label="Tools">
          <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp"/>
@@ -575,7 +575,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
             </div>
             <div class="row">
                  <p>Contacta a nustros asesores por medio de un mensaje de whatsapp escribenos</p>
-                 <div class="col"><p class="fs-4"><a href="https://wa.link/gdmtsx" target="_blank" class="text-decoration-none">Escribenos tus dudas</a></p></div>
+                 <div class="col"><p class="fs-4"><a href="https://wa.link/gdmtsx" target="_blank" class="text-decoration-none text-warning">Escribenos tus dudas</a></p></div>
             </div>
         </div>
      </div>
@@ -926,27 +926,6 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
     <div class="col-sm-12 col-md-5 col-lg-5">
         <div id="map"></div>
     </div>
-  </div>
-  <div class="row">
-     <div class="col-sm-12 col-md-12 col-lg-12 shadow">
-          <div class="d-flex justify-content-center">
-                <div class="row">
-                     <div class="col-sm-12 col-md-4 col-lg-4 bg-info text-light py-2 text-center">
-                          <a href="https://www.waze.com/es/live-map/directions/mexico/estado-de-mexico/naucalpan-de-juarez/cerrada-del-rosal?place=EkhDZGEuIGRlbCBSb3NhbCwgTWluYXMgUGFsYWNpbywgNTM2OTYgTmF1Y2FscGFuIGRlIEp1w6FyZXosIE3DqXguLCBNZXhpY28iLiosChQKEgltPdY0CQTShRHtz13nTflZgBIUChIJw8zi7w4E0oURNsjep89Wpq8" target="_blank"><img src="img/waze.png" alt="waze" class="img-fluid" style="width:25px;"></a>
-                     </div>
-                     <div class="col-sm-12 col-md-4 col-lg-4 bg-primary py-2 text-center">
-                       <a href="https://www.google.com.mx/maps/place/Cda.+del+Rosal,+Minas+Palacio,+53696+Naucalpan+de+Ju%C3%A1rez,+M%C3%A9x./@19.4420262,-99.2861803,17z/data=!3m1!4b1!4m5!3m4!1s0x85d2040934d63d6d:0x8059f94de75dcfed!8m2!3d19.4420212!4d-99.2839916" target="_blank"><svg class="bi text-light" width="25" height="25" role="img" aria-label="Tools">
-                         <use xlink:href="library/icons/bootstrap-icons.svg#geo-alt-fill"/>
-                       </svg></a>
-                     </div>
-                     <div class="col-sm-12 col-md-4 col-lg-4 bg-warning py-2 text-center">
-                       <svg class="bi text-light" width="25" height="25" role="img" aria-label="Tools">
-                         <use xlink:href="library/icons/bootstrap-icons.svg#signpost-split-fill"/>
-                       </svg>
-                     </div>
-                </div>
-          </div>
-     </div>
   </div>
 </sectio>
 <!-- inicia footer -->
