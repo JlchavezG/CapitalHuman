@@ -19,6 +19,7 @@
     <!-- instalando boostrap en mi documento -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/pace.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
     <script src="js/jquery.js"></script>
     <script src="js/push/push.min.js"></script>
@@ -813,27 +814,27 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
             <span>Todos nuestros</span>
             <h3 class="display-6 text-info">Planes Incluyen:</h3>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">
+              <li class="list-group-item list-group-item-action">
                 <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                 <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
               </svg>&nbsp; Diseño Personalizado</li>
-              <li class="list-group-item">
+              <li class="list-group-item list-group-item-action">
                 <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                 <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
               </svg>&nbsp; Contenido adatable Responsive Desing</li>
-              <li class="list-group-item">
+              <li class="list-group-item list-group-item-action">
               <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                 <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
               </svg>&nbsp; Certificado de Navegación SSL</li>
-              <li class="list-group-item">
+              <li class="list-group-item list-group-item-action">
                 <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                   <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
                 </svg>&nbsp; Enlaces a redes sociales</li>
-              <li class="list-group-item">
+              <li class="list-group-item list-group-item-action">
                 <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                   <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
                 </svg>&nbsp; whatsapp desde tu web</li>
-                <li class="list-group-item">
+                <li class="list-group-item list-group-item-action">
                   <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                     <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
                   </svg>&nbsp; Hosting y dominio gratis por el primer año</li>
@@ -871,6 +872,36 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                               <li class="list-group-item list-group-item-action"><span class="text-info">OnSite:</span> Esta categoría de SEO se basa en factores internos de un sitio web para poder alcanzar el posicionamiento. Aquí es cuando se toman en cuenta la auditoría SEO para optimizar los enlaces internos, indexear las URL importantes, elegir las palabras clave óptimas y mejorar la velocidad de carga del sitio. Éste último, genera una buena experiencia al usuario lo que incrementa la posibilidad que visiten de nuevo el sitio.</li>
                               <li class="list-group-item list-group-item-action"><span class="text-info">OffSite:</span> Un sitio web también cuenta con enlaces externos los cuales, permiten que al momento que el usuario investigue sobre un tema relacionado a la marca, los motores de búsqueda lo encuentren y crezca su presencia online. Aquí se toman en cuenta aspectos como cantidad y calidad de enlaces, como artículos de blog o mailings para generar tráfico al sitio, así como conocer el rendimiento de búsqueda.</li>
                         </ul>
+                    <div id="carouselExampleIndicators" class="carousel slide mt-4" data-bs-ride="carousel">
+                      <div class="carousel-inner text-center">
+                           <div class="carousel-item active">
+                             <img src="img/Hseo1.png" class="img-fluid" alt="...">
+                           </div>
+                           <div class="carousel-item">
+                             <img src="img/Hseo2.png" class="img-fluid" alt="...">
+                           </div>
+                           <div class="carousel-item">
+                             <img src="img/Hseo3.png" class="img-fluid" alt="...">
+                           </div>
+                           <div class="carousel-item">
+                             <img src="img/Hseo4.png" class="img-fluid" alt="...">
+                           </div>
+                           <div class="carousel-item">
+                             <img src="img/Hseo5.png" class="img-fluid" alt="...">
+                           </div>
+                           <div class="carousel-item">
+                             <img src="img/Hseo6.png" class="img-fluid" alt="...">
+                           </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                           <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color:#1eb0ee;"></span>
+                           <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                           <span class="carousel-control-next-icon" aria-hidden="true" style="background-color:#1eb0ee;"></span>
+                           <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
                       </div>
                       <hr class="text-primary">
                     </div>
@@ -887,6 +918,51 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                       <div class="accordion-body">
                         <p>Nos encargamos de gestionar y administrar la comunidad en línea de una empresa, crear y mantener conexiones a largo plazo con los clientes, usuarios y fanáticos que quieran la marca en Internet.</p>
+                        <div class="container">
+                            <div class="row py-2 text-center">
+                                 <div class="col">
+                                   <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                                     <use xlink:href="library/icons/bootstrap-icons.svg#calendar3" style="color:#08c0c2;"/>
+                                   </svg>
+                                   <div class="text-center mt-2">
+                                     <span style="color:#08c0c2;">Organizar</span>
+                                   </div>
+                                 </div>
+                                 <div class="col">
+                                   <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                                     <use xlink:href="library/icons/bootstrap-icons.svg#heart" style="color:#08c0c2;"/>
+                                   </svg>
+                                   <div class="text-center mt-2">
+                                     <span style="color:#08c0c2;">Fidelizar</span>
+                                   </div>
+                                 </div>
+                                 <div class="col">
+                                   <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                                     <use xlink:href="library/icons/bootstrap-icons.svg#search" style="color:#08c0c2;"/>
+                                   </svg>
+                                   <div class="text-center mt-2">
+                                     <span style="color:#08c0c2;">visibilidad</span>
+                                   </div>
+                                 </div>
+                                 <div class="col">
+                                   <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                                     <use xlink:href="library/icons/bootstrap-icons.svg#question-square-fill" style="color:#08c0c2;"/>
+                                   </svg>
+                                   <div class="text-center mt-2">
+                                     <span style="color:#08c0c2;">Analisis</span>
+                                   </div>
+                                 </div>
+                            </div>
+                            <div class="row mt-3">
+                              <ul class="list-group list-group-flush">
+                                  <li class="list-group-item list-group-item-action"><span class="text-secondary">Difución de productos y servicios:</span> Conocemos cuáles son las necesidades e intereses de tu empresa y nos encargamos a través del community manager de extenderlo al público. Dedicaremos este día a buscar posibles clientes interesados en tus servicios.</li>
+                                  <li class="list-group-item list-group-item-action"><span class="text-secondary">FeedBacks:</span> Gestionamos tus redes sociales, damos la bienvenida a nuevos usuarios y dinamizamos tus perfiles sociales. Estaremos en constante contacto contigo para comentarte todo lo que sucede en la red y te dirigiremos todos aquellas consultas que los usuarios hagan.</li>
+                                  <li class="list-group-item list-group-item-action"><span class="text-secondary">Informe de Resultados:</span> Llevamos a cabo un seguimiento durante el proyecto y comprobamos los resultados de la campaña.</li>
+                                  <li class="list-group-item list-group-item-action"><span class="text-secondary">Posteo en Redes sociales:</span> Nos encargamos de presentar tu marca y servicios en internet. Para ello dinamizamos tu blog o página web semanalmente para generar visitas nuevas y contenido actualizado de calidad.</li>
+                                  <li class="list-group-item list-group-item-action"><span class="text-secondary">Cultura de Marca:</span> Construimos relaciones duraderas, entre las marcas y los usuarios.</li>
+                               </ul>
+                            </div>
+                        </div>
                         <hr class="text-primary">
                       </div>
                    </div>
@@ -1081,6 +1157,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
     </div>
   </footer>
    <!-- termina footer -->
+     <script src="js/pace.js"></script>
      <script src="js/bootstrap.min.js"></script>
      <script src="js/main.js"></script>
      <script src="js/mapa.js"></script>
