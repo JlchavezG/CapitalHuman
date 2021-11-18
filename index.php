@@ -89,7 +89,7 @@
                         </ul>
                      </div>
                  </div>
-              </nav>
+            </nav>
       </div>
       <!-- termina el nav -->
       <!-- inicia slider-->
@@ -395,6 +395,18 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                   <h3 class="display-6" style="color:rgb(33, 97, 140);">Examenes Psicometricos</h3>
                   <p class="text-muted text-break">Aplicación de pruebas Psicometricas y proyectivas. Es esencial para detectar la adaptabilidad de las personas que conformaran tu equipo de trabajo, evaluando la personalidad de cada individuo.</p>
                   <p class="fw-bold">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
+                  <div class="row mt-2 text-center">
+                      <div class="col">
+                        <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp" style="color:#fbb728;"/>
+                        </svg>
+                      </div>
+                      <div class="col">
+                        <a href="#Contacto"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
+                        </svg></a>
+                      </div>
+                  </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 text-center py-3">
                   <img src="img/Examenes.png" alt="Examenes psicometricos" id="Reclutamiento">
@@ -433,6 +445,18 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                       </svg>&nbsp; Selección de talento
                     </li>
                   </ul>
+                  <div class="row mt-4 text-center">
+                      <div class="col">
+                        <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp" style="color:#fbb728;"/>
+                        </svg>
+                      </div>
+                      <div class="col">
+                        <a href="#Contacto"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
+                        </svg></a>
+                      </div>
+                  </div>
                 </div>
              </div>
          </div>
@@ -465,6 +489,18 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                       </svg>&nbsp; Otros Aspectos
                     </li>
                   </ul>
+                  <div class="row mt-4 text-center">
+                      <div class="col">
+                        <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp" style="color:#fbb728;"/>
+                        </svg>
+                      </div>
+                      <div class="col">
+                        <a href="#Contacto"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
+                        </svg></a>
+                      </div>
+                  </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                   <img src="img/Perfiles.png" alt="Examenes psicometricos">
@@ -483,6 +519,18 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                   <p class="text-muted text-justify py-2">Un organigrama es necesario para planificar la comunicación interna y el flujo de trabajo, por lo que estructurar un organigrama es fundamental para agilizar los procesos.</p>
                   <div class="row text-justify py-3">
                   <p class="fw-bold">Una representación visual de la jerarquía del personal,la estructura y flujo de la información dentro de una empresa. Es posible identificar de un modo directo las diferentes relaciones entre funciones, departamentos, equipos e individuos.</p>
+                  </div>
+                  <div class="row mt-2 text-center">
+                      <div class="col">
+                        <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp" style="color:#fbb728;"/>
+                        </svg>
+                      </div>
+                      <div class="col">
+                        <a href="#Contacto"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
+                        </svg></a>
+                      </div>
                   </div>
                 </div>
              </div>
@@ -593,6 +641,18 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
               <div class="col-sm-12 col-md-6 col-lg-6 mt-4">
                 <h3 class="display-6" style="color:rgb(33, 97, 140);">Manuales de procedimientos</h3>
                 <p class="text-muted text-justify py-2">Te ayudamos a crear un documento del sistema de Control Interno de tu empresa, el cual se crea para obtener una información detallada, ordenada, sistemática e integral que contiene todas las instrucciones, responsabilidades e información sobre políticas, funciones, sistemas y procedimientos de las distintas operaciones.</p>
+                <div class="row mt-4 text-center">
+                    <div class="col">
+                      <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp" style="color:#fbb728;"/>
+                      </svg>
+                    </div>
+                    <div class="col">
+                      <a href="#Contacto"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
+                      </svg></a>
+                    </div>
+                </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                 <img src="img/Manual.png" alt="Examenes psicometricos">
@@ -631,6 +691,18 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                     </svg>&nbsp; Por capacitación inicial
                   </li>
                 </ul>
+                <div class="row mt-4 text-center">
+                    <div class="col">
+                      <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp" style="color:#fbb728;"/>
+                      </svg>
+                    </div>
+                    <div class="col">
+                      <a href="#Contacto"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
+                      </svg></a>
+                    </div>
+                </div>
               </div>
            </div>
        </div>
@@ -641,6 +713,18 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
               <div class="col-sm-12 col-md-6 col-lg-6">
                 <h3 class="display-6" style="color:rgb(33, 97, 140);">Elaboración de archivo laboral</h3>
                 <p class="text-muted text-break">Te ayudamos a crear y a organizar un sistema de Control de archivo laboral Interno de tu empresa, el cual se crea para obtener una información detallada de tus empleados, capacitaciones, funciones y más.</p>
+                <div class="row mt-4 text-center">
+                    <div class="col">
+                      <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp" style="color:#fbb728;"/>
+                      </svg>
+                    </div>
+                    <div class="col">
+                      <a href="#Contacto"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
+                      </svg></a>
+                    </div>
+                </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6 text-center">
                 <img src="img/Archivo.png" alt="Examenes psicometricos">
@@ -670,52 +754,52 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
              <h3 class="display-6 mt-2">Opciones dentro de tu web</h3><hr>
              <div class="row mt-3">
                 <div class="col mt-4">
-                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
-                    <use xlink:href="library/icons/bootstrap-icons.svg#border-inner"/>
+                  <svg class="bi" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#border-inner" style="color:#e64c23"/>
                   </svg>
                   <p class="text-muted">Seleccion de secciones</p>
                 </div>
                 <div class="col mt-4">
-                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
-                    <use xlink:href="library/icons/bootstrap-icons.svg#rss-fill"/>
+                  <svg class="bi" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#rss-fill" style="color:#e64c23"/>
                   </svg>
                   <p class="text-muted">Integración con redes sociales</p>
                 </div>
                 <div class="col mt-4">
-                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
-                    <use xlink:href="library/icons/bootstrap-icons.svg#palette2"/>
+                  <svg class="bi" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#palette2" style="color:#e64c23"/>
                   </svg>
                   <p class="text-muted">Diseño personalizado</p>
                 </div>
                 <div class="col mt-4">
-                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
-                    <use xlink:href="library/icons/bootstrap-icons.svg#google"/>
+                  <svg class="bi" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#google" style="color:#e64c23"/>
                   </svg>
                   <p class="text-muted">Optimización en motores de busqueda</p>
                 </div>
              </div>
              <div class="row py-3">
                 <div class="col">
-                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
-                    <use xlink:href="library/icons/bootstrap-icons.svg#inboxes-fill"/>
+                  <svg class="bi" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#inboxes-fill" style="color:#e64c23"/>
                   </svg>
                   <p class="text-muted">Contratación de hosting y dominio</p>
                 </div>
                 <div class="col">
-                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
-                    <use xlink:href="library/icons/bootstrap-icons.svg#phone-fill"/>
+                  <svg class="bi" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#phone-fill" style="color:#e64c23"/>
                   </svg>
                   <p class="text-muted">Diseño Responsivo</p>
                 </div>
                 <div class="col">
-                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
-                    <use xlink:href="library/icons/bootstrap-icons.svg#graph-down"/>
+                  <svg class="bi" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#graph-down" style="color:#e64c23"/>
                   </svg>
                   <p class="text-muted">Reportes de Trafico con Google Analytic</p>
                 </div>
                 <div class="col">
-                  <svg class="bi text-warning" width="35" height="35" role="img" aria-label="Tools">
-                    <use xlink:href="library/icons/bootstrap-icons.svg#hand-thumbs-up-fill"/>
+                  <svg class="bi" width="35" height="35" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#hand-thumbs-up-fill" style="color:#e64c23"/>
                   </svg>
                   <p class="text-muted">Posicionamiento SEO para tu sitio web</p>
                 </div>
@@ -921,7 +1005,6 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
              </div>
           </form>
           </div>
-
      </div>
     <div class="col-sm-12 col-md-5 col-lg-5">
         <div id="map"></div>
