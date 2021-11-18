@@ -235,7 +235,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
     <!-- Servicio -->
     <div class="offcanvas offcanvas-bottom valores" tabindex="-1" id="offcanvasServicio" aria-labelledby="offcanvasCalidadLabel">
        <div class="offcanvas-header py-2">
-            <h5 class="offcanvas-title text-center text-muted" id="titulo">Servicio</h5>
+            <h5 class="offcanvas-title display-6 text-dark" id="titulo">Servicio</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
        </div>
        <div class="offcanvas-body">
@@ -248,7 +248,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
     <!-- calidad -->
     <div class="offcanvas offcanvas-bottom valores" tabindex="-1" id="offcanvasSeguridad" aria-labelledby="offcanvasCalidadLabel">
        <div class="offcanvas-header py-2">
-            <h5 class="offcanvas-title text-center text-muted" id="titulo">Seguridad</h5>
+            <h5 class="offcanvas-title display-6 text-dark" id="titulo">Seguridad</h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
        </div>
        <div class="offcanvas-body">
@@ -576,7 +576,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
 <!-- Modal llamada -->
 <div class="modal fade" id="llamada" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
  <div class="modal-dialog modal-dialog-centered modal-lg">
-   <div class="modal-content glass">
+   <div class="modal-content">
      <div class="modal-header">
        <h5 class="modal-title" id="llamadaLabel"><svg class="bi text-dark" width="20" height="20" role="img" aria-label="Tools">
          <use xlink:href="library/icons/bootstrap-icons.svg#telephone-fill"/>
@@ -592,8 +592,8 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
             </div>
             <div class="row">
                  <p>Contacta a nustros asesores por medio de los telefonos:</p>
-                 <div class="col"><p class="fs-4"><a href="tel:+52 55-55-55-55-55" class="text-decoration-none text-warning">55-55-55-55-55</a></p></div>
-                 <div class="col"><p class="fs-4"><a href="tel:+52 55-55-55-55-55" class="text-decoration-none text-warning">55-55-55-55-55</a></p></div>
+                 <div class="col"><p class="fs-4"><a href="tel:+52 55-55-55-55-55" class="text-decoration-none text-info">55-55-55-55-55</a></p></div>
+                 <div class="col"><p class="fs-4"><a href="tel:+52 55-55-55-55-55" class="text-decoration-none text-info">55-55-55-55-55</a></p></div>
             </div>
         </div>
      </div>
@@ -607,7 +607,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
 <!-- Modal whatsapp -->
 <div class="modal fade" id="whatsapp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
  <div class="modal-dialog modal-dialog-centered modal-lg">
-   <div class="modal-content glass">
+   <div class="modal-content">
      <div class="modal-header">
        <h5 class="modal-title" id="whatsappLabel"><svg class="bi text-dark" width="20" height="20" role="img" aria-label="Tools">
          <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp"/>
@@ -623,7 +623,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
             </div>
             <div class="row">
                  <p>Contacta a nustros asesores por medio de un mensaje de whatsapp escribenos</p>
-                 <div class="col"><p class="fs-4"><a href="https://wa.link/gdmtsx" target="_blank" class="text-decoration-none text-warning">Escribenos tus dudas</a></p></div>
+                 <div class="col"><p class="fs-4"><a href="https://wa.link/gdmtsx" target="_blank" class="text-decoration-none text-info">Escribenos tus dudas</a></p></div>
             </div>
         </div>
      </div>
@@ -833,6 +833,10 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                 <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
                   <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
                 </svg>&nbsp; whatsapp desde tu web</li>
+                <li class="list-group-item">
+                  <svg class="bi text-warning" width="20" height="20" role="img" aria-label="Tools">
+                    <use xlink:href="library/icons/bootstrap-icons.svg#arrow-right-circle-fill"/>
+                  </svg>&nbsp; Hosting y dominio gratis por el primer año</li>
             </ul>
          </div>
          <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
@@ -860,6 +864,14 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
                       <p class="text-muted">Utilizamos un conjunto de técnicas y de herramientas que sirven para optimizar tanto las paginas webs como landing pages, para que los buscadores, como Google, puedan leerlas de forma mas fácil y rápida.</p>
+                      <div class="container">
+                        <ul class="list-group list-group-flush">
+                              <li class="list-group-item list-group-item-action"><span class="text-info">Auditoria SEO:</span> Sirve para saber si un sitio funciona, interna y externamente, basados en sus enlaces y estructura. Su principal objetivo es conocer si un sitio está bien indexeado y que sea posible rastrearlo por los motores de búsqueda.</li>
+                              <li class="list-group-item list-group-item-action"><span class="text-info">Estrategia SEO:</span> Esta estrategia permite generar un posicionamiento de manera orgánica, es decir, sin necesidad de invertir en anuncios. Al darle visibilidad al sitio, se incrementan las posibilidades de que los usuarios lo encuentren y visiten.</li>
+                              <li class="list-group-item list-group-item-action"><span class="text-info">OnSite:</span> Esta categoría de SEO se basa en factores internos de un sitio web para poder alcanzar el posicionamiento. Aquí es cuando se toman en cuenta la auditoría SEO para optimizar los enlaces internos, indexear las URL importantes, elegir las palabras clave óptimas y mejorar la velocidad de carga del sitio. Éste último, genera una buena experiencia al usuario lo que incrementa la posibilidad que visiten de nuevo el sitio.</li>
+                              <li class="list-group-item list-group-item-action"><span class="text-info">OffSite:</span> Un sitio web también cuenta con enlaces externos los cuales, permiten que al momento que el usuario investigue sobre un tema relacionado a la marca, los motores de búsqueda lo encuentren y crezca su presencia online. Aquí se toman en cuenta aspectos como cantidad y calidad de enlaces, como artículos de blog o mailings para generar tráfico al sitio, así como conocer el rendimiento de búsqueda.</li>
+                        </ul>
+                      </div>
                       <hr class="text-primary">
                     </div>
                 </div>
