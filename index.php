@@ -82,11 +82,6 @@
                                  <use xlink:href="library/icons/bootstrap-icons.svg#envelope-open-fill"/>
                                  </svg> Contacto</a>
                           </li>
-                          <li class="nav-item nav-link selectMenu active">
-                             <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                                 <use xlink:href="library/icons/bootstrap-icons.svg#clipboard-plus"/>
-                               </svg> Numero de Visitas:
-                          </li>
                         </ul>
                      </div>
                  </div>
