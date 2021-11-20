@@ -1,3 +1,11 @@
+// color navbar
+$(window).scroll(function(){
+  if($("#Menu").offset().top > 56){
+     $("#Menu").addClass("mynavbarscroll");
+  }else{
+     $("#Menu").removeClass("mynavbarscroll");
+  }
+});
 // click de la barra social
 $(document).ready(function(){
 $('#s-icons').click(function() {

@@ -29,7 +29,7 @@
   <body>
     <!-- inicia el navbar principal -->
     <div class="row">
-           <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color:rgb(33, 97, 140);" id="menu">
+           <nav class="navbar navbar-expand-lg fixed-top navbar-dark mynavbar" id="Menu">
                <div class="container-fluid">
                    <div class="d-flex flex-grow-1">
                         <span class="w-100 d-lg-none d-block">
@@ -1107,8 +1107,8 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
              </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <ul class="list-group" style="margin-left: 1.65em;">
-            <li class="mb-3 text-docoration-none">
+          <ul class="list-group-flush">
+            <li class="mb-3">
             <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">
               <use xlink:href="library/icons/bootstrap-icons.svg#geo-alt-fill"/>
             </svg> Naucalpan de Juarez
@@ -1117,6 +1117,11 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                 <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">
                   <use xlink:href="library/icons/bootstrap-icons.svg#mailbox2"/>
                 </svg> contacto@capitalhumanworld.com
+            </li>
+            <li class="mb-3">
+                <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">
+                  <use xlink:href="library/icons/bootstrap-icons.svg#mailbox2"/>
+                </svg> soporte@capitalhumanworld.com
             </li>
             <li class="mb-3">
               <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">
@@ -1131,7 +1136,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
           </ul>
         </div>
         <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4">Horarios de atención</h5>
+          <h5 class="text-center mb-4">Horarios de atención</h5>
           <table class="table text-center text-white">
             <tbody class="font-weight-normal">
               <tr>
@@ -1153,6 +1158,15 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
     </div>
   </footer>
    <!-- termina footer -->
+     <script>
+        $(window).scroll(function(){
+          if($("#Menu").offset().top > 56){
+             $("#Menu").addClass("mynavbarscroll");
+          }else{
+             $("#Menu").removeClass("mynavbarscroll");
+          }
+        });
+     </script>
      <script src="js/pace.js"></script>
      <script src="js/bootstrap.min.js"></script>
      <script src="js/main.js"></script>

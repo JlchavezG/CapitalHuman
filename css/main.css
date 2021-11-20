@@ -1,6 +1,14 @@
 html{
   scroll-behavior: smooth;
 }
+.mynavbar{
+  background-color:rgb(33, 97, 140);
+  color:#fff;
+}
+.mynavbarscroll{
+  background-color:rgba(33, 97, 140,0.9);
+  color:#fff;
+}
 /*Estilo para adaptar el scroll de la barra de navegación */
 section[id]{
   scroll-margin-top: 80px;
