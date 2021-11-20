@@ -972,7 +972,8 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                    </h2>
                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                        <div class="accordion-body">
-                         <p>Tener una imagen apropiada es algo muy importante y puede ser la diferencia entre dar confianza al cliente o que se vaya a la competencia. Te creamos un logotipo que pueda proyectar el concepto de tu negocio.</p>
+                         <p>Tener una imagen apropiada es algo muy importante y puede ser la diferencia entre dar confianza al cliente o que se vaya a la competencia. Te creamos un logotipo que pueda proyectar el concepto de tu negocio. Contacta con nosotros y junto a tu idea y visión de tu proyecto,
+                         generaremos esa imagen corporativa que proyectara a tus clientes la confianza, frescura y proyección de tu marca o </p>
                          <hr class="text-primary">
                          <div class="row align-middle">
                              <div class="col-sm-3 col-md-3 col-lg-3">
