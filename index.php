@@ -1158,15 +1158,6 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
     </div>
   </footer>
    <!-- termina footer -->
-     <script>
-        $(window).scroll(function(){
-          if($("#Menu").offset().top > 56){
-             $("#Menu").addClass("mynavbarscroll");
-          }else{
-             $("#Menu").removeClass("mynavbarscroll");
-          }
-        });
-     </script>
      <script src="js/pace.js"></script>
      <script src="js/bootstrap.min.js"></script>
      <script src="js/main.js"></script>
