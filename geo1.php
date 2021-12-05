@@ -26,18 +26,7 @@
          </div>
        </div>
        <?php $nombre = "Jose Luis"; ?>
-       <style>
-       #map{
-           margin: auto;
-           margin-top: 10px;
-           margin-right:0px;
-           padding: 40px;
-           height: 450px;
-           width: 100%;
-           border-radius: 10px;
-           padding: 10px;
-             }
-       </style>
+      
        <script>
             function findMe(){
                var output = document.getElementById('map');

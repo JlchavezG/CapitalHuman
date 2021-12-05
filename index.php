@@ -265,7 +265,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                    <div class="card-body">
                       <h5 class="card-title text-center text-muted">Recursos Humanos</h5>
                       <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#Examenes" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
+                      <a href="#Rh" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
                  </div>
                 </div>
              </div>
@@ -285,7 +285,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                    <div class="card-body">
                       <h5 class="card-title text-center text-muted">Paqueteria Express</h5>
                       <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#Web" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
+                      <a href="#paqueteria" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
                  </div>
                 </div>
              </div>
@@ -325,7 +325,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
         <div class="row banner">
             <div class="col-sm-4 col-md-4 col-lg-4"></div>
             <div class="col-sm-8 col-md-8 col-lg-8 text-center">
-                 <div class="container">
+                 <div class="container" id="Rh">
                      <h3 class="display-5 py-3">Nuestras Soluciones en Recursos Humanos</h3><hr>
                      <h5 class="text-muted align-top py-3">Más de 1500 usuarios nos respaldan</h5>
                  </div>
@@ -389,8 +389,8 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
              <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                   <h3 class="display-6" style="color:rgb(33, 97, 140);">Examenes Psicometricos</h3>
-                  <p class="text-muted text-break">Aplicación de pruebas Psicometricas y proyectivas. Es esencial para detectar la adaptabilidad de las personas que conformaran tu equipo de trabajo, evaluando la personalidad de cada individuo.</p>
-                  <p class="fw-bold">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
+                  <p class="text-muted text-break justificado">Aplicación de pruebas Psicometricas y proyectivas. Es esencial para detectar la adaptabilidad de las personas que conformaran tu equipo de trabajo, evaluando la personalidad de cada individuo.</p>
+                  <p class="fw-bold justificado">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
                   <div class="row mt-2 text-center">
                       <div class="col">
                         <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
@@ -462,7 +462,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
              <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
                   <h3 class="display-6" style="color:rgb(33, 97, 140);">Perfiles y Descripciones de puestos</h3>
-                  <p class="text-muted text-break">Las descripciones y perfiles de puesto te ayudan a conocer e identificar las funciones y actividades de cada empleado, con la finalidad de definir claramente lo que se espera alcanzar y el valor que agregan cada uno de los empleados para alcanzar los objetivos establecidos por la organización.</p>
+                  <p class="text-muted text-break justificado">Las descripciones y perfiles de puesto te ayudan a conocer e identificar las funciones y actividades de cada empleado, con la finalidad de definir claramente lo que se espera alcanzar y el valor que agregan cada uno de los empleados para alcanzar los objetivos establecidos por la organización.</p>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item list-group-item-action">
                       <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
@@ -512,9 +512,9 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                 </div>
                 <div class="col">
                     <h3 class="display-6" style="color:rgb(33, 97, 140);">Organigrama Empresarial</h3>
-                  <p class="text-muted text-justify py-2">Un organigrama es necesario para planificar la comunicación interna y el flujo de trabajo, por lo que estructurar un organigrama es fundamental para agilizar los procesos.</p>
+                  <p class="text-muted justificado py-2">Un organigrama es necesario para planificar la comunicación interna y el flujo de trabajo, por lo que estructurar un organigrama es fundamental para agilizar los procesos.</p>
                   <div class="row text-justify py-3">
-                  <p class="fw-bold">Una representación visual de la jerarquía del personal,la estructura y flujo de la información dentro de una empresa. Es posible identificar de un modo directo las diferentes relaciones entre funciones, departamentos, equipos e individuos.</p>
+                  <p class="fw-bold justificado">Una representación visual de la jerarquía del personal,la estructura y flujo de la información dentro de una empresa. Es posible identificar de un modo directo las diferentes relaciones entre funciones, departamentos, equipos e individuos.</p>
                   </div>
                   <div class="row mt-2 text-center">
                       <div class="col">
@@ -538,7 +538,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
      <div class="col-sm-10 col-md-10 col-lg-10 banner2 shadow">
          <div class="container py-3">
             <h3 class="text-center text-light display-6">Capital Human World</h3><hr class="text-light">
-            <p class="text-light">Todo nuestro personal y asesores estan capacitados para poder responder todas tus dudas sobre nustros servicios y soluciones para tu empresa y/o negocio. Selecciona cualquiera de las opciones que tenemos para contactarnos.</p>
+            <p class="text-light justificado">Todo nuestro personal y asesores estan capacitados para poder responder todas tus dudas sobre nustros servicios y soluciones para tu empresa y/o negocio. Selecciona cualquiera de las opciones que tenemos para contactarnos.</p>
              <div class="row text-center py-3">
                  <div class="col">
                    <a href="#" data-bs-toggle="modal" data-bs-target="#llamada"><svg class="bi text-light" width="35" height="35" role="img" aria-label="Tools">
@@ -636,7 +636,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
            <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-6 mt-4">
                 <h3 class="display-6" style="color:rgb(33, 97, 140);">Manuales de procedimientos</h3>
-                <p class="text-muted text-justify py-2">Te ayudamos a crear un documento del sistema de Control Interno de tu empresa, el cual se crea para obtener una información detallada, ordenada, sistemática e integral que contiene todas las instrucciones, responsabilidades e información sobre políticas, funciones, sistemas y procedimientos de las distintas operaciones.</p>
+                <p class="text-muted justificado py-2">Te ayudamos a crear un documento del sistema de Control Interno de tu empresa, el cual se crea para obtener una información detallada, ordenada, sistemática e integral que contiene todas las instrucciones, responsabilidades e información sobre políticas, funciones, sistemas y procedimientos de las distintas operaciones.</p>
                 <div class="row mt-4 text-center">
                     <div class="col">
                       <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
@@ -664,7 +664,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
               </div>
               <div class="col">
                   <h3 class="display-6" style="color:rgb(33, 97, 140);">Elaboración de Contratos</h3>
-                <p class="text-muted text-break">Somos expertos en realizar contratos de acuerdo a las necesidades del proyecto, empresa con la certeza legal y vigencia actual en nuestro pais, desarrollamos los siguientes contratos: </p>
+                <p class="text-muted text-break justificado">Somos expertos en realizar contratos de acuerdo a las necesidades del proyecto, empresa con la certeza legal y vigencia actual en nuestro pais, desarrollamos los siguientes contratos: </p>
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item list-group-item-action">
                     <svg class="bi text-warning" width="15" height="15" role="img" aria-label="Tools">
@@ -708,7 +708,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
            <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-6">
                 <h3 class="display-6" style="color:rgb(33, 97, 140);">Elaboración de archivo laboral</h3>
-                <p class="text-muted text-break">Te ayudamos a crear y a organizar un sistema de Control de archivo laboral Interno de tu empresa, el cual se crea para obtener una información detallada de tus empleados, capacitaciones, funciones y más.</p>
+                <p class="text-muted text-break justificado">Te ayudamos a crear y a organizar un sistema de Control de archivo laboral Interno de tu empresa, el cual se crea para obtener una información detallada de tus empleados, capacitaciones, funciones y más.</p>
                 <div class="row mt-4 text-center">
                     <div class="col">
                       <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
@@ -735,7 +735,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                <h2 class="text-center text-light display-6"> Soluciones Web</h2>
                <hr class="text-light">
                <div class="container">
-                  <p class="text-light text-justify-contend py-4">Desarrollamos sitios web efectivos y diseñados para posicionar a tu empresa o negocio. El principal objetivo del diseño web es transmitir una imagen profesional y de calidad, que sea ágil con un diseño moderno, atractivo y responsivo.</p>
+                  <p class="text-light justificado py-4">Desarrollamos sitios web efectivos y diseñados para posicionar a tu empresa o negocio. El principal objetivo del diseño web es transmitir una imagen profesional y de calidad, que sea ágil con un diseño moderno, atractivo y responsivo.</p>
                </div>
            </div>
            <div class="col-sm-12 col-md-6 col-lg-6 py-3 mt-4">
@@ -837,7 +837,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
          </div>
          <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
               <div class="container py-4 mt-3">
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="text-muted justificado">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
          </div>
        </div>
@@ -859,13 +859,13 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                      <p class="text-muted">Utilizamos un conjunto de técnicas y de herramientas que sirven para optimizar tanto las paginas webs como landing pages, para que los buscadores, como Google, puedan leerlas de forma mas fácil y rápida.</p>
+                      <p class="text-muted justificado">Utilizamos un conjunto de técnicas y de herramientas que sirven para optimizar tanto las paginas webs como landing pages, para que los buscadores, como Google, puedan leerlas de forma mas fácil y rápida.</p>
                       <div class="container">
                         <ul class="list-group list-group-flush">
-                              <li class="list-group-item list-group-item-action"><span class="text-info">Auditoria SEO:</span> Sirve para saber si un sitio funciona, interna y externamente, basados en sus enlaces y estructura. Su principal objetivo es conocer si un sitio está bien indexeado y que sea posible rastrearlo por los motores de búsqueda.</li>
-                              <li class="list-group-item list-group-item-action"><span class="text-info">Estrategia SEO:</span> Esta estrategia permite generar un posicionamiento de manera orgánica, es decir, sin necesidad de invertir en anuncios. Al darle visibilidad al sitio, se incrementan las posibilidades de que los usuarios lo encuentren y visiten.</li>
-                              <li class="list-group-item list-group-item-action"><span class="text-info">OnSite:</span> Esta categoría de SEO se basa en factores internos de un sitio web para poder alcanzar el posicionamiento. Aquí es cuando se toman en cuenta la auditoría SEO para optimizar los enlaces internos, indexear las URL importantes, elegir las palabras clave óptimas y mejorar la velocidad de carga del sitio. Éste último, genera una buena experiencia al usuario lo que incrementa la posibilidad que visiten de nuevo el sitio.</li>
-                              <li class="list-group-item list-group-item-action"><span class="text-info">OffSite:</span> Un sitio web también cuenta con enlaces externos los cuales, permiten que al momento que el usuario investigue sobre un tema relacionado a la marca, los motores de búsqueda lo encuentren y crezca su presencia online. Aquí se toman en cuenta aspectos como cantidad y calidad de enlaces, como artículos de blog o mailings para generar tráfico al sitio, así como conocer el rendimiento de búsqueda.</li>
+                              <li class="list-group-item list-group-item-action"><span class="text-info">Auditoria SEO:</span> <span class="justificado">Sirve para saber si un sitio funciona, interna y externamente, basados en sus enlaces y estructura. Su principal objetivo es conocer si un sitio está bien indexeado y que sea posible rastrearlo por los motores de búsqueda</span>.</li>
+                              <li class="list-group-item list-group-item-action"><span class="text-info">Estrategia SEO:</span><span class="justificado"> Esta estrategia permite generar un posicionamiento de manera orgánica, es decir, sin necesidad de invertir en anuncios. Al darle visibilidad al sitio, se incrementan las posibilidades de que los usuarios lo encuentren y visiten.</span></li>
+                              <li class="list-group-item list-group-item-action"><span class="text-info">OnSite:</span> <span class="justificado">Esta categoría de SEO se basa en factores internos de un sitio web para poder alcanzar el posicionamiento. Aquí es cuando se toman en cuenta la auditoría SEO para optimizar los enlaces internos, indexear las URL importantes, elegir las palabras clave óptimas y mejorar la velocidad de carga del sitio. Éste último, genera una buena experiencia al usuario lo que incrementa la posibilidad que visiten de nuevo el sitio.</span></li>
+                              <li class="list-group-item list-group-item-action"><span class="text-info">OffSite:</span><span class="justificado"> Un sitio web también cuenta con enlaces externos los cuales, permiten que al momento que el usuario investigue sobre un tema relacionado a la marca, los motores de búsqueda lo encuentren y crezca su presencia online. Aquí se toman en cuenta aspectos como cantidad y calidad de enlaces, como artículos de blog o mailings para generar tráfico al sitio, así como conocer el rendimiento de búsqueda.</span></li>
                         </ul>
                     <div id="carouselExampleIndicators" class="carousel slide mt-4" data-bs-ride="carousel">
                       <div class="carousel-inner text-center">
@@ -912,7 +912,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                    </h2>
                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                       <div class="accordion-body">
-                        <p>Nos encargamos de gestionar y administrar la comunidad en línea de una empresa, crear y mantener conexiones a largo plazo con los clientes, usuarios y fanáticos que quieran la marca en Internet.</p>
+                        <p class="justificado">Nos encargamos de gestionar y administrar la comunidad en línea de una empresa, crear y mantener conexiones a largo plazo con los clientes, usuarios y fanáticos que quieran la marca en Internet.</p>
                         <div class="container">
                             <div class="row py-2 text-center">
                                  <div class="col">
@@ -950,11 +950,11 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                             </div>
                             <div class="row mt-3">
                               <ul class="list-group list-group-flush">
-                                  <li class="list-group-item list-group-item-action"><span class="text-secondary">Difución de productos y servicios:</span> Conocemos cuáles son las necesidades e intereses de tu empresa y nos encargamos a través del community manager de extenderlo al público. Dedicaremos este día a buscar posibles clientes interesados en tus servicios.</li>
-                                  <li class="list-group-item list-group-item-action"><span class="text-secondary">FeedBacks:</span> Gestionamos tus redes sociales, damos la bienvenida a nuevos usuarios y dinamizamos tus perfiles sociales. Estaremos en constante contacto contigo para comentarte todo lo que sucede en la red y te dirigiremos todos aquellas consultas que los usuarios hagan.</li>
-                                  <li class="list-group-item list-group-item-action"><span class="text-secondary">Informe de Resultados:</span> Llevamos a cabo un seguimiento durante el proyecto y comprobamos los resultados de la campaña.</li>
-                                  <li class="list-group-item list-group-item-action"><span class="text-secondary">Posteo en Redes sociales:</span> Nos encargamos de presentar tu marca y servicios en internet. Para ello dinamizamos tu blog o página web semanalmente para generar visitas nuevas y contenido actualizado de calidad.</li>
-                                  <li class="list-group-item list-group-item-action"><span class="text-secondary">Cultura de Marca:</span> Construimos relaciones duraderas, entre las marcas y los usuarios.</li>
+                                  <li class="list-group-item list-group-item-action"><span class="text-secondary">Difución de productos y servicios:</span> <span class="justificado">Conocemos cuáles son las necesidades e intereses de tu empresa y nos encargamos a través del community manager de extenderlo al público. Dedicaremos este día a buscar posibles clientes interesados en tus servicios.</span></li>
+                                  <li class="list-group-item list-group-item-action"><span class="text-secondary">FeedBacks:</span><span class="justificado"> Gestionamos tus redes sociales, damos la bienvenida a nuevos usuarios y dinamizamos tus perfiles sociales. Estaremos en constante contacto contigo para comentarte todo lo que sucede en la red y te dirigiremos todos aquellas consultas que los usuarios hagan.</span></li>
+                                  <li class="list-group-item list-group-item-action"><span class="text-secondary">Informe de Resultados:</span><span class="justificado"> Llevamos a cabo un seguimiento durante el proyecto y comprobamos los resultados de la campaña.</span></li>
+                                  <li class="list-group-item list-group-item-action"><span class="text-secondary">Posteo en Redes sociales:</span><span class="justificado"> Nos encargamos de presentar tu marca y servicios en internet. Para ello dinamizamos tu blog o página web semanalmente para generar visitas nuevas y contenido actualizado de calidad.</span></li>
+                                  <li class="list-group-item list-group-item-action"><span class="text-secondary">Cultura de Marca:</span><span class="justificado"> Construimos relaciones duraderas, entre las marcas y los usuarios.</span></li>
                                </ul>
                             </div>
                         </div>
@@ -972,7 +972,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                    </h2>
                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                        <div class="accordion-body">
-                         <p>Tener una imagen apropiada es algo muy importante y puede ser la diferencia entre dar confianza al cliente o que se vaya a la competencia. Te creamos un logotipo que pueda proyectar el concepto de tu negocio. Contacta con nosotros y junto a tu idea y visión de tu proyecto,
+                         <p class="justificado">Tener una imagen apropiada es algo muy importante y puede ser la diferencia entre dar confianza al cliente o que se vaya a la competencia. Te creamos un logotipo que pueda proyectar el concepto de tu negocio. Contacta con nosotros y junto a tu idea y visión de tu proyecto,
                          generaremos esa imagen corporativa que proyectara a tus clientes la confianza, frescura y proyección de tu marca o </p>
                          <hr class="text-primary">
                          <div class="row align-middle">
@@ -1052,11 +1052,24 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
     </div>
     <!-- termina acordeon -->
    </section>
+   <section id="paqueteria" class="bg-info mt-5">
+     <div class="row py-2 mt-5">
+           <h4 class="text-light text-center display-6 mt-3"> Paquetería Express</h4>
+           <div class="col-sm-12 col-md-12 col-lg-6">
+             <div class="container mt-5">
+               <h2 class="display-6 text-center"><span class="text-light">Capital</span><span class="text-warning"> Human</span><span class="text-light"> World</span></h2>
+               <hr class="text-light mt-2">
+               <p class="justificado text-light mt-2">Somos una plataforma 100% digital, usamos motocicletas para hacer entregas rápidas en Ciudad de México, Naucalpan y Tlanepantla te asignamos el mensajero más cercano a tu ubicación, así podrás ahorrar más en tus envíos express.</p>
+               <hr class="text-light">
+              </div>
+           </div>
+           <div class="col-sm-12 col-md-12 col-lg-6">
+             <img src="img/paqueteria.png" alt="paqueteria" class="img-fluid">
+           </div>
+     </div>
+   </section>
+   <section id="testimonio" class="py-4">
 
-   <section id="paqueteria">
-      <div class="row py-4">
-
-      </div>
    </section>
    <section id="Contacto">
    <div class="row">
