@@ -1092,9 +1092,38 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
            </div>
      </div>
    </section>
-   <section id="testimonio" class="py-4">
-      <div class="row py-2">
-           
+   <section id="testimonio" class="py-4 testimonial">
+      <div class="container">
+           <h3 class="text-center display-6">Testimonios</h3>
+           <p class="text-center">Gracias a las personas que han confiando en nosotros</p>
+             <div class="row">
+               <!-- inicia carrusel de testimonios -->
+                  <!-- inicia linea de testimonio -->
+                  <div class="container text-center">
+                     <div class="row">
+                     <div class="col-md-4">
+                         <div class="card shadow">
+                             <div class="py-2">
+                               <img src="img/yo.jpeg" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
+                             </div>
+                             <div class="container mt-3">
+                                <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">te guian en todo los procesos, todo en tiempo y forma, muy responsables.</cite></footer>
+                             </div>
+                             <h6>Jose luis Chavez G. | <span class="mt-0 text-primary">Desarrollador web</span></h6>
+                             
+                         </div>
+                     </div>
+                     <div class="col-md-4">
+                         <div class="card shadow">2</div>
+                     </div>
+                     <div class="col-md-4">
+                         <div class="card shadow">3</div>
+                     </div>
+                     </div>
+                  </div>
+
+               <!-- termina carrusel -->
+             </div>
       </div>
    </section>
    <section id="Contacto">

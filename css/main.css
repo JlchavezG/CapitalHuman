@@ -170,8 +170,8 @@ section[id]{
   padding: 2px;
 
 }
-.testimonio{
-  width: 125px;
+.profile{
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  align-content: center;
 }
