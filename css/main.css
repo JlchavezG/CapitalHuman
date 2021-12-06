@@ -170,3 +170,8 @@ section[id]{
   padding: 2px;
 
 }
+.testimonio{
+  width: 125px;
+  border-radius: 50%;
+  align-content: center;
+}

@@ -1057,10 +1057,34 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
            <h4 class="text-light text-center display-6 mt-3"> Paquetería Express</h4>
            <div class="col-sm-12 col-md-12 col-lg-6">
              <div class="container mt-5">
-               <h2 class="display-6 text-center"><span class="text-light">Capital</span><span class="text-warning"> Human</span><span class="text-light"> World</span></h2>
+               <h2 class="display-6 text-center"><span class="text-light">Capital</span><span style="color:#ec7d23;"> Human</span><span class="text-secondary"> World</span></h2>
                <hr class="text-light mt-2">
                <p class="justificado text-light mt-2">Somos una plataforma 100% digital, usamos motocicletas para hacer entregas rápidas en Ciudad de México, Naucalpan y Tlanepantla te asignamos el mensajero más cercano a tu ubicación, así podrás ahorrar más en tus envíos express.</p>
                <hr class="text-light">
+               <div class="container">
+                 <div class="row py-3 text-center">
+                    <div class="col">
+                        <svg class="bi text-light" width="30" height="30" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#alarm-fill"/>
+                        </svg>
+                    </div>
+                    <div class="col">
+                        <svg class="bi text-light" width="30" height="30" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#shield-lock-fill"/>
+                        </svg>
+                    </div>
+                    <div class="col">
+                        <svg class="bi text-light" width="30" height="30" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#truck"/>
+                        </svg>
+                    </div>
+                    <div class="col">
+                        <svg class="bi text-light" width="30" height="30" role="img" aria-label="Tools">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#signpost-split-fill"/>
+                        </svg>
+                    </div>
+                 </div>
+               </div>
               </div>
            </div>
            <div class="col-sm-12 col-md-12 col-lg-6">
@@ -1069,7 +1093,9 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
      </div>
    </section>
    <section id="testimonio" class="py-4">
-
+      <div class="row py-2">
+           
+      </div>
    </section>
    <section id="Contacto">
    <div class="row">
