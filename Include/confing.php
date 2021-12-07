@@ -34,7 +34,7 @@ if($extraer > 0){
        //destruimos la session
        session_destroy();
        //redirigimos ala pagina principal de login
-       header("location:index.php");
+       header("location:login.php");
        exit();
      }
   }
