@@ -1056,41 +1056,41 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
      <div class="row py-2 mt-5">
            <h4 class="text-light text-center display-6 mt-3"> Paquetería Express</h4>
            <div class="col-sm-12 col-md-12 col-lg-6">
-             <div class="container mt-5">
-               <h2 class="display-6 text-center"><span class="text-light">Capital</span><span style="color:#ec7d23;"> Human</span><span class="text-secondary"> World</span></h2>
-               <hr class="text-light mt-2">
-               <p class="justificado text-light mt-2">Somos una plataforma 100% digital, usamos motocicletas para hacer entregas rápidas en Ciudad de México, Naucalpan y Tlanepantla te asignamos el mensajero más cercano a tu ubicación, así podrás ahorrar más en tus envíos express.</p>
-               <hr class="text-light">
-               <div class="container">
-                 <div class="row py-3 text-center">
-                    <div class="col">
-                        <svg class="bi text-light" width="30" height="30" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#alarm-fill"/>
-                        </svg>
-                    </div>
-                    <div class="col">
-                        <svg class="bi text-light" width="30" height="30" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#shield-lock-fill"/>
-                        </svg>
-                    </div>
-                    <div class="col">
-                        <svg class="bi text-light" width="30" height="30" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#truck"/>
-                        </svg>
-                    </div>
-                    <div class="col">
-                        <svg class="bi text-light" width="30" height="30" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#signpost-split-fill"/>
-                        </svg>
-                    </div>
-                 </div>
-               </div>
-              </div>
+               <div class="container mt-5">
+                   <h2 class="display-6 text-center"><span class="text-light">Capital</span><span style="color:#ec7d23;"> Human</span><span class="text-secondary"> World</span></h2>
+                   <hr class="text-light mt-2">
+                   <p class="justificado text-light mt-2">Somos una plataforma 100% digital, usamos motocicletas para hacer entregas rápidas en Ciudad de México, Naucalpan y Tlanepantla te asignamos el mensajero más cercano a tu ubicación, así podrás ahorrar más en tus envíos express.</p>
+                   <hr class="text-light">
+                      <div class="container">
+                        <div class="row py-3 text-center">
+                            <div class="col">
+                              <svg class="bi text-light" width="30" height="30" role="img" aria-label="Tools">
+                                <use xlink:href="library/icons/bootstrap-icons.svg#alarm-fill"/>
+                              </svg>
+                            </div>
+                            <div class="col">
+                              <svg class="bi text-light" width="30" height="30" role="img" aria-label="Tools">
+                                 <use xlink:href="library/icons/bootstrap-icons.svg#shield-lock-fill"/>
+                              </svg>
+                            </div>
+                            <div class="col">
+                              <svg class="bi text-light" width="30" height="30" role="img" aria-label="Tools">
+                                 <use xlink:href="library/icons/bootstrap-icons.svg#truck"/>
+                              </svg>
+                            </div>
+                            <div class="col">
+                                <svg class="bi text-light" width="30" height="30" role="img" aria-label="Tools">
+                                   <use xlink:href="library/icons/bootstrap-icons.svg#signpost-split-fill"/>
+                                </svg>
+                            </div>
+                         </div>
+                      </div>
+                  </div>
            </div>
-           <div class="col-sm-12 col-md-12 col-lg-6">
-             <img src="img/paqueteria.png" alt="paqueteria" class="img-fluid">
-           </div>
-     </div>
+   <div class="col-sm-12 col-md-12 col-lg-6">
+      <img src="img/paqueteria.png" alt="paqueteria" class="img-fluid">
+   </div>
+   </div>
    </section>
    <section id="testimonio" class="py-4 testimonial">
       <div class="container">
@@ -1098,32 +1098,100 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
            <p class="text-center">Gracias a las personas que han confiando en nosotros</p>
              <div class="row">
                <!-- inicia carrusel de testimonios -->
-                  <!-- inicia linea de testimonio -->
-                  <div class="container text-center">
-                     <div class="row">
-                     <div class="col-md-4">
-                         <div class="card shadow">
-                             <div class="py-2">
-                               <img src="img/yo.jpeg" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
-                             </div>
-                             <div class="container mt-3">
-                                <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">te guian en todo los procesos, todo en tiempo y forma, muy responsables.</cite></footer>
-                             </div>
-                             <h6>Jose luis Chavez G. | <span class="mt-0 text-primary">Desarrollador web</span></h6>
-                             
-                         </div>
-                     </div>
-                     <div class="col-md-4">
-                         <div class="card shadow">2</div>
-                     </div>
-                     <div class="col-md-4">
-                         <div class="card shadow">3</div>
-                     </div>
-                     </div>
+                   <div id="Testimonios" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                             <!-- inicia linea de testimonio -->
+                             <div class="container text-center">
+                                <div class="row">
+                                    <div class="col-md-4 py-3">
+                                         <div class="card shadow">
+                                            <div class="py-2">
+                                               <img src="img/yo.jpeg" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
+                                            </div>
+                                            <div class="container mt-3">
+                                               <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
+                                            </div>
+                                            <h6>Jose luis Chavez G. | <span class="mt-0 text-primary">Desarrollador web</span></h6>
+                                         </div>
+                                     </div>
+                                     <div class="col-md-4 py-3">
+                                        <div class="card shadow">
+                                           <div class="py-2">
+                                              <img src="img/yo.jpeg" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
+                                           </div>
+                                           <div class="container mt-3">
+                                              <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
+                                           </div>
+                                           <h6>Jose luis Chavez G. | <span class="mt-0 text-primary">Desarrollador web</span></h6>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-4 py-3">
+                                          <div class="card shadow">
+                                              <div class="py-2">
+                                                <img src="img/yo.jpeg" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
+                                             </div>
+                                             <div class="container mt-3">
+                                                <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
+                                             </div>
+                                             <h6>Jose luis Chavez G. | <span class="mt-0 text-primary">Desarrollador web</span></h6>
+                                           </div>
+                                       </div>
+                                 </div>
+                               </div>
+                            </div>
+                            <div class="carousel-item">
+                            <!-- inicia linea de testimonio -->
+                            <div class="container text-center">
+                               <div class="row">
+                                  <div class="col-md-4 py-3">
+                                     <div class="card shadow">
+                                        <div class="py-2">
+                                           <img src="img/yo.jpeg" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
+                                        </div>
+                                        <div class="container mt-3">
+                                           <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
+                                        </div>
+                                        <h6>Jose luis Chavez G. | <span class="mt-0 text-primary">Desarrollador web</span></h6>
+                                     </div>
+                                   </div>
+                                   <div class="col-md-4 py-3">
+                                     <div class="card shadow">
+                                        <div class="py-2">
+                                           <img src="img/yo.jpeg" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
+                                        </div>
+                                        <div class="container mt-3">
+                                           <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
+                                        </div>
+                                        <h6>Jose luis Chavez G. | <span class="mt-0 text-primary">Desarrollador web</span></h6>
+                                     </div>
+                                   </div>
+                                   <div class="col-md-4 py-3">
+                                      <div class="card shadow">
+                                        <div class="py-2">
+                                           <img src="img/yo.jpeg" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
+                                        </div>
+                                        <div class="container mt-3">
+                                          <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
+                                        </div>
+                                        <h6>Jose luis Chavez G. | <span class="mt-0 text-primary">Desarrollador web</span></h6>
+                                     </div>
+                                   </div>
+                               </div>
+                            </div>
+                      </div>
                   </div>
-
-               <!-- termina carrusel -->
-             </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#Testimonios" data-bs-slide="prev" style="background-color:rgba(255, 102, 52,0.8); width:20px;">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#Testimonios" data-bs-slide="next" style="background-color:rgba(255, 102, 52,0.8); width:20px;">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+              </div>
+             <!-- termina carrusel -->
+         </div>
       </div>
    </section>
    <section id="Contacto">

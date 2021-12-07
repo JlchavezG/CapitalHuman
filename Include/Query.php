@@ -17,6 +17,14 @@ $TMujeres = $Mujeres->num_rows;
 $Hombre = "SELECT * FROM Usuarios WHERE Id_Genero = '2'";
 $Hombres = $conecta->query($Hombre);
 $THombres = $Hombres->num_rows;
+// consulta para documentos
+$documento = "SELECT * FROM Documentos ORDER BY Id_Documento";
+$documentos = $conecta->query($documento);
+$Tdocumentos = $documentos->num_rows;
+// consulta para proyectos 
+$proyecto = "SELECT * FROM Proyectos ORDER BY Id_Proyecto";
+$proyectos = $conecta->query($proyecto);
+$Tproyectos = $proyectos->num_rows;
 // consulta cruzada o inner join para obtener todos los datos de usuario
 $Inner = "SELECT U.Id_Usuarios, U.Nombre, U.ApellidoP, U.ApellidoM, U.Id_Genero, U.Telefono, U.Email, U.Id_Empresa, U.Id_Tuser,
 U.UserName, U.Password, U.Imagen, U.Estatus, U.Online, G.Id_Genero, G.NombreG, E.Id_Empresa, E.NombreEmp, T.Id_TUsuario, T.NombreT, S.Id_Estatus, S.EstatusNom FROM Usuarios AS U

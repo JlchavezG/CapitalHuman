@@ -43,7 +43,7 @@
            <div class="card-body">
               <div class="row text-center">
                   <div class="col aling-middle">
-                     <p>Hombres:</p><h5><?php echo $THombres; ?></h5>
+                     <p>Hombres:</p><h5 class="text-warning"><?php echo $THombres; ?></h5>
                   </div>
                   <div class="col rounded text-center py-2">
                      <h2><svg class="bi" width="35" height="35" role="img" aria-label="Tools">
@@ -62,7 +62,7 @@
            <div class="card-body">
               <div class="row text-center">
                   <div class="col aling-middle">
-                     <p>Mujeres:</p><h5><?php echo $TMujeres; ?></h5>
+                     <p>Mujeres:</p><h5 style="color:pink;"><?php echo $TMujeres; ?></h5>
                   </div>
                   <div class="col rounded text-center py-2">
                      <h2><svg class="bi" width="35" height="35" role="img" aria-label="Tools">
@@ -83,7 +83,7 @@
              <div class="card-body">
                 <div class="row text-center">
                     <div class="col aling-middle">
-                       <p>Documentos:</p><h5>5</h5>
+                       <p>Documentos:</p><h5 class="text-secondary"><?php echo $Tdocumentos; ?></h5>
                     </div>
                     <div class="col rounded text-center py-2">
                        <h2><svg class="bi" width="35" height="35" role="img" aria-label="Tools">
@@ -102,7 +102,7 @@
            <div class="card-body">
               <div class="row text-center">
                   <div class="col aling-middle">
-                     <p>Proyectos:</p><h5>15</h5>
+                     <p>Proyectos:</p><h5 class="text-danger"><?php echo $Tproyectos; ?></h5>
                   </div>
                   <div class="col rounded text-center py-2">
                      <h2><svg class="bi" width="35" height="35" role="img" aria-label="Tools">
