@@ -46,8 +46,11 @@ if(isset($_POST['ingresar'])){
   </head>
   <body>
   <div class="container">
+       <div class="mt-4">
+       <?php echo $alerta; ?>
+       </div>
         <div class="row d-flex justify-content-center">
-             <div class="col-sm-6 col-md-6 col-lg-6 py-5">
+             <div class="col-sm-6 col-md-6 col-lg-6 py-2">
                 <div class="card shadow">
                    <div class="container">
                      <div class="row">
@@ -98,7 +101,6 @@ if(isset($_POST['ingresar'])){
                                </form>
                                <!-- termina formulario login -->
                           </div>
-                          <?php echo $alerta; ?>
                     </div>
                   </div>
                </div>

@@ -14,7 +14,7 @@
                       Push.create("Notificación de Contacto",{
                         body:"Tu mensaje se envio correctamente nos comunicaremos a la brevedad",
                         icon:"img/logo_human.png",
-                        timeout:4000
+                        timeout:9000
                       });
                     </script>';
   }  
@@ -1315,7 +1315,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
               </tr>
             </tbody>
           </table>
-          <p>Ingreso a clientes: <a href="login.php" class="text-light text-decoration-none">Aqui</a></p>
+          <p>Ingreso a clientes: <a href="login.php" class="text-light text-decoration-none">Backend Human World</a></p>
         </div>
       </div>
     </div>

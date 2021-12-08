@@ -16,6 +16,7 @@
     <meta name="keywords" content="Servicio a clientes Capital Human World, Recursos para empresas, Archivo laboral, Contratos, Manuales de procedimientos, Organigrama empresarial, Perfiles, Soluciones digitales, Paginas web, Seo, Imagen corporativa">
     <mata name="autor" contend="Capital Human World Empresa epscializada en personal y captación de talento">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/pace.css">
     <script src="js/push/push.min.js"></script>
     <title>Cuenta | Clietes Capital Human Wordl</title>
   </head>
@@ -38,5 +39,6 @@
      ?>
   </div>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/pace.js"></script>
   </body>
 </html>

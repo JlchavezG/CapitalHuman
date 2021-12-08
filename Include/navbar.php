@@ -1,6 +1,6 @@
 <!-- inicia el navbar -->
 <div class="row">
-       <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-white shadow" id="menu">
+       <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white shadow" id="menu">
            <div class="container-fluid">
                <div class="d-flex flex-grow-1">
                     <span class="w-100 d-lg-none d-block">
@@ -8,7 +8,7 @@
                     <a class="navbar-brand" href="clientes.php">
                       <img src="img/logo_human1.png" style="width:150px;"></a>
                     <div class="w-100 text-right">
-                       <button class="navbar-toggler text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbarJl">
+                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbarJl">
                           <span class="navbar-toggler-icon"></span>
                        </button>
                     </div>
