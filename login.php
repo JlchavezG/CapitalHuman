@@ -40,6 +40,8 @@ if(isset($_POST['ingresar'])){
     <meta charset="utf-8">
     <title>Inicio Sesión | Clientes</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/pace.css">
     <script src="js/jquery.js"></script>
   </head>
   <body>
@@ -118,6 +120,7 @@ if(isset($_POST['ingresar'])){
       </div>
   </div>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/pace.js"></script>
   <script>
      function verpass(cb){
        if(cb.checked)

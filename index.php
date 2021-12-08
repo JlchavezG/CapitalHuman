@@ -1,7 +1,24 @@
 <?php
  error_reporting(0);
  include 'include/conecta.php';
- include 'include/contador.php';
+
+ if(isset($_POST['Contacto'])){
+  $Nombre = $conecta->real_escape_string($_POST['Nombre']);
+  $Telefono = $conecta->real_escape_string($_POST['Telefono']);
+  $Email = $conecta->real_escape_string($_POST['Email']);
+  $Mensaje = $conecta->real_escape_string($_POST['Mensaje']);
+  $inserta = "INSERT INTO Contacto(Nombre, Telefono, Email, Mensaje)VALUES('$Nombre','$Telefono','$Email','$Mensaje')";
+  $insertar = $conecta->query($inserta);
+  if($insertar > 0){
+    $notificacion.='<script>
+                      Push.create("Notificación de Contacto",{
+                        body:"Tu mensaje se envio correctamente nos comunicaremos a la brevedad",
+                        icon:"img/logo_human.png",
+                        timeout:4000
+                      });
+                    </script>';
+  }  
+ }
  ?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
@@ -27,6 +44,7 @@
     <title>Capital Human Wordl</title>
   </head>
   <body>
+    <?php echo $notificacion; ?>
     <!-- inicia el navbar principal -->
     <div class="row">
            <nav class="navbar navbar-expand-lg fixed-top navbar-dark mynavbar" id="Menu">
@@ -72,7 +90,7 @@
                              <li><a class="dropdown-item" href="#SolucionesWeb"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#person-plus-fill"/>
                                </svg> Soluciones Web</a></li>
-                             <li><a class="dropdown-item" href="#Paqueteria"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                             <li><a class="dropdown-item" href="#paqueteria"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#file-earmark-break-fill"/>
                                </svg> Soluciones de Paqueteria</a></li>
                            </ul>
@@ -81,6 +99,11 @@
                              <a href="#Contacto" class="nav-link selectMenu"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#envelope-open-fill"/>
                                  </svg> Contacto</a>
+                          </li>
+                          <li class="nav-item">
+                             <a href="#Cotizacion" class="nav-link selectMenu"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                                 <use xlink:href="library/icons/bootstrap-icons.svg#cash-coin"/>
+                                 </svg> Cotizaciones</a>
                           </li>
                         </ul>
                      </div>
@@ -112,7 +135,7 @@
                <div class="carousel-caption d-none d-md-block">
                   <h5 class="text-muted">¿Necesitas un perfil especifico?</h5>
                   <p class="text-secondary">Nosotros a travez de tecnicas y procesos controlados cubrimos ese perfil.</p>
-                  <a href="#" class="btn btn-sm bg-primary bg-gradient text-light">Más Información</a>
+                  <a href="#Reclutamiento" class="btn btn-sm bg-primary bg-gradient text-light">Más Información</a>
                </div>
             </div>
             <div class="carousel-item">
@@ -120,7 +143,7 @@
                <div class="carousel-caption d-none d-md-block">
                   <h5 class="text-muted">Te asesoramos en la creación de</h5>
                   <p class="text-secondary">Contratos simples, administración de documentos en RH, Manual de procedimientos y mucho màs.</p>
-                  <a href="#" class="btn btn-sm bg-primary bg-gradient text-light">Más Información</a>
+                  <a href="#Manuales" class="btn btn-sm bg-primary bg-gradient text-light">Más Información</a>
                </div>
             </div>
             <div class="carousel-item">
@@ -128,7 +151,7 @@
                <div class="carousel-caption d-none d-md-block">
                   <h5 class="text-muted">¿Necesitas un sitio web?</h5>
                   <p class="text-secondary">Nosotros te ayudamos a realizarlo segun las necesidades y caracteristicas de tu negocio.</p>
-                  <a href="#" class="btn btn-sm bg-primary bg-gradient text-light">Más Información</a>
+                  <a href="#SolucionesWeb" class="btn btn-sm bg-primary bg-gradient text-light">Más Información</a>
                </div>
             </div>
             <div class="carousel-item">
@@ -136,7 +159,7 @@
                <div class="carousel-caption d-none d-md-block">
                   <h5 class="text-muted">¿La mejor forma de enviar o recibir tus paquetes?</h5>
                   <p class="text-secondary">Nuestro servicio es personalizado y 100% confidencial.</p>
-                  <a href="#" class="btn btn-sm bg-primary bg-gradient text-light">Más Información</a>
+                  <a href="#paqueteria" class="btn btn-sm bg-primary bg-gradient text-light">Más Información</a>
                </div>
             </div>
        </div>
@@ -264,7 +287,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                    <img src="img/rh.png" class="card-img-top" alt="Recursos Humanos">
                    <div class="card-body">
                       <h5 class="card-title text-center text-muted">Recursos Humanos</h5>
-                      <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text justificado">Descubre como puedes administrar la fuerza laboral de tu empresa y ayudarte incrementar y promover experiencias significativas para tu personal.</p>
                       <a href="#Rh" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
                  </div>
                 </div>
@@ -274,7 +297,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                    <img src="img/sd.png" class="card-img-top" alt="Servicios Digitales">
                    <div class="card-body">
                       <h5 class="card-title text-center text-muted">Soluciones Web</h5>
-                      <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text justificado">Impulsa tu empresa o negocio con clientes potenciales atravez del internet llegando a todos tus posibles clientes ofreciendoles  tus productos o servicios.</p>
                       <a href="#Digital" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
                  </div>
                 </div>
@@ -284,7 +307,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                    <img src="img/re.png" class="card-img-top" alt="Paqueteria Express">
                    <div class="card-body">
                       <h5 class="card-title text-center text-muted">Paqueteria Express</h5>
-                      <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text justificado">Nuestro servicio esta diseñado para pequeñas y grandes empresas, negocios o entrega personales para comerciantes. Potencia tus ventas con nustro servicio.</p>
                       <a href="#paqueteria" class="btn btn-info btn-sm d-grid gap-2 text-center text-light">Más Información</a>
                  </div>
                 </div>
@@ -384,7 +407,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
            </div>
         </div>
      </section>
-     <section class="py-4">
+     <section class="py-4" id="Examen">
          <div class="container">
              <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
@@ -1041,9 +1064,16 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                                        <!-- termina acordeon -->
                                      </div>
                                      <div class="col">
-                                       2
+                                       <ul class="list-group list-group-flush">
+                                         <li class="list-group-item"><span class="text-info">Venta de camaras de seguridad:</span><span class="text-muted justificado"> Ponemos a tu alcance productos de la más alta calidad en Camaras
+                                            de Seguridad interiores y exteriores, DVR´s, Cámaras IP de 2 mega pixeles.</span></li>
+                                         <li class="list-group-item"><span class="text-info">Instalación de camaras de seguridad:</span><span class="text-muted justificado"> La Instalación de Cámaras de Seguridad debe estar realizada por un Profesional, y nosotros contamos 
+                                            con Personal capacitado para esta tarea.</span></li>
+                                         <li class="list-group-item"><span class="text-info">Mantenimiento de camaras de seguridad:</span><span class="text-muted justificado"> Realiza el Mantenimiento de Camaras de Seguridad, preventivo y Correctivo, para darle una mayor vida 
+                                           util a tus Equipos</span></li>
+                                       </ul>
                                      </div>
-                                 </div>
+                              </div>
                          </div>
                       </div>
                    </div>
@@ -1107,34 +1137,34 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                                     <div class="col-md-4 py-3">
                                          <div class="card shadow">
                                             <div class="py-2">
-                                               <img src="img/yo.jpeg" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
+                                               <img src="img/clientes.png" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
                                             </div>
                                             <div class="container mt-3">
                                                <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
                                             </div>
-                                            <h6>Jose luis Chavez G. | <span class="mt-0 text-primary">Desarrollador web</span></h6>
+                                            <h6>Soraya Olivares. | <span class="mt-0 text-primary">Empresaria</span></h6>
                                          </div>
                                      </div>
                                      <div class="col-md-4 py-3">
                                         <div class="card shadow">
                                            <div class="py-2">
-                                              <img src="img/yo.jpeg" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
+                                              <img src="img/clientes.png" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
                                            </div>
                                            <div class="container mt-3">
                                               <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
                                            </div>
-                                           <h6>Jose luis Chavez G. | <span class="mt-0 text-primary">Desarrollador web</span></h6>
+                                           <h6>David Santiago. | <span class="mt-0 text-primary">Cliente de paqueteria</span></h6>
                                         </div>
                                       </div>
                                       <div class="col-md-4 py-3">
                                           <div class="card shadow">
                                               <div class="py-2">
-                                                <img src="img/yo.jpeg" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
+                                                <img src="img/clientes.png" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
                                              </div>
                                              <div class="container mt-3">
                                                 <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
                                              </div>
-                                             <h6>Jose luis Chavez G. | <span class="mt-0 text-primary">Desarrollador web</span></h6>
+                                             <h6>Rafael Garcia. | <span class="mt-0 text-primary">Cliente</span></h6>
                                            </div>
                                        </div>
                                  </div>
@@ -1147,18 +1177,18 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                                   <div class="col-md-4 py-3">
                                      <div class="card shadow">
                                         <div class="py-2">
-                                           <img src="img/yo.jpeg" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
+                                           <img src="img/clientes.png" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
                                         </div>
                                         <div class="container mt-3">
                                            <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
                                         </div>
-                                        <h6>Jose luis Chavez G. | <span class="mt-0 text-primary">Desarrollador web</span></h6>
+                                        <h6>Emilio Garcia. | <span class="mt-0 text-primary">Emprendedor</span></h6>
                                      </div>
                                    </div>
                                    <div class="col-md-4 py-3">
                                      <div class="card shadow">
                                         <div class="py-2">
-                                           <img src="img/yo.jpeg" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
+                                           <img src="img/clientes.png" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
                                         </div>
                                         <div class="container mt-3">
                                            <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
@@ -1169,7 +1199,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                                    <div class="col-md-4 py-3">
                                       <div class="card shadow">
                                         <div class="py-2">
-                                           <img src="img/yo.jpeg" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
+                                           <img src="img/clientes.png" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
                                         </div>
                                         <div class="container mt-3">
                                           <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
@@ -1199,7 +1229,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
      <div class="col-sm-12 col-md-7 col-lg-7 working py-2">
           <h2 class="display-6 text-center text-light py-2">Formulario de Contacto</h2><hr class="text-light">
           <div class="container justify-content-md-center py-3">
-             <form action="" method="post">
+             <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
              <div class="row py-2">
                    <div class="col">
                       <input type="text" name="Nombre" placeholder="Nombre" class="form-control cajas" autocomplete ="off" required>
@@ -1220,7 +1250,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
              </div>
              <div class="row py-2">
                    <div class="col">
-                      <input type="submit" name="contacto" value="Enviar Mensaje" class="btn btn-sm btn-primary">
+                      <input type="submit" name="Contacto" value="Enviar Mensaje" class="btn btn-sm btn-primary">
                    </div>
              </div>
           </form>
