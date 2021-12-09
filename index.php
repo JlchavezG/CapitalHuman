@@ -19,6 +19,7 @@
                     </script>';
   }  
  }
+ 
  ?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
@@ -1248,9 +1249,17 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                       <textarea name="Mensaje" class="form-control cajas" placeholder="Mensaje" autocomplete ="off"></textarea>
                    </div>
              </div>
+             <div class="container">
+                <div class="row">
+                    <div class="form-check form-switch">
+                        <input type="checkbox" name="ver" class="form-check-input" role="switch" id="ter" onclick="activar(this);">
+                       <label for="terminios" class="form-check-label text-light">Acepto terminos y condiciones</label>
+                        </div>
+                    </div>
+                  </div>
              <div class="row py-2">
                    <div class="col">
-                      <input type="submit" name="Contacto" value="Enviar Mensaje" class="btn btn-sm btn-primary">
+                      <input type="submit" name="Contacto" value="Enviar Mensaje" id="Comentarios" class="btn btn-sm btn-primary">
                    </div>
              </div>
           </form>
@@ -1330,5 +1339,15 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
      <script src="js/mapa.js"></script>
      <script src="js/preloader.js"></script>
      <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYMPGtM7VUn1aq61tkGbu99qD95c-w5zc&callback=initMap"></script>
+     <script>
+    // deabilitar el boton de registrar
+    document.getElementById('Comentarios').disabled=true;
+    function activar(cb){
+        if(cb.checked)
+        document.getElementById('Comentarios').disabled=false;
+        else
+        document.getElementById('Comentarios').disabled=true;
+    }
+</script>
   </body>
 </html>
