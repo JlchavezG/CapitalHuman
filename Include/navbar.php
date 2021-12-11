@@ -23,7 +23,7 @@
                         <li><a class="dropdown-item" href="Perfil.php"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                             <use xlink:href="library/icons/bootstrap-icons.svg#person-badge"/>
                           </svg> Perfil</a></li>
-                        <li><a class="dropdown-item" href="#Reclutamiento"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                        <li><a class="dropdown-item" href="configuracion.php"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                             <use xlink:href="library/icons/bootstrap-icons.svg#gear-fill"/>
                           </svg> Configuración</a></li>
                         <li><a class="dropdown-item" href="include/cerrar.php"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">

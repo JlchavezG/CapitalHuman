@@ -45,8 +45,8 @@
     <title>Capital Human Wordl</title>
   </head>
   <body>
-    <?php echo $notificacion; ?>
-    <!-- inicia el navbar principal -->
+<?php echo $notificacion; ?> 
+<!-- inicia el navbar principal -->
     <div class="row">
            <nav class="navbar navbar-expand-lg fixed-top navbar-dark mynavbar" id="Menu">
                <div class="container-fluid">
@@ -102,7 +102,7 @@
                                  </svg> Contacto</a>
                           </li>
                           <li class="nav-item">
-                             <a href="#Cotizacion" class="nav-link selectMenu"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                             <a href="#" class="nav-link selectMenu" data-bs-toggle="modal" data-bs-target="#Cotizaciones"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#cash-coin"/>
                                  </svg> Cotizaciones</a>
                           </li>
@@ -111,9 +111,9 @@
                  </div>
             </nav>
       </div>
-      <!-- termina el nav -->
-      <!-- inicia slider-->
-      <section>
+<!-- termina el nav -->
+<!-- inicia slider-->
+<section>
       <div id="carouselExampleCaptions" class="carousel slide py-4" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" style="background-color:rgb(33, 97, 140);" aria-current="true" aria-label="Slide 1"></button>
@@ -173,33 +173,101 @@
           <span class="visually-hidden">Next</span>
        </button>
       </div>
-    </section>
-      <!-- termina slider-->
-      <!-- inicia barra de contacto -->
-      <div class="container">
+</section>
+<!-- termina slider-->
+<!-- inicia barra de contacto -->
+<div class="container">
       <div class="row align-self-center">
           <div class="col-sm-12 col-md-12 col-lg-12 py-2">
               <div class="card shadow-lg">
                 <div class="card-body text-center">
-                      <span style="color:#2980B9;"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                      <svg class="bi" width="17" height="17" role="img" aria-label="Tools" style="color:#2980B9;">
                         <use xlink:href="library/icons/bootstrap-icons.svg#telephone-fill"/>
-                      </svg></span><a href="tel:+52 55 55 55 55 55" class="text-dark text-decoration-none"> 55 55 55 55 55</a> &nbsp; 55 55 55 55 55 &nbsp;|&nbsp;&nbsp;<span style="color:#2980B9;"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                      </svg>
+                      <a href="tel:+52 55 55 55 55 55" class="text-dark text-decoration-none"> 55 55 55 55 55</a> &nbsp; 55 55 55 55 55 &nbsp;|&nbsp;&nbsp;
+                      <svg class="bi" width="17" height="17" role="img" aria-label="Tools" style="color:#2980B9;">
                           <use xlink:href="library/icons/bootstrap-icons.svg#envelope-fill"/>
-                      </svg><a href="mailto:contacto@capitalhumanworld.com" class="text-dark text-decoration-none">&nbsp; contacto@capitalhumanworld.com</a> &nbsp; | &nbsp; <span style="color:#2980B9;">
-                        <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                      </svg>
+                      <a href="mailto:contacto@capitalhumanworld.com" class="text-dark text-decoration-none">&nbsp; contacto@capitalhumanworld.com</a> &nbsp; | &nbsp;
+                        <svg class="bi" width="17" height="17" role="img" aria-label="Tools" style="color:#2980B9;">
                             <use xlink:href="library/icons/bootstrap-icons.svg#facebook"/>
-                      </svg>&nbsp;&nbsp; <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#twitter"/>&nbsp;&nbsp;</span>
-                          &nbsp;&nbsp; <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                              <use xlink:href="library/icons/bootstrap-icons.svg#instagram"/>
-                    </svg>
-                </div>
+                      </svg>&nbsp;&nbsp; 
+                      <svg class="bi" width="17" height="17" role="img" aria-label="Tools" style="color:#2980B9;">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#twitter"/>&nbsp;&nbsp;
+                          </svg> &nbsp;
+                      <svg class="bi" width="17" height="17" role="img" aria-label="Tools" style="color:#2980B9;">
+                          <use xlink:href="library/icons/bootstrap-icons.svg#instagram"/>
+                      </svg>
+                 </div>
               </div>
           </div>
       </div>
-    </div>
-    <!-- termina barra de contacto-->
-    <!-- Apartado de nosotros -->
+</div>
+<!-- termina barra de contacto-->
+<!-- ventanas modales de cotizaciones -->
+<div class="modal fade" id="Cotizaciones" tabindex="-1" aria-labelledby="CotizacionesLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel">Cotización de Servicio | Capital Human World</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+              <div class="row py-2">
+                <span class="text-center text-muted">Por favor ingresa los datos solicitados para realizar una cotización de servicio.</span>
+              <form target="_blank" action="include/cotizaciones.php" method="post">
+              </div>
+              <div class="container">
+                 <div class="row py-1">
+                   <div class="col">
+                   <input type="text" name="Csolicitante" placeholder="Con a tención a:" class="form-control" required>
+                   </div>
+                 </div>
+                 <div class="row py-1">
+                    <div class="col">
+                        <input type="tel" name="Ctelefono" placeholder="Telefono de Contacto" class="form-control" required>
+                    </div>
+                    <div class="col">
+                        <input type="email" name="Cemail" placeholder="Email de Contacto" class="form-control" required>
+                    </div>
+                 </div>
+                 <div class="row py-1">
+                   <div class="container">
+                       <span>Selecciona la opción de contacto de tu preferencia:</span>
+                       <div class="row">
+                          <div class="col">
+                            <div class="form-check form-switch py-2">
+                               <input class="form-check-input" name="contactoTelefono" type="checkbox" role="switch" id="contactoTelefono">
+                               <label class="form-check-label" for="contactoTelefono">Contacto por telefono</label>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="form-check form-switch py-2">
+                               <input class="form-check-input" name="contactoEmail" type="checkbox" role="switch" id="contactoEmail">
+                               <label class="form-check-label" for="contactoEmail">Contacto por email</label>
+                            </div>
+                        </div>
+                        <div class="container py-2">
+                        <select class="form-select" aria-label="Servicio" id="servicio" name="servicio" required>
+                            <option selected>Selecciona el tipo de servicio a cotizar</option>
+              
+                        </select>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+             <input type="submit" value="Cotizar" class="btn btn-sm btn-success">
+        </div>
+        </form>
+        </div>
+     </div>
+   </div>
+</div>
+<!-- termina ventana de cotizaciones -->
+<!-- Apartado de nosotros -->
     <section id="Nostros">
         <div class="row py-5">
             <div class="col-sm-6 col-md-6 col-lg-6 text-center py-5">
@@ -618,7 +686,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
         </div>
      </div>
      <div class="modal-footer">
-       <p class="text-muted">Consulta nuestro aviso de privacidad: Aqui</p>
+       <p class="text-muted">Capital Human World | Centralisamos tu mundo</p>
      </div>
    </div>
  </div>
@@ -648,7 +716,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
         </div>
      </div>
      <div class="modal-footer">
-       <p class="text-muted">Consulta nuestro aviso de privacidad: Aqui</p>
+       <p class="text-muted">Capital Human World | Centralisamos tu mundo</p>
      </div>
    </div>
  </div>
@@ -861,7 +929,14 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
          </div>
          <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
               <div class="container py-4 mt-3">
-                <p class="text-muted justificado">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="text-muted justificado">En la actualidad tener una página web es uno de los aspectos más importantes de todo negocio. En la era digital es cada vez más 
+                importante contar con una presencia online que transmita la misión, valores y visión de tu empresa u negocio, para conectar con el público objetivo y los clientes 
+                ideales de tu negocio.</p>
+                <p class="text-muted justificado">La página web sirve como escaparate comercial para las ventas de productos y servicios que en esencia es parte del propósito de las
+                empresas y los emprendedores para tener éxito en sus negocios.</p>
+                <p class="text-muted justificado">La importancia de que tengas ty página web en la actualidad es cada vez mayor para que las personas te puedan localizar en todo momento
+                a través de internet. De hecho ya se considera prácticamente un requisito fundamental en el plan de marketing de las empresas ya que se convierte en un medio de difusión de
+                información importante y ventas.</p>
               </div>
          </div>
        </div>
@@ -1083,14 +1158,14 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
     </div>
     <!-- termina acordeon -->
    </section>
-   <section id="paqueteria" class="bg-info mt-5">
+   <section id="paqueteria" class="bg-info bg-gradient mt-5">
      <div class="row py-2 mt-5">
            <h4 class="text-light text-center display-6 mt-3"> Paquetería Express</h4>
            <div class="col-sm-12 col-md-12 col-lg-6">
                <div class="container mt-5">
-                   <h2 class="display-6 text-center"><span class="text-light">Capital</span><span style="color:#ec7d23;"> Human</span><span class="text-secondary"> World</span></h2>
+                   <h2 class="display-6 text-center"><span class="text-light">Capital</span><span style="color:#ec7d23;"> Human</span><span class="text-secondary"> World</span> <span class="text-light"> Express</span></h2>
                    <hr class="text-light mt-2">
-                   <p class="justificado text-light mt-2">Somos una plataforma 100% digital, usamos motocicletas para hacer entregas rápidas en Ciudad de México, Naucalpan y Tlanepantla te asignamos el mensajero más cercano a tu ubicación, así podrás ahorrar más en tus envíos express.</p>
+                   <p class="justificado text-secondary mt-2">Somos una plataforma 100% digital, usamos motocicletas para hacer entregas rápidas en Ciudad de México, Naucalpan y Tlanepantla te asignamos el mensajero más cercano a tu ubicación, así podrás ahorrar más en tus envíos express.</p>
                    <hr class="text-light">
                       <div class="container">
                         <div class="row py-3 text-center">
@@ -1114,6 +1189,11 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                                    <use xlink:href="library/icons/bootstrap-icons.svg#signpost-split-fill"/>
                                 </svg>
                             </div>
+                         </div>
+                         <div class="row py-3">
+                           <div class="d-grid gap-2">
+                              <a href="#" class="btn btn-sm btn-primary bg-gradient"> Más Información</a>
+                           </div>
                          </div>
                       </div>
                   </div>
