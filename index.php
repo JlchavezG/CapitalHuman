@@ -236,13 +236,13 @@
                        <div class="row">
                           <div class="col">
                             <div class="form-check form-switch py-2">
-                               <input class="form-check-input" name="opcion[]" type="checkbox" value="Contacto Telefono" role="switch" id="contactoTelefono">
+                               <input class="form-check-input" name="opcion[]" type="checkbox" value="Contacto via Telefonica" role="switch" id="contactoTelefono">
                                <label class="form-check-label" for="contactoTelefono">Contacto por telefono</label>
                             </div>
                           </div>
                           <div class="col">
                             <div class="form-check form-switch py-2">
-                               <input class="form-check-input" name="opcion[]" type="checkbox" value="Contacto Email" role="switch" id="contactoEmail">
+                               <input class="form-check-input" name="opcion[]" type="checkbox" value="Contacto via Email" role="switch" id="contactoEmail">
                                <label class="form-check-label" for="contactoEmail">Contacto por email</label>
                             </div>
                         </div>
