@@ -1,7 +1,7 @@
 <?php
  error_reporting(0);
  include 'include/conecta.php';
-
+ include 'include/Query.php';
  if(isset($_POST['Contacto'])){
   $Nombre = $conecta->real_escape_string($_POST['Nombre']);
   $Telefono = $conecta->real_escape_string($_POST['Telefono']);
@@ -17,9 +17,8 @@
                         timeout:9000
                       });
                     </script>';
-  }  
+  }
  }
- 
  ?>
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
@@ -45,7 +44,7 @@
     <title>Capital Human Wordl</title>
   </head>
   <body>
-<?php echo $notificacion; ?> 
+<?php echo $notificacion; ?>
 <!-- inicia el navbar principal -->
     <div class="row">
            <nav class="navbar navbar-expand-lg fixed-top navbar-dark mynavbar" id="Menu">
@@ -191,7 +190,7 @@
                       <a href="mailto:contacto@capitalhumanworld.com" class="text-dark text-decoration-none">&nbsp; contacto@capitalhumanworld.com</a> &nbsp; | &nbsp;
                         <svg class="bi" width="17" height="17" role="img" aria-label="Tools" style="color:#2980B9;">
                             <use xlink:href="library/icons/bootstrap-icons.svg#facebook"/>
-                      </svg>&nbsp;&nbsp; 
+                      </svg>&nbsp;&nbsp;
                       <svg class="bi" width="17" height="17" role="img" aria-label="Tools" style="color:#2980B9;">
                           <use xlink:href="library/icons/bootstrap-icons.svg#twitter"/>&nbsp;&nbsp;
                           </svg> &nbsp;
@@ -204,7 +203,7 @@
       </div>
 </div>
 <!-- termina barra de contacto-->
-<!-- ventanas modales de cotizaciones -->
+<!-- ventana modales de cotizaciones -->
 <div class="modal fade" id="Cotizaciones" tabindex="-1" aria-labelledby="CotizacionesLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
@@ -215,7 +214,7 @@
            <div class="modal-body">
               <div class="row py-2">
                 <span class="text-center text-muted">Por favor ingresa los datos solicitados para realizar una cotización de servicio.</span>
-              <form target="_blank" action="include/cotizaciones.php" method="post">
+              <form  action="include/COtizacionOk.php" method="post">
               </div>
               <div class="container">
                  <div class="row py-1">
@@ -237,20 +236,22 @@
                        <div class="row">
                           <div class="col">
                             <div class="form-check form-switch py-2">
-                               <input class="form-check-input" name="contactoTelefono" type="checkbox" role="switch" id="contactoTelefono">
+                               <input class="form-check-input" name="opcion[]" type="checkbox" value="Contacto Telefono" role="switch" id="contactoTelefono">
                                <label class="form-check-label" for="contactoTelefono">Contacto por telefono</label>
                             </div>
                           </div>
                           <div class="col">
                             <div class="form-check form-switch py-2">
-                               <input class="form-check-input" name="contactoEmail" type="checkbox" role="switch" id="contactoEmail">
+                               <input class="form-check-input" name="opcion[]" type="checkbox" value="Contacto Email" role="switch" id="contactoEmail">
                                <label class="form-check-label" for="contactoEmail">Contacto por email</label>
                             </div>
                         </div>
                         <div class="container py-2">
                         <select class="form-select" aria-label="Servicio" id="servicio" name="servicio" required>
                             <option selected>Selecciona el tipo de servicio a cotizar</option>
-              
+                            <?php while($row = $Servicios->fetch_assoc()){ ?>
+                               <option value="<?php echo $row['Id_servicio'];?>"><?php echo $row['TServicio'];?></option>
+                            <?php } ?>
                         </select>
                         </div>
                     </div>
@@ -258,8 +259,8 @@
               </div>
           </div>
           <div class="modal-footer">
-             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-             <input type="submit" value="Cotizar" class="btn btn-sm btn-success">
+             <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cerrar</button>
+             <input type="submit" name="Cotizar" value="Cotizar" class="btn btn-sm btn-success">
         </div>
         </form>
         </div>
@@ -929,8 +930,8 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
          </div>
          <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
               <div class="container py-4 mt-3">
-                <p class="text-muted justificado">En la actualidad tener una página web es uno de los aspectos más importantes de todo negocio. En la era digital es cada vez más 
-                importante contar con una presencia online que transmita la misión, valores y visión de tu empresa u negocio, para conectar con el público objetivo y los clientes 
+                <p class="text-muted justificado">En la actualidad tener una página web es uno de los aspectos más importantes de todo negocio. En la era digital es cada vez más
+                importante contar con una presencia online que transmita la misión, valores y visión de tu empresa u negocio, para conectar con el público objetivo y los clientes
                 ideales de tu negocio.</p>
                 <p class="text-muted justificado">La página web sirve como escaparate comercial para las ventas de productos y servicios que en esencia es parte del propósito de las
                 empresas y los emprendedores para tener éxito en sus negocios.</p>
@@ -1143,9 +1144,9 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                                        <ul class="list-group list-group-flush">
                                          <li class="list-group-item"><span class="text-info">Venta de camaras de seguridad:</span><span class="text-muted justificado"> Ponemos a tu alcance productos de la más alta calidad en Camaras
                                             de Seguridad interiores y exteriores, DVR´s, Cámaras IP de 2 mega pixeles.</span></li>
-                                         <li class="list-group-item"><span class="text-info">Instalación de camaras de seguridad:</span><span class="text-muted justificado"> La Instalación de Cámaras de Seguridad debe estar realizada por un Profesional, y nosotros contamos 
+                                         <li class="list-group-item"><span class="text-info">Instalación de camaras de seguridad:</span><span class="text-muted justificado"> La Instalación de Cámaras de Seguridad debe estar realizada por un Profesional, y nosotros contamos
                                             con Personal capacitado para esta tarea.</span></li>
-                                         <li class="list-group-item"><span class="text-info">Mantenimiento de camaras de seguridad:</span><span class="text-muted justificado"> Realiza el Mantenimiento de Camaras de Seguridad, preventivo y Correctivo, para darle una mayor vida 
+                                         <li class="list-group-item"><span class="text-info">Mantenimiento de camaras de seguridad:</span><span class="text-muted justificado"> Realiza el Mantenimiento de Camaras de Seguridad, preventivo y Correctivo, para darle una mayor vida
                                            util a tus Equipos</span></li>
                                        </ul>
                                      </div>
@@ -1371,12 +1372,12 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
             <li class="mb-3">
                 <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">
                   <use xlink:href="library/icons/bootstrap-icons.svg#mailbox2"/>
-                </svg> contacto@capitalhumanworld.com
+                </svg><a href="mailto:contacto@capitalhumanworld.com" class="text-decoration-none text-light">contacto@capitalhumanworld.com</a>
             </li>
             <li class="mb-3">
                 <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">
                   <use xlink:href="library/icons/bootstrap-icons.svg#mailbox2"/>
-                </svg> soporte@capitalhumanworld.com
+                </svg><a href="mailto:contacto@capitalhumanworld.com" class="text-decoration-none text-light">soporte@capitalhumanworld.com</a>
             </li>
             <li class="mb-3">
               <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">

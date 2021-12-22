@@ -21,10 +21,13 @@ $THombres = $Hombres->num_rows;
 $documento = "SELECT * FROM Documentos ORDER BY Id_Documento";
 $documentos = $conecta->query($documento);
 $Tdocumentos = $documentos->num_rows;
-// consulta para proyectos 
+// consulta para proyectos
 $proyecto = "SELECT * FROM Proyectos ORDER BY Id_Proyecto";
 $proyectos = $conecta->query($proyecto);
 $Tproyectos = $proyectos->num_rows;
+// consulta para extraer servicios
+$servicio = "SELECT * FROM Servicios ORDER BY TServicio ASC";
+$Servicios = $conecta->query($servicio);
 // consulta cruzada o inner join para obtener todos los datos de usuario
 $Inner = "SELECT U.Id_Usuarios, U.Nombre, U.ApellidoP, U.ApellidoM, U.Id_Genero, U.Telefono, U.Email, U.Id_Empresa, U.Id_Tuser,
 U.UserName, U.Password, U.Imagen, U.Estatus, U.Online, G.Id_Genero, G.NombreG, E.Id_Empresa, E.NombreEmp, T.Id_TUsuario, T.NombreT, S.Id_Estatus, S.EstatusNom FROM Usuarios AS U
