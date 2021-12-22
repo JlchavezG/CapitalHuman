@@ -224,7 +224,7 @@
                  </div>
                  <div class="row py-1">
                     <div class="col">
-                        <input type="tel" name="Ctelefono" placeholder="Telefono de Contacto" class="form-control" required>
+                        <input type="tel" name="Ctelefono" placeholder="Telefono de Contacto" class="form-control" onkeypress='return event.charCode >= 48 && event.charCode <= 57'  autocomplete ="off" required>
                     </div>
                     <div class="col">
                         <input type="email" name="Cemail" placeholder="Email de Contacto" class="form-control" required>
