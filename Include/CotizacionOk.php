@@ -16,6 +16,10 @@ if(isset($_POST['opcion'])){
   $Tcontacto = implode(' ', $_POST['opcion']);
 }
 $Servicio = $conecta->real_escape_string($_POST['servicio']);
+// consulta para servicio
+$Tservicio = "SELECT * FROM Servicios WHERE Id_servicio = '$Servicio'";
+$Tservicios = $conecta->query($Tservicio);
+$SelectServ = $Tservicios->fetch_assoc();
 }
 else{
   header('location:../index.php');
@@ -25,7 +29,9 @@ else{
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/pace.css">
     <title>Cotización</title>
   </head>
   <body>
@@ -41,7 +47,7 @@ else{
                           <li class="list-group-item">Token de Cotización : <span class="text-primary"><?php echo $token; ?></span></li>
                           <li class="list-group-item">Atención a : <span class="text-primary"><?php echo $Atencion; ?></span></li>
                           <li class="list-group-item">Metodo de contacto :<span class="text-primary"> <?php echo $Tcontacto; ?></span></li>
-                          <li class="list-group-item">Servicio a cotizar : <span class="text-primary"><?php echo $Servicio; ?></span></li>
+                          <li class="list-group-item">Servicio a cotizar : <span class="text-primary"><?php echo $SelectServ['TServicio']; ?></span></li>
                        </ul>
                     </div>
                   </div>

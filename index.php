@@ -127,7 +127,7 @@
                <div class="carousel-caption d-none d-md-block">
                   <h5 class="text-muted">Contactanos</h5>
                   <p class="text-secondary">Somos la mejor opción para captar talento 100% cerificado.</p>
-                  <a href="#" class="btn btn-sm bg-primary bg-gradient text-light">Más Información</a>
+                  <a href="#Contacto" class="btn btn-sm bg-primary bg-gradient text-light">Más Información</a>
                </div>
             </div>
             <div class="carousel-item">
@@ -260,7 +260,7 @@
           </div>
           <div class="modal-footer">
              <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cerrar</button>
-             <input type="submit" name="Cotizar" value="Cotizar" class="btn btn-sm btn-success">
+             <input type="submit" name="Cotizar" value="Cotizar" class="btn btn-sm btn-primary">
         </div>
         </form>
         </div>
