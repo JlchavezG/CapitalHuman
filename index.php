@@ -96,14 +96,11 @@
                            </ul>
                           </li>
                           <li class="nav-item">
-                             <a href="#Contacto" class="nav-link selectMenu"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                             <a href="#Contacto" class="nav-link selectMenu">
+                               <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
                                  <use xlink:href="library/icons/bootstrap-icons.svg#envelope-open-fill"/>
-                                 </svg> Contacto</a>
-                          </li>
-                          <li class="nav-item">
-                             <a href="#" class="nav-link selectMenu" data-bs-toggle="modal" data-bs-target="#Cotizaciones"><svg class="bi" width="17" height="17" role="img" aria-label="Tools">
-                                 <use xlink:href="library/icons/bootstrap-icons.svg#cash-coin"/>
-                                 </svg> Cotizaciones</a>
+                               </svg> Contacto
+                             </a>
                           </li>
                         </ul>
                      </div>
@@ -203,6 +200,9 @@
       </div>
 </div>
 <!-- termina barra de contacto-->
+<a href="#"  class="btn-flotante" data-bs-toggle="modal" data-bs-target="#Cotizaciones">
+  <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+      <use xlink:href="library/icons/bootstrap-icons.svg#cash-coin"/></svg> Cotización</a>
 <!-- ventana modales de cotizaciones -->
 <div class="modal fade" id="Cotizaciones" tabindex="-1" aria-labelledby="CotizacionesLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
