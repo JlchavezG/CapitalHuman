@@ -176,14 +176,14 @@ section[id]{
   border-radius: 50%;
 }
 .btn-flotante {
-	font-size: 10px; /* Cambiar el tamaño de la tipografia */
+	font-size: 8px; /* Cambiar el tamaño de la tipografia */
 	text-transform: uppercase; /* Texto en mayusculas */
 	font-weight: bold; /* Fuente en negrita o bold */
 	color: #ffffff; /* Color del texto */
 	border-radius: 5px; /* Borde del boton */
 	letter-spacing: 2px; /* Espacio entre letras */
 	background-color: #E91E63; /* Color de fondo */
-	padding: 18px 30px; /* Relleno del boton */
+	padding: 15px 20px; /* Relleno del boton */
 	position: fixed;
 	bottom: 85px;
 	right: 20px;
@@ -200,9 +200,9 @@ section[id]{
 }
 @media only screen and (max-width: 600px) {
  	.btn-flotante {
-		font-size: 14px;
+		font-size: 8px;
 		padding: 12px 20px;
-		bottom: 20px;
+		bottom: 80px;
 		right: 20px;
 	}
 }

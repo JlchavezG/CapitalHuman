@@ -486,14 +486,9 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                   <p class="fw-bold justificado">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
                   <div class="row mt-2 text-center">
                       <div class="col">
-                        <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp" style="color:#fbb728;"/>
-                        </svg>
-                      </div>
-                      <div class="col">
-                        <a href="#Contacto"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                        <a href="#Contacto" class="text-decoration-none text-warning"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
                           <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
-                        </svg></a>
+                        </svg> Contactanos</a>
                       </div>
                   </div>
                 </div>
@@ -535,16 +530,11 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                     </li>
                   </ul>
                   <div class="row mt-4 text-center">
-                      <div class="col">
-                        <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp" style="color:#fbb728;"/>
-                        </svg>
-                      </div>
-                      <div class="col">
-                        <a href="#Contacto"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
-                        </svg></a>
-                      </div>
+                    <div class="col">
+                      <a href="#Contacto" class="text-decoration-none text-warning"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
+                      </svg> Contactanos</a>
+                    </div>
                   </div>
                 </div>
              </div>
@@ -579,16 +569,11 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                     </li>
                   </ul>
                   <div class="row mt-4 text-center">
-                      <div class="col">
-                        <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp" style="color:#fbb728;"/>
-                        </svg>
-                      </div>
-                      <div class="col">
-                        <a href="#Contacto"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
-                        </svg></a>
-                      </div>
+                    <div class="col">
+                      <a href="#Contacto" class="text-decoration-none text-warning"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
+                      </svg> Contactanos</a>
+                    </div>
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6 text-center">
@@ -610,16 +595,11 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                   <p class="fw-bold justificado">Una representación visual de la jerarquía del personal,la estructura y flujo de la información dentro de una empresa. Es posible identificar de un modo directo las diferentes relaciones entre funciones, departamentos, equipos e individuos.</p>
                   </div>
                   <div class="row mt-2 text-center">
-                      <div class="col">
-                        <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp" style="color:#fbb728;"/>
-                        </svg>
-                      </div>
-                      <div class="col">
-                        <a href="#Contacto"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
-                          <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
-                        </svg></a>
-                      </div>
+                    <div class="col">
+                      <a href="#Contacto" class="text-decoration-none text-warning"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                        <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
+                      </svg> Contactanos</a>
+                    </div>
                   </div>
                 </div>
              </div>
@@ -731,16 +711,11 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                 <h3 class="display-6" style="color:rgb(33, 97, 140);">Manuales de procedimientos</h3>
                 <p class="text-muted justificado py-2">Te ayudamos a crear un documento del sistema de Control Interno de tu empresa, el cual se crea para obtener una información detallada, ordenada, sistemática e integral que contiene todas las instrucciones, responsabilidades e información sobre políticas, funciones, sistemas y procedimientos de las distintas operaciones.</p>
                 <div class="row mt-4 text-center">
-                    <div class="col">
-                      <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
-                        <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp" style="color:#fbb728;"/>
-                      </svg>
-                    </div>
-                    <div class="col">
-                      <a href="#Contacto"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
-                        <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
-                      </svg></a>
-                    </div>
+                  <div class="col">
+                    <a href="#Contacto" class="text-decoration-none text-warning"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
+                    </svg> Contactanos</a>
+                  </div>
                 </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6 text-center">
@@ -781,16 +756,11 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                   </li>
                 </ul>
                 <div class="row mt-4 text-center">
-                    <div class="col">
-                      <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
-                        <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp" style="color:#fbb728;"/>
-                      </svg>
-                    </div>
-                    <div class="col">
-                      <a href="#Contacto"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
-                        <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
-                      </svg></a>
-                    </div>
+                  <div class="col">
+                    <a href="#Contacto" class="text-decoration-none text-warning"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
+                    </svg> Contactanos</a>
+                  </div>
                 </div>
               </div>
            </div>
@@ -803,16 +773,11 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                 <h3 class="display-6" style="color:rgb(33, 97, 140);">Elaboración de archivo laboral</h3>
                 <p class="text-muted text-break justificado">Te ayudamos a crear y a organizar un sistema de Control de archivo laboral Interno de tu empresa, el cual se crea para obtener una información detallada de tus empleados, capacitaciones, funciones y más.</p>
                 <div class="row mt-4 text-center">
-                    <div class="col">
-                      <svg class="bi" width="30" height="30" role="img" aria-label="Tools">
-                        <use xlink:href="library/icons/bootstrap-icons.svg#whatsapp" style="color:#fbb728;"/>
-                      </svg>
-                    </div>
-                    <div class="col">
-                      <a href="#Contacto"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
-                        <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
-                      </svg></a>
-                    </div>
+                  <div class="col">
+                    <a href="#Contacto" class="text-decoration-none text-warning"><svg class="bi" width="30" height="30" role="img" aria-label="Tools">
+                      <use xlink:href="library/icons/bootstrap-icons.svg#chat-left-quote-fill" style="color:#fbb728;"/>
+                    </svg> Contactanos</a>
+                  </div>
                 </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-6 text-center">
@@ -1306,6 +1271,29 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
          </div>
       </div>
    </section>
+   <section id="Clientes">
+         <div class="container">
+             <div class="text-center py-4">
+                <h5 class="display-6"> Algunos de Nuestros Clientes</h5>
+                <hr class="text-muted">
+             </div>
+             <div class="row py-3 text-center">
+              <div class="col-sm-3 col-md-3 col-lg-3">
+                 <img src="img/sintergia.png" alt="logo sintergia" class="img-fluid">
+              </div>
+              <div class="col-sm-3 col-md-3 col-lg-3">
+                 <a href="https://www.cohenstone.com.mx/" target="_blank"><img src="img/cohen.png" alt="logo cohen" class="img-fluid"></a>
+              </div>
+              <div class="col-sm-3 col-md-3 col-lg-3">
+                 <a href="https://www.facebook.com/GGatech.mx" target="_blank"><img src="img/gatech.png" alt="logo gatech" class="img-fluid"></a>
+              </div>
+              <div class="col-sm-3 col-md-3 col-lg-3">
+                 <img src="img/miprincesa.png" alt="logo mi princesa" class="img-fluid">
+              </div>
+             </div>
+         </div>
+      </div>
+   </section>
    <section id="Contacto">
    <div class="row">
      <div class="col-sm-12 col-md-7 col-lg-7 working py-2">
@@ -1367,7 +1355,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
             <li class="mb-3">
             <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">
               <use xlink:href="library/icons/bootstrap-icons.svg#geo-alt-fill"/>
-            </svg> Naucalpan de Juarez
+            </svg> <span class="text-light">Valladolid 30 Roma Norte, Ciudad de México, CDMX</span>
             </li>
             <li class="mb-3">
                 <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">
