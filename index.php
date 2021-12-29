@@ -1158,7 +1158,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                          </div>
                          <div class="row py-3">
                            <div class="d-grid gap-2">
-                              <a href="#" class="btn btn-sm btn-primary bg-gradient"> Más Información</a>
+                              <a href="#" data-bs-toggle="modal" data-bs-target="#Cobertura" class="btn btn-sm btn-primary bg-gradient"> Nuestra Cobertura</a>
                            </div>
                          </div>
                       </div>
@@ -1338,7 +1338,8 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
         <div id="map"></div>
     </div>
   </div>
-</sectio>
+</section>
+<?php include 'Modal_cobertura.php'; ?>
 <!-- inicia footer -->
 <footer class="text-white text-center text-lg-start" style="background-color:rgb(33, 97, 140);">
     <div class="container p-4">
@@ -1360,12 +1361,12 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
             <li class="mb-3">
                 <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">
                   <use xlink:href="library/icons/bootstrap-icons.svg#mailbox2"/>
-                </svg><a href="mailto:contacto@capitalhumanworld.com" class="text-decoration-none text-light">contacto@capitalhumanworld.com</a>
+                </svg><a href="mailto:contacto@capitalhumanworld.com" class="text-decoration-none text-light"> contacto@capitalhumanworld.com</a>
             </li>
             <li class="mb-3">
                 <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">
                   <use xlink:href="library/icons/bootstrap-icons.svg#mailbox2"/>
-                </svg><a href="mailto:contacto@capitalhumanworld.com" class="text-decoration-none text-light">soporte@capitalhumanworld.com</a>
+                </svg><a href="mailto:contacto@capitalhumanworld.com" class="text-decoration-none text-light"> soporte@capitalhumanworld.com</a>
             </li>
             <li class="mb-3">
               <svg class="bi text-light" width="20" height="20" role="img" aria-label="Tools">
