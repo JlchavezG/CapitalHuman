@@ -11,7 +11,9 @@
           <span>Nuestra cobertura comprende la ciudad de méxico</span>
         </div>
         <div class="text-center">
-             <img src="img/Cobertura.png" alt="Nuestra cobertura" class="img-fluid">
+             <div class="" id="map">
+
+             </div>
         </div>
       </div>
     </div>
