@@ -12,7 +12,9 @@
         </div>
         <div class="text-center">
              <div class="" id="map">
-
+                 <div class="container text-center text-muted">
+                   <span>Zonas de entrega</span>
+                 </div>
              </div>
         </div>
       </div>
