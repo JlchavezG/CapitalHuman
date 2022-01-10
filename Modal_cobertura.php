@@ -14,6 +14,9 @@
              <div class="" id="map">
                  <div class="container text-center text-muted">
                    <span>Zonas de entrega</span>
+                   <div class="container">
+                        este es el lugar de entregas
+                   </div>
                  </div>
              </div>
         </div>
