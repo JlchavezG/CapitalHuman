@@ -15,7 +15,7 @@
                  <div class="container text-center text-muted">
                    <span>Zonas de entrega</span>
                    <div class="container">
-                        este es el lugar de entregas
+                        este es el lugar de entregas d
                    </div>
                  </div>
              </div>
