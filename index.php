@@ -102,6 +102,13 @@
                                </svg> Contacto
                              </a>
                           </li>
+                          <li class="nav-item">
+                             <a href="login.php" class="nav-link selectMenu">
+                               <svg class="bi" width="17" height="17" role="img" aria-label="Tools">
+                                 <use xlink:href="library/icons/bootstrap-icons.svg#key-fill"/>
+                               </svg> Clientes Parners
+                             </a>
+                          </li>
                         </ul>
                      </div>
                  </div>
