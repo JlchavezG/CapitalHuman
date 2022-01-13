@@ -153,4 +153,13 @@
       </div>
       <!-- termina tarjeta -->
     </div>
+    <!-- termina linea de tarjetas -->
+    <div class="row">
+       <div class="container mt-4">
+           <div class="">
+               <a href="#" class="btn-sm btn-primary text-decoration-none"> Agendar Cita Psicometrico</a>
+               <a href="#" class="btn-sm btn-primary text-decoration-none"> Consultar Citas Psicometrico</a>
+           </div>
+       </div>
+    </div>
 </div>
