@@ -159,6 +159,7 @@
            <div class="">
                <a href="#" class="btn-sm btn-primary text-decoration-none"> Agendar Cita Psicometrico</a>
                <a href="#" class="btn-sm btn-primary text-decoration-none"> Consultar Citas Psicometrico</a>
+               <a href="#" class="btn-sm btn-primary text-decoration-none"> Consultar calendario</a>
            </div>
        </div>
     </div>
