@@ -716,7 +716,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
 <section id="Manuales" class="py-4">
        <div class="container">
            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-6 mt-4">
+              <div class="col-sm-12 col-md-6 col-lg-6 mt-4" data-aos="fade-right">
                 <h3 class="display-6" style="color:rgb(33, 97, 140);">Manuales de procedimientos</h3>
                 <p class="text-muted justificado py-2">Te ayudamos a crear un documento del sistema de Control Interno de tu empresa, el cual se crea para obtener una información detallada, ordenada, sistemática e integral que contiene todas las instrucciones, responsabilidades e información sobre políticas, funciones, sistemas y procedimientos de las distintas operaciones.</p>
                 <div class="row mt-4 text-center">
@@ -727,7 +727,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+              <div class="col-sm-12 col-md-6 col-lg-6 text-center" data-aos="fade-left">
                 <img src="img/Manual.png" alt="Examenes psicometricos">
               </div>
            </div>
@@ -736,10 +736,10 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
 <section id="Contratos" class="py-1">
        <div class="container">
            <div class="row ">
-              <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+              <div class="col-sm-12 col-md-6 col-lg-6 text-center" data-aos="fade-left">
                   <img src="img/Contratos.png" alt="Seleccion de personal">
               </div>
-              <div class="col">
+              <div class="col" data-aos="fade-right">
                   <h3 class="display-6" style="color:rgb(33, 97, 140);">Elaboración de Contratos</h3>
                 <p class="text-muted text-break justificado">Somos expertos en realizar contratos de acuerdo a las necesidades del proyecto, empresa con la certeza legal y vigencia actual en nuestro pais, desarrollamos los siguientes contratos: </p>
                 <ul class="list-group list-group-flush">
@@ -778,7 +778,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
    <section id="Archivo" class="py-4">
        <div class="container">
            <div class="row">
-              <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-right">
                 <h3 class="display-6" style="color:rgb(33, 97, 140);">Elaboración de archivo laboral</h3>
                 <p class="text-muted text-break justificado">Te ayudamos a crear y a organizar un sistema de Control de archivo laboral Interno de tu empresa, el cual se crea para obtener una información detallada de tus empleados, capacitaciones, funciones y más.</p>
                 <div class="row mt-4 text-center">
@@ -789,7 +789,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+              <div class="col-sm-12 col-md-6 col-lg-6 text-center" data-aos="fade-left">
                 <img src="img/Archivo.png" alt="Examenes psicometricos">
               </div>
            </div>
@@ -805,7 +805,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                   <p class="text-light justificado py-4">Desarrollamos sitios web efectivos y diseñados para posicionar a tu empresa o negocio. El principal objetivo del diseño web es transmitir una imagen profesional y de calidad, que sea ágil con un diseño moderno, atractivo y responsivo.</p>
                </div>
            </div>
-           <div class="col-sm-12 col-md-6 col-lg-6 py-3 mt-4">
+           <div class="col-sm-12 col-md-6 col-lg-6 py-3 mt-4" data-aos="fade-left">
               <img src="img/web.png" alt="Diseño web" class="img-fluid">
            </div>
        </div>
@@ -813,7 +813,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
    <!-- termina seccion -->
    <section id="Digital">
     <div class="row py-3">
-        <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+        <div class="col-sm-12 col-md-12 col-lg-12 text-center" data-aos="zoom-in">
              <h3 class="display-6 mt-2">Opciones dentro de tu web</h3><hr>
              <div class="row mt-3">
                 <div class="col mt-4">
@@ -872,7 +872,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
     <!-- planes web -->
     <div class="container">
      <div class="row py-2">
-         <div class="col-sm-12 col-md-6 col-lg-6 mt-4">
+         <div class="col-sm-12 col-md-6 col-lg-6 mt-4" data-aos="fade-right">
             <span>Todos nuestros</span>
             <h3 class="display-6 text-info">Planes Incluyen:</h3>
             <ul class="list-group list-group-flush">
@@ -902,7 +902,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                   </svg>&nbsp; Hosting y dominio gratis por el primer año</li>
             </ul>
          </div>
-         <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
+         <div class="col-sm-12 col-md-6 col-lg-6 mt-5" data-aos="fade-left">
               <div class="container py-4 mt-3">
                 <p class="text-muted justificado">En la actualidad tener una página web es uno de los aspectos más importantes de todo negocio. En la era digital es cada vez más
                 importante contar con una presencia online que transmita la misión, valores y visión de tu empresa u negocio, para conectar con el público objetivo y los clientes
@@ -917,7 +917,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
        </div>
     </div>
     <!-- inicia  acordeon -->
-    <div class="container">
+    <div class="container" data-aos="fade-down">
         <div class="row py-3">
              <h3 class="display-6 text-primary text-center">+ Servicios</h3>
         </div>
@@ -1134,7 +1134,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
     <!-- termina acordeon -->
    </section>
    <section id="paqueteria" class="bg-info bg-gradient mt-5">
-     <div class="row py-2 mt-5">
+     <div class="row py-2 mt-5" data-aos="zoom-in-down">
            <h4 class="text-light text-center display-6 mt-3"> Paquetería Express</h4>
            <div class="col-sm-12 col-md-12 col-lg-6">
                <div class="container mt-5">
