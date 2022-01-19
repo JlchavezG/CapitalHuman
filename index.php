@@ -37,10 +37,12 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/pace.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
     <script src="js/jquery.js"></script>
     <script src="js/push/push.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Capital Human Wordl</title>
   </head>
   <body>
@@ -278,7 +280,7 @@
 <!-- Apartado de nosotros -->
     <section id="Nostros">
         <div class="row py-5">
-            <div class="col-sm-6 col-md-6 col-lg-6 text-center py-5">
+            <div class="col-sm-6 col-md-6 col-lg-6 text-center py-5" data-aos="fade-up">
                 <img src="img/logo_human1.png" class="img-fluid" alt="Logo JP Human">
             </div>
             <div class="col-sm-6 col-md-6 col-lg-6 bg-info py-3 shadow">
@@ -426,13 +428,13 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
             <div class="col-sm-4 col-md-4 col-lg-4"></div>
             <div class="col-sm-8 col-md-8 col-lg-8 text-center">
                  <div class="container" id="Rh">
-                     <h3 class="display-5 py-3">Nuestras Soluciones en Recursos Humanos</h3><hr>
+                     <h3 class="display-5 py-3" data-aos="flip-down">Nuestras Soluciones en Recursos Humanos</h3><hr>
                      <h5 class="text-muted align-top py-3">Más de 1500 usuarios nos respaldan</h5>
                  </div>
             </div>
         </div>
         <div class="container">
-           <div class="row text-center py-5">
+           <div class="row text-center py-5" data-aos="fade-up">
                <div class="col-sm-4 col-md-4 col-lg-2">
                    <div class="py-3 menubtn">
                      <a href="#Reclutamiento"><svg class="bi" width="45" height="45" role="img" aria-label="Tools">
@@ -487,7 +489,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
      <section class="py-4" id="Examen">
          <div class="container">
              <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-right">
                   <h3 class="display-6" style="color:rgb(33, 97, 140);">Examenes Psicometricos</h3>
                   <p class="text-muted text-break justificado">Aplicación de pruebas Psicometricas y proyectivas. Es esencial para detectar la adaptabilidad de las personas que conformaran tu equipo de trabajo, evaluando la personalidad de cada individuo.</p>
                   <p class="fw-bold justificado">Conoce los diferentes tipos de exámenes psicométricos, te apoyamos a elegir el que mejor se adapte a las necesidades de tu empresa y/o negocio.</p>
@@ -499,7 +501,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                       </div>
                   </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 text-center py-3">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center py-3" data-aos="fade-left">
                   <img src="img/Examenes.png" alt="Examenes psicometricos" id="Reclutamiento">
                 </div>
              </div>
@@ -508,10 +510,10 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
      <section id="Reclutamiento" class="py-1">
          <div class="container">
              <div class="row ">
-                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center" data-aos="fade-left">
                     <img src="img/personal.png" alt="Seleccion de personal">
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-right">
                     <h3 class="display-6" style="color:rgb(33, 97, 140);">Reclutamiento y selección</h3>
                   <p class="text-muted justificado">Configura a las necesidades de tu Empresa y/o negocio las faces de reclutamiento para tus proyectos o vacantes especializadas. Toma todas nustras ventajas de reclutamiento:</p>
                   <ul class="list-group list-group-flush">
@@ -550,7 +552,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
      <section id="Perfiles" class="py-4">
          <div class="container">
              <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-left">
                   <h3 class="display-6" style="color:rgb(33, 97, 140);">Perfiles y Descripciones de puestos</h3>
                   <p class="text-muted text-break justificado">Las descripciones y perfiles de puesto te ayudan a conocer e identificar las funciones y actividades de cada empleado, con la finalidad de definir claramente lo que se espera alcanzar y el valor que agregan cada uno de los empleados para alcanzar los objetivos establecidos por la organización.</p>
                   <ul class="list-group list-group-flush">
@@ -583,7 +585,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center" data-aos="fade-right">
                   <img src="img/Perfiles.png" alt="Examenes psicometricos">
                 </div>
              </div>
@@ -1417,6 +1419,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
      <script src="js/preloader.js"></script>
      <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYMPGtM7VUn1aq61tkGbu99qD95c-w5zc&callback=initMap"></script>
      <script>
+     AOS.init();
     // deabilitar el boton de registrar
     document.getElementById('Comentarios').disabled=true;
     function activar(cb){
