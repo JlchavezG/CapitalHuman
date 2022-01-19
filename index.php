@@ -595,9 +595,9 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
          <div class="container">
              <div class="row ">
                 <div class="col-sm-12 col-md-6 col-lg-6 text-center">
-                    <img src="img/organigrama.png" alt="Seleccion de personal">
+                    <img src="img/organigrama.png" alt="Seleccion de personal" data-aos="fade-right">
                 </div>
-                <div class="col">
+                <div class="col" data-aos="fade-left">
                     <h3 class="display-6" style="color:rgb(33, 97, 140);">Organigrama Empresarial</h3>
                   <p class="text-muted justificado py-2">Un organigrama es necesario para planificar la comunicación interna y el flujo de trabajo, por lo que estructurar un organigrama es fundamental para agilizar los procesos.</p>
                   <div class="row text-justify py-3">
