@@ -1178,7 +1178,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
    </div>
    </div>
    </section>
-   <section id="testimonio" class="py-4 testimonial">
+   <section id="testimonio" class="py-4 testimonial" data-aos="zoom-in-up">
       <div class="container">
            <h3 class="text-center display-6">Testimonios</h3>
            <p class="text-center">Gracias a las personas que han confiando en nosotros</p>
