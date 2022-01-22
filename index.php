@@ -1247,9 +1247,9 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                                            <img src="img/clientes.png" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
                                         </div>
                                         <div class="container mt-3">
-                                           <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
+                                           <footer class="blockquote-footer">Me llevaron de la mano en todo momento muchas gracias a su equipo <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
                                         </div>
-                                        <h6>Jose luis Chavez G. | <span class="mt-0 text-primary">Desarrollador web</span></h6>
+                                        <h6>Ramon Garrido. | <span class="mt-0 text-primary">Emprendedor</span></h6>
                                      </div>
                                    </div>
                                    <div class="col-md-4 py-3">
@@ -1258,9 +1258,9 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
                                            <img src="img/clientes.png" alt="Imagen testimonio" style="width:80px; border-radius:50%;">
                                         </div>
                                         <div class="container mt-3">
-                                          <footer class="blockquote-footer">Excelente servicio <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
+                                          <footer class="blockquote-footer">Muy Profesionales y su tratao wow ! <cite title="Source Title">aclararon mis dudas en todo momento, reclutaron y manejaron la información perfectamente.</cite></footer>
                                         </div>
-                                        <h6>Jose luis Chavez G. | <span class="mt-0 text-primary">Desarrollador web</span></h6>
+                                        <h6>Lucia Hernandez L. | <span class="mt-0 text-primary">Emprendedor</span></h6>
                                      </div>
                                    </div>
                                </div>
