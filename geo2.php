@@ -8,7 +8,7 @@
   <body onload="initMap()";>
     <div class="container py-4">
          <div class="row">
-             <div class="containner">
+             <div class="containner text-center">
                <div id="map" class="py-3"></div>
              </div>
          </div>
