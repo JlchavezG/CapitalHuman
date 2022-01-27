@@ -1310,7 +1310,7 @@ Creando una función de jóvenes profesionales con una amplia visión y experien
           <div class="container justify-content-md-center py-3">
              <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
              <div class="row py-2">
-                   <div class="col">
+                   <div class="col" id="img">
                       <input type="text" name="Nombre" placeholder="Nombre" class="form-control cajas" autocomplete ="off" required>
                    </div>
              </div>
