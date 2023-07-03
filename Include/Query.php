@@ -18,13 +18,13 @@ $Hombre = "SELECT * FROM Usuarios WHERE Id_Genero = '2'";
 $Hombres = $conecta->query($Hombre);
 $THombres = $Hombres->num_rows;
 // consulta para documentos
-$documento = "SELECT * FROM Documentos ORDER BY Id_Documento";
-$documentos = $conecta->query($documento);
-$Tdocumentos = $documentos->num_rows;
+//$documento = "SELECT * FROM Documentos ORDER BY Id_Documento";
+//$documentos = $conecta->query($documento);
+//$Tdocumentos = $documentos->num_rows;
 // consulta para proyectos
-$proyecto = "SELECT * FROM Proyectos ORDER BY Id_Proyecto";
-$proyectos = $conecta->query($proyecto);
-$Tproyectos = $proyectos->num_rows;
+//$proyecto = "SELECT * FROM Proyectos ORDER BY Id_Proyecto";
+//$proyectos = $conecta->query($proyecto);
+//$Tproyectos = $proyectos->num_rows;
 // consulta para extraer servicios
 $servicio = "SELECT * FROM Servicios ORDER BY TServicio ASC";
 $Servicios = $conecta->query($servicio);
